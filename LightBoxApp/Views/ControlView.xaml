@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:BaseContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:p="clr-namespace:LightBoxApp.Views;assembly=LightBoxApp"
+    x:Class="LightBoxApp.Views.ControlView">
+    <Label Text="Hello efe"/>
+</p:BaseContentPage>
