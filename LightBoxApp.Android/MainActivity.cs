@@ -6,6 +6,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Prism;
+using Prism.Ioc;
+using LightBoxApp.Services;
+using LightBoxApp.Droid.Services;
+using Android.Content;
 
 namespace LightBoxApp.Droid
 {
@@ -19,7 +24,20 @@ namespace LightBoxApp.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+            LoadApplication(new App(new AndroidInitializer(this)));
+        }
+        public class AndroidInitializer : IPlatformInitializer
+        {
+            private Context _context;
+
+            public AndroidInitializer(Context context)
+            {
+                _context = context;
+            }
+            public void RegisterTypes(IContainerRegistry containerRegistry)
+            {
+                containerRegistry.RegisterInstance<IOrientationService>(new OrientationService(_context));
+            }
         }
     }
 }

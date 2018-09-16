@@ -2,8 +2,9 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Prism.Navigation;
-using Prism.Ioc;
 using LightBoxApp.Views;
+using LightBoxApp.Services;
+using Prism.Ioc;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace LightBoxApp
@@ -45,6 +46,7 @@ namespace LightBoxApp
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             //Services
+            containerRegistry.RegisterInstance(Container.Resolve<IOrientationService>());
 
             //Navigation
             containerRegistry.RegisterForNavigation<NavigationPage>();

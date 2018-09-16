@@ -11,5 +11,14 @@ namespace LightBoxApp.Views
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+        }
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+        }
     }
 }

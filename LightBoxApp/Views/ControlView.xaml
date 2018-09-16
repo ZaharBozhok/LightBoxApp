@@ -3,6 +3,19 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:p="clr-namespace:LightBoxApp.Views;assembly=LightBoxApp"
+    xmlns:controls="clr-namespace:LightBoxApp.Controls"
     x:Class="LightBoxApp.Views.ControlView">
-    <Label Text="Hello efe"/>
+    <Grid HorizontalOptions="Center" VerticalOptions="Center" ColumnSpacing="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <controls:ClickableGrid Grid.Column="0" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}"/>
+        <controls:ClickableGrid Grid.Column="1" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}"/>
+        <controls:ClickableGrid Grid.Column="2" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}"/>
+    </Grid>
 </p:BaseContentPage>
