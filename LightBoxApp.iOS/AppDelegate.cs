@@ -5,6 +5,8 @@ using System.Linq;
 using Foundation;
 using LightBoxApp.iOS.Services;
 using LightBoxApp.Services;
+using NControl.Controls.iOS;
+using NControl.iOS;
 using Prism;
 using Prism.Ioc;
 using UIKit;
@@ -27,7 +29,12 @@ namespace LightBoxApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            NControlViewRenderer.Init();
+            NControls.Init();
+            App.ScreenWidth = (int)UIScreen.MainScreen.Bounds.Width;
+            App.ScreenHeight = (int)UIScreen.MainScreen.Bounds.Height;
             LoadApplication(new App(new iOSInitializer()));
+            UIApplication.SharedApplication.StatusBarHidden = true;
 
             return base.FinishedLaunching(app, options);
         }

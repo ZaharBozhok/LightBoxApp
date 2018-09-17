@@ -5,6 +5,10 @@ using Prism.Navigation;
 using LightBoxApp.Views;
 using LightBoxApp.Services;
 using Prism.Ioc;
+using Acr.UserDialogs;
+using LightBoxApp.Services.Storage;
+using LightBoxApp.Services.AppSettingsManager;
+using Plugin.Settings.Abstractions;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace LightBoxApp
@@ -46,11 +50,22 @@ namespace LightBoxApp
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             //Services
+            containerRegistry.RegisterInstance<IUserDialogs>(UserDialogs.Instance);
             containerRegistry.RegisterInstance(Container.Resolve<IOrientationService>());
+            containerRegistry.RegisterInstance<ISettings>(Plugin.Settings.CrossSettings.Current);
+            containerRegistry.RegisterInstance<IStorageService>(Container.Resolve<NativeStorageService>());
+            containerRegistry.RegisterInstance<IAppSettingsManager>(Container.Resolve<AppSettingsManager>());
+
 
             //Navigation
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<ControlView>();
+            containerRegistry.RegisterForNavigation<SettingsView>();
+            containerRegistry.RegisterForNavigation<ConfigureAsAPView>();
+            containerRegistry.RegisterForNavigation<AutodetectView>();
         }
+
+        public static int ScreenWidth;
+        public static int ScreenHeight;
     }
 }

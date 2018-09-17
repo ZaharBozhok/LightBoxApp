@@ -26,6 +26,3292 @@ namespace LightBoxApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::LightBoxApp.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::LightBoxApp.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::LightBoxApp.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::LightBoxApp.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::LightBoxApp.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::LightBoxApp.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::LightBoxApp.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::LightBoxApp.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::LightBoxApp.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::LightBoxApp.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::LightBoxApp.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::LightBoxApp.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::LightBoxApp.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::LightBoxApp.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::LightBoxApp.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::LightBoxApp.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::LightBoxApp.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::LightBoxApp.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::LightBoxApp.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::LightBoxApp.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::LightBoxApp.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::LightBoxApp.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::LightBoxApp.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::LightBoxApp.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::LightBoxApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
+			global::NControl.Controls.Droid.Resource.Animation.abc_fade_in = global::LightBoxApp.Droid.Resource.Animation.abc_fade_in;
+			global::NControl.Controls.Droid.Resource.Animation.abc_fade_out = global::LightBoxApp.Droid.Resource.Animation.abc_fade_out;
+			global::NControl.Controls.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::LightBoxApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::NControl.Controls.Droid.Resource.Animation.abc_popup_enter = global::LightBoxApp.Droid.Resource.Animation.abc_popup_enter;
+			global::NControl.Controls.Droid.Resource.Animation.abc_popup_exit = global::LightBoxApp.Droid.Resource.Animation.abc_popup_exit;
+			global::NControl.Controls.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LightBoxApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::NControl.Controls.Droid.Resource.Animation.abc_slide_in_bottom = global::LightBoxApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::NControl.Controls.Droid.Resource.Animation.abc_slide_in_top = global::LightBoxApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::NControl.Controls.Droid.Resource.Animation.abc_slide_out_bottom = global::LightBoxApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::NControl.Controls.Droid.Resource.Animation.abc_slide_out_top = global::LightBoxApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::NControl.Controls.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::LightBoxApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::NControl.Controls.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::LightBoxApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::NControl.Controls.Droid.Resource.Animation.design_snackbar_in = global::LightBoxApp.Droid.Resource.Animation.design_snackbar_in;
+			global::NControl.Controls.Droid.Resource.Animation.design_snackbar_out = global::LightBoxApp.Droid.Resource.Animation.design_snackbar_out;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarDivider = global::LightBoxApp.Droid.Resource.Attribute.actionBarDivider;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarItemBackground = global::LightBoxApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarPopupTheme = global::LightBoxApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarSize = global::LightBoxApp.Droid.Resource.Attribute.actionBarSize;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarSplitStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarTabBarStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarTabStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarTabTextStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarTheme = global::LightBoxApp.Droid.Resource.Attribute.actionBarTheme;
+			global::NControl.Controls.Droid.Resource.Attribute.actionBarWidgetTheme = global::LightBoxApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::NControl.Controls.Droid.Resource.Attribute.actionButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionDropDownStyle = global::LightBoxApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionLayout = global::LightBoxApp.Droid.Resource.Attribute.actionLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.actionMenuTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.actionMenuTextColor = global::LightBoxApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeBackground = global::LightBoxApp.Droid.Resource.Attribute.actionModeBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeCloseDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeCopyDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeCutDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeFindDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModePasteDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModePopupWindowStyle = global::LightBoxApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeShareDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeSplitBackground = global::LightBoxApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeStyle = global::LightBoxApp.Droid.Resource.Attribute.actionModeStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.actionOverflowButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionOverflowMenuStyle = global::LightBoxApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.actionProviderClass = global::LightBoxApp.Droid.Resource.Attribute.actionProviderClass;
+			global::NControl.Controls.Droid.Resource.Attribute.actionViewClass = global::LightBoxApp.Droid.Resource.Attribute.actionViewClass;
+			global::NControl.Controls.Droid.Resource.Attribute.activityChooserViewStyle = global::LightBoxApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::LightBoxApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.alertDialogCenterButtons = global::LightBoxApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::NControl.Controls.Droid.Resource.Attribute.alertDialogStyle = global::LightBoxApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.alertDialogTheme = global::LightBoxApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::NControl.Controls.Droid.Resource.Attribute.allowStacking = global::LightBoxApp.Droid.Resource.Attribute.allowStacking;
+			global::NControl.Controls.Droid.Resource.Attribute.arrowHeadLength = global::LightBoxApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::NControl.Controls.Droid.Resource.Attribute.arrowShaftLength = global::LightBoxApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::NControl.Controls.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::LightBoxApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.background = global::LightBoxApp.Droid.Resource.Attribute.background;
+			global::NControl.Controls.Droid.Resource.Attribute.backgroundSplit = global::LightBoxApp.Droid.Resource.Attribute.backgroundSplit;
+			global::NControl.Controls.Droid.Resource.Attribute.backgroundStacked = global::LightBoxApp.Droid.Resource.Attribute.backgroundStacked;
+			global::NControl.Controls.Droid.Resource.Attribute.backgroundTint = global::LightBoxApp.Droid.Resource.Attribute.backgroundTint;
+			global::NControl.Controls.Droid.Resource.Attribute.backgroundTintMode = global::LightBoxApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::NControl.Controls.Droid.Resource.Attribute.barLength = global::LightBoxApp.Droid.Resource.Attribute.barLength;
+			global::NControl.Controls.Droid.Resource.Attribute.behavior_hideable = global::LightBoxApp.Droid.Resource.Attribute.behavior_hideable;
+			global::NControl.Controls.Droid.Resource.Attribute.behavior_overlapTop = global::LightBoxApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::NControl.Controls.Droid.Resource.Attribute.behavior_peekHeight = global::LightBoxApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::NControl.Controls.Droid.Resource.Attribute.borderWidth = global::LightBoxApp.Droid.Resource.Attribute.borderWidth;
+			global::NControl.Controls.Droid.Resource.Attribute.borderlessButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.bottomSheetDialogTheme = global::LightBoxApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::NControl.Controls.Droid.Resource.Attribute.bottomSheetStyle = global::LightBoxApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonBarButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonBarStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonPanelSideLayout = global::LightBoxApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonStyleSmall = global::LightBoxApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonTint = global::LightBoxApp.Droid.Resource.Attribute.buttonTint;
+			global::NControl.Controls.Droid.Resource.Attribute.buttonTintMode = global::LightBoxApp.Droid.Resource.Attribute.buttonTintMode;
+			global::NControl.Controls.Droid.Resource.Attribute.cardBackgroundColor = global::LightBoxApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::NControl.Controls.Droid.Resource.Attribute.cardCornerRadius = global::LightBoxApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::NControl.Controls.Droid.Resource.Attribute.cardElevation = global::LightBoxApp.Droid.Resource.Attribute.cardElevation;
+			global::NControl.Controls.Droid.Resource.Attribute.cardMaxElevation = global::LightBoxApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::NControl.Controls.Droid.Resource.Attribute.cardPreventCornerOverlap = global::LightBoxApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::NControl.Controls.Droid.Resource.Attribute.cardUseCompatPadding = global::LightBoxApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.checkboxStyle = global::LightBoxApp.Droid.Resource.Attribute.checkboxStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.checkedTextViewStyle = global::LightBoxApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.closeIcon = global::LightBoxApp.Droid.Resource.Attribute.closeIcon;
+			global::NControl.Controls.Droid.Resource.Attribute.closeItemLayout = global::LightBoxApp.Droid.Resource.Attribute.closeItemLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.collapseContentDescription = global::LightBoxApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::NControl.Controls.Droid.Resource.Attribute.collapseIcon = global::LightBoxApp.Droid.Resource.Attribute.collapseIcon;
+			global::NControl.Controls.Droid.Resource.Attribute.collapsedTitleGravity = global::LightBoxApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::NControl.Controls.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.color = global::LightBoxApp.Droid.Resource.Attribute.color;
+			global::NControl.Controls.Droid.Resource.Attribute.colorAccent = global::LightBoxApp.Droid.Resource.Attribute.colorAccent;
+			global::NControl.Controls.Droid.Resource.Attribute.colorButtonNormal = global::LightBoxApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::NControl.Controls.Droid.Resource.Attribute.colorControlActivated = global::LightBoxApp.Droid.Resource.Attribute.colorControlActivated;
+			global::NControl.Controls.Droid.Resource.Attribute.colorControlHighlight = global::LightBoxApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::NControl.Controls.Droid.Resource.Attribute.colorControlNormal = global::LightBoxApp.Droid.Resource.Attribute.colorControlNormal;
+			global::NControl.Controls.Droid.Resource.Attribute.colorPrimary = global::LightBoxApp.Droid.Resource.Attribute.colorPrimary;
+			global::NControl.Controls.Droid.Resource.Attribute.colorPrimaryDark = global::LightBoxApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::NControl.Controls.Droid.Resource.Attribute.colorSwitchThumbNormal = global::LightBoxApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::NControl.Controls.Droid.Resource.Attribute.commitIcon = global::LightBoxApp.Droid.Resource.Attribute.commitIcon;
+			global::NControl.Controls.Droid.Resource.Attribute.contentInsetEnd = global::LightBoxApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::NControl.Controls.Droid.Resource.Attribute.contentInsetLeft = global::LightBoxApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::NControl.Controls.Droid.Resource.Attribute.contentInsetRight = global::LightBoxApp.Droid.Resource.Attribute.contentInsetRight;
+			global::NControl.Controls.Droid.Resource.Attribute.contentInsetStart = global::LightBoxApp.Droid.Resource.Attribute.contentInsetStart;
+			global::NControl.Controls.Droid.Resource.Attribute.contentPadding = global::LightBoxApp.Droid.Resource.Attribute.contentPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.contentPaddingBottom = global::LightBoxApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::NControl.Controls.Droid.Resource.Attribute.contentPaddingLeft = global::LightBoxApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::NControl.Controls.Droid.Resource.Attribute.contentPaddingRight = global::LightBoxApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::NControl.Controls.Droid.Resource.Attribute.contentPaddingTop = global::LightBoxApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::NControl.Controls.Droid.Resource.Attribute.contentScrim = global::LightBoxApp.Droid.Resource.Attribute.contentScrim;
+			global::NControl.Controls.Droid.Resource.Attribute.controlBackground = global::LightBoxApp.Droid.Resource.Attribute.controlBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.counterEnabled = global::LightBoxApp.Droid.Resource.Attribute.counterEnabled;
+			global::NControl.Controls.Droid.Resource.Attribute.counterMaxLength = global::LightBoxApp.Droid.Resource.Attribute.counterMaxLength;
+			global::NControl.Controls.Droid.Resource.Attribute.counterOverflowTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.counterTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.customNavigationLayout = global::LightBoxApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.defaultQueryHint = global::LightBoxApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::NControl.Controls.Droid.Resource.Attribute.dialogPreferredPadding = global::LightBoxApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.dialogTheme = global::LightBoxApp.Droid.Resource.Attribute.dialogTheme;
+			global::NControl.Controls.Droid.Resource.Attribute.displayOptions = global::LightBoxApp.Droid.Resource.Attribute.displayOptions;
+			global::NControl.Controls.Droid.Resource.Attribute.divider = global::LightBoxApp.Droid.Resource.Attribute.divider;
+			global::NControl.Controls.Droid.Resource.Attribute.dividerHorizontal = global::LightBoxApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::NControl.Controls.Droid.Resource.Attribute.dividerPadding = global::LightBoxApp.Droid.Resource.Attribute.dividerPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.dividerVertical = global::LightBoxApp.Droid.Resource.Attribute.dividerVertical;
+			global::NControl.Controls.Droid.Resource.Attribute.drawableSize = global::LightBoxApp.Droid.Resource.Attribute.drawableSize;
+			global::NControl.Controls.Droid.Resource.Attribute.drawerArrowStyle = global::LightBoxApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.dropDownListViewStyle = global::LightBoxApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::LightBoxApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::NControl.Controls.Droid.Resource.Attribute.editTextBackground = global::LightBoxApp.Droid.Resource.Attribute.editTextBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.editTextColor = global::LightBoxApp.Droid.Resource.Attribute.editTextColor;
+			global::NControl.Controls.Droid.Resource.Attribute.editTextStyle = global::LightBoxApp.Droid.Resource.Attribute.editTextStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.elevation = global::LightBoxApp.Droid.Resource.Attribute.elevation;
+			global::NControl.Controls.Droid.Resource.Attribute.errorEnabled = global::LightBoxApp.Droid.Resource.Attribute.errorEnabled;
+			global::NControl.Controls.Droid.Resource.Attribute.errorTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LightBoxApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.expanded = global::LightBoxApp.Droid.Resource.Attribute.expanded;
+			global::NControl.Controls.Droid.Resource.Attribute.expandedTitleGravity = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::NControl.Controls.Droid.Resource.Attribute.expandedTitleMargin = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::NControl.Controls.Droid.Resource.Attribute.expandedTitleMarginBottom = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::NControl.Controls.Droid.Resource.Attribute.expandedTitleMarginEnd = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::NControl.Controls.Droid.Resource.Attribute.expandedTitleMarginStart = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::NControl.Controls.Droid.Resource.Attribute.expandedTitleMarginTop = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::NControl.Controls.Droid.Resource.Attribute.expandedTitleTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::LightBoxApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.fabSize = global::LightBoxApp.Droid.Resource.Attribute.fabSize;
+			global::NControl.Controls.Droid.Resource.Attribute.foregroundInsidePadding = global::LightBoxApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::NControl.Controls.Droid.Resource.Attribute.gapBetweenBars = global::LightBoxApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::NControl.Controls.Droid.Resource.Attribute.goIcon = global::LightBoxApp.Droid.Resource.Attribute.goIcon;
+			global::NControl.Controls.Droid.Resource.Attribute.headerLayout = global::LightBoxApp.Droid.Resource.Attribute.headerLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.height = global::LightBoxApp.Droid.Resource.Attribute.height;
+			global::NControl.Controls.Droid.Resource.Attribute.hideOnContentScroll = global::LightBoxApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::NControl.Controls.Droid.Resource.Attribute.hintAnimationEnabled = global::LightBoxApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::NControl.Controls.Droid.Resource.Attribute.hintEnabled = global::LightBoxApp.Droid.Resource.Attribute.hintEnabled;
+			global::NControl.Controls.Droid.Resource.Attribute.hintTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.homeAsUpIndicator = global::LightBoxApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::NControl.Controls.Droid.Resource.Attribute.homeLayout = global::LightBoxApp.Droid.Resource.Attribute.homeLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.icon = global::LightBoxApp.Droid.Resource.Attribute.icon;
+			global::NControl.Controls.Droid.Resource.Attribute.iconifiedByDefault = global::LightBoxApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::NControl.Controls.Droid.Resource.Attribute.imageButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.indeterminateProgressStyle = global::LightBoxApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.initialActivityCount = global::LightBoxApp.Droid.Resource.Attribute.initialActivityCount;
+			global::NControl.Controls.Droid.Resource.Attribute.insetForeground = global::LightBoxApp.Droid.Resource.Attribute.insetForeground;
+			global::NControl.Controls.Droid.Resource.Attribute.isLightTheme = global::LightBoxApp.Droid.Resource.Attribute.isLightTheme;
+			global::NControl.Controls.Droid.Resource.Attribute.itemBackground = global::LightBoxApp.Droid.Resource.Attribute.itemBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.itemIconTint = global::LightBoxApp.Droid.Resource.Attribute.itemIconTint;
+			global::NControl.Controls.Droid.Resource.Attribute.itemPadding = global::LightBoxApp.Droid.Resource.Attribute.itemPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.itemTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.itemTextColor = global::LightBoxApp.Droid.Resource.Attribute.itemTextColor;
+			global::NControl.Controls.Droid.Resource.Attribute.keylines = global::LightBoxApp.Droid.Resource.Attribute.keylines;
+			global::NControl.Controls.Droid.Resource.Attribute.layout = global::LightBoxApp.Droid.Resource.Attribute.layout;
+			global::NControl.Controls.Droid.Resource.Attribute.layoutManager = global::LightBoxApp.Droid.Resource.Attribute.layoutManager;
+			global::NControl.Controls.Droid.Resource.Attribute.layout_anchor = global::LightBoxApp.Droid.Resource.Attribute.layout_anchor;
+			global::NControl.Controls.Droid.Resource.Attribute.layout_anchorGravity = global::LightBoxApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::NControl.Controls.Droid.Resource.Attribute.layout_behavior = global::LightBoxApp.Droid.Resource.Attribute.layout_behavior;
+			global::NControl.Controls.Droid.Resource.Attribute.layout_collapseMode = global::LightBoxApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::NControl.Controls.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::LightBoxApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::NControl.Controls.Droid.Resource.Attribute.layout_keyline = global::LightBoxApp.Droid.Resource.Attribute.layout_keyline;
+			global::NControl.Controls.Droid.Resource.Attribute.layout_scrollFlags = global::LightBoxApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::NControl.Controls.Droid.Resource.Attribute.layout_scrollInterpolator = global::LightBoxApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::NControl.Controls.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::LightBoxApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::NControl.Controls.Droid.Resource.Attribute.listDividerAlertDialog = global::LightBoxApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::NControl.Controls.Droid.Resource.Attribute.listItemLayout = global::LightBoxApp.Droid.Resource.Attribute.listItemLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.listLayout = global::LightBoxApp.Droid.Resource.Attribute.listLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.listPopupWindowStyle = global::LightBoxApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.listPreferredItemHeight = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::NControl.Controls.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::NControl.Controls.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::NControl.Controls.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::NControl.Controls.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::NControl.Controls.Droid.Resource.Attribute.logo = global::LightBoxApp.Droid.Resource.Attribute.logo;
+			global::NControl.Controls.Droid.Resource.Attribute.logoDescription = global::LightBoxApp.Droid.Resource.Attribute.logoDescription;
+			global::NControl.Controls.Droid.Resource.Attribute.maxActionInlineWidth = global::LightBoxApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::NControl.Controls.Droid.Resource.Attribute.maxButtonHeight = global::LightBoxApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::NControl.Controls.Droid.Resource.Attribute.measureWithLargestChild = global::LightBoxApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::NControl.Controls.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.mediaRouteButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::NControl.Controls.Droid.Resource.Attribute.menu = global::LightBoxApp.Droid.Resource.Attribute.menu;
+			global::NControl.Controls.Droid.Resource.Attribute.multiChoiceItemLayout = global::LightBoxApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.navigationContentDescription = global::LightBoxApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::NControl.Controls.Droid.Resource.Attribute.navigationIcon = global::LightBoxApp.Droid.Resource.Attribute.navigationIcon;
+			global::NControl.Controls.Droid.Resource.Attribute.navigationMode = global::LightBoxApp.Droid.Resource.Attribute.navigationMode;
+			global::NControl.Controls.Droid.Resource.Attribute.overlapAnchor = global::LightBoxApp.Droid.Resource.Attribute.overlapAnchor;
+			global::NControl.Controls.Droid.Resource.Attribute.paddingEnd = global::LightBoxApp.Droid.Resource.Attribute.paddingEnd;
+			global::NControl.Controls.Droid.Resource.Attribute.paddingStart = global::LightBoxApp.Droid.Resource.Attribute.paddingStart;
+			global::NControl.Controls.Droid.Resource.Attribute.panelBackground = global::LightBoxApp.Droid.Resource.Attribute.panelBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.panelMenuListTheme = global::LightBoxApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::NControl.Controls.Droid.Resource.Attribute.panelMenuListWidth = global::LightBoxApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::NControl.Controls.Droid.Resource.Attribute.popupMenuStyle = global::LightBoxApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.popupTheme = global::LightBoxApp.Droid.Resource.Attribute.popupTheme;
+			global::NControl.Controls.Droid.Resource.Attribute.popupWindowStyle = global::LightBoxApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.preserveIconSpacing = global::LightBoxApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::NControl.Controls.Droid.Resource.Attribute.pressedTranslationZ = global::LightBoxApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::NControl.Controls.Droid.Resource.Attribute.progressBarPadding = global::LightBoxApp.Droid.Resource.Attribute.progressBarPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.progressBarStyle = global::LightBoxApp.Droid.Resource.Attribute.progressBarStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.queryBackground = global::LightBoxApp.Droid.Resource.Attribute.queryBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.queryHint = global::LightBoxApp.Droid.Resource.Attribute.queryHint;
+			global::NControl.Controls.Droid.Resource.Attribute.radioButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.ratingBarStyle = global::LightBoxApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.ratingBarStyleIndicator = global::LightBoxApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::NControl.Controls.Droid.Resource.Attribute.ratingBarStyleSmall = global::LightBoxApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::NControl.Controls.Droid.Resource.Attribute.reverseLayout = global::LightBoxApp.Droid.Resource.Attribute.reverseLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.rippleColor = global::LightBoxApp.Droid.Resource.Attribute.rippleColor;
+			global::NControl.Controls.Droid.Resource.Attribute.searchHintIcon = global::LightBoxApp.Droid.Resource.Attribute.searchHintIcon;
+			global::NControl.Controls.Droid.Resource.Attribute.searchIcon = global::LightBoxApp.Droid.Resource.Attribute.searchIcon;
+			global::NControl.Controls.Droid.Resource.Attribute.searchViewStyle = global::LightBoxApp.Droid.Resource.Attribute.searchViewStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.seekBarStyle = global::LightBoxApp.Droid.Resource.Attribute.seekBarStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.selectableItemBackground = global::LightBoxApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::LightBoxApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::NControl.Controls.Droid.Resource.Attribute.showAsAction = global::LightBoxApp.Droid.Resource.Attribute.showAsAction;
+			global::NControl.Controls.Droid.Resource.Attribute.showDividers = global::LightBoxApp.Droid.Resource.Attribute.showDividers;
+			global::NControl.Controls.Droid.Resource.Attribute.showText = global::LightBoxApp.Droid.Resource.Attribute.showText;
+			global::NControl.Controls.Droid.Resource.Attribute.singleChoiceItemLayout = global::LightBoxApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.spanCount = global::LightBoxApp.Droid.Resource.Attribute.spanCount;
+			global::NControl.Controls.Droid.Resource.Attribute.spinBars = global::LightBoxApp.Droid.Resource.Attribute.spinBars;
+			global::NControl.Controls.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::LightBoxApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.spinnerStyle = global::LightBoxApp.Droid.Resource.Attribute.spinnerStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.splitTrack = global::LightBoxApp.Droid.Resource.Attribute.splitTrack;
+			global::NControl.Controls.Droid.Resource.Attribute.srcCompat = global::LightBoxApp.Droid.Resource.Attribute.srcCompat;
+			global::NControl.Controls.Droid.Resource.Attribute.stackFromEnd = global::LightBoxApp.Droid.Resource.Attribute.stackFromEnd;
+			global::NControl.Controls.Droid.Resource.Attribute.state_above_anchor = global::LightBoxApp.Droid.Resource.Attribute.state_above_anchor;
+			global::NControl.Controls.Droid.Resource.Attribute.statusBarBackground = global::LightBoxApp.Droid.Resource.Attribute.statusBarBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.statusBarScrim = global::LightBoxApp.Droid.Resource.Attribute.statusBarScrim;
+			global::NControl.Controls.Droid.Resource.Attribute.submitBackground = global::LightBoxApp.Droid.Resource.Attribute.submitBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.subtitle = global::LightBoxApp.Droid.Resource.Attribute.subtitle;
+			global::NControl.Controls.Droid.Resource.Attribute.subtitleTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.subtitleTextColor = global::LightBoxApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::NControl.Controls.Droid.Resource.Attribute.subtitleTextStyle = global::LightBoxApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.suggestionRowLayout = global::LightBoxApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::NControl.Controls.Droid.Resource.Attribute.switchMinWidth = global::LightBoxApp.Droid.Resource.Attribute.switchMinWidth;
+			global::NControl.Controls.Droid.Resource.Attribute.switchPadding = global::LightBoxApp.Droid.Resource.Attribute.switchPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.switchStyle = global::LightBoxApp.Droid.Resource.Attribute.switchStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.switchTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.tabBackground = global::LightBoxApp.Droid.Resource.Attribute.tabBackground;
+			global::NControl.Controls.Droid.Resource.Attribute.tabContentStart = global::LightBoxApp.Droid.Resource.Attribute.tabContentStart;
+			global::NControl.Controls.Droid.Resource.Attribute.tabGravity = global::LightBoxApp.Droid.Resource.Attribute.tabGravity;
+			global::NControl.Controls.Droid.Resource.Attribute.tabIndicatorColor = global::LightBoxApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::NControl.Controls.Droid.Resource.Attribute.tabIndicatorHeight = global::LightBoxApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::NControl.Controls.Droid.Resource.Attribute.tabMaxWidth = global::LightBoxApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::NControl.Controls.Droid.Resource.Attribute.tabMinWidth = global::LightBoxApp.Droid.Resource.Attribute.tabMinWidth;
+			global::NControl.Controls.Droid.Resource.Attribute.tabMode = global::LightBoxApp.Droid.Resource.Attribute.tabMode;
+			global::NControl.Controls.Droid.Resource.Attribute.tabPadding = global::LightBoxApp.Droid.Resource.Attribute.tabPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.tabPaddingBottom = global::LightBoxApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::NControl.Controls.Droid.Resource.Attribute.tabPaddingEnd = global::LightBoxApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::NControl.Controls.Droid.Resource.Attribute.tabPaddingStart = global::LightBoxApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::NControl.Controls.Droid.Resource.Attribute.tabPaddingTop = global::LightBoxApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::NControl.Controls.Droid.Resource.Attribute.tabSelectedTextColor = global::LightBoxApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::NControl.Controls.Droid.Resource.Attribute.tabTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.tabTextColor = global::LightBoxApp.Droid.Resource.Attribute.tabTextColor;
+			global::NControl.Controls.Droid.Resource.Attribute.textAllCaps = global::LightBoxApp.Droid.Resource.Attribute.textAllCaps;
+			global::NControl.Controls.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::NControl.Controls.Droid.Resource.Attribute.textAppearanceListItem = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::NControl.Controls.Droid.Resource.Attribute.textAppearanceListItemSmall = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::NControl.Controls.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::NControl.Controls.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::NControl.Controls.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::NControl.Controls.Droid.Resource.Attribute.textColorAlertDialogListItem = global::LightBoxApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::NControl.Controls.Droid.Resource.Attribute.textColorError = global::LightBoxApp.Droid.Resource.Attribute.textColorError;
+			global::NControl.Controls.Droid.Resource.Attribute.textColorSearchUrl = global::LightBoxApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::NControl.Controls.Droid.Resource.Attribute.theme = global::LightBoxApp.Droid.Resource.Attribute.theme;
+			global::NControl.Controls.Droid.Resource.Attribute.thickness = global::LightBoxApp.Droid.Resource.Attribute.thickness;
+			global::NControl.Controls.Droid.Resource.Attribute.thumbTextPadding = global::LightBoxApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.title = global::LightBoxApp.Droid.Resource.Attribute.title;
+			global::NControl.Controls.Droid.Resource.Attribute.titleEnabled = global::LightBoxApp.Droid.Resource.Attribute.titleEnabled;
+			global::NControl.Controls.Droid.Resource.Attribute.titleMarginBottom = global::LightBoxApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::NControl.Controls.Droid.Resource.Attribute.titleMarginEnd = global::LightBoxApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::NControl.Controls.Droid.Resource.Attribute.titleMarginStart = global::LightBoxApp.Droid.Resource.Attribute.titleMarginStart;
+			global::NControl.Controls.Droid.Resource.Attribute.titleMarginTop = global::LightBoxApp.Droid.Resource.Attribute.titleMarginTop;
+			global::NControl.Controls.Droid.Resource.Attribute.titleMargins = global::LightBoxApp.Droid.Resource.Attribute.titleMargins;
+			global::NControl.Controls.Droid.Resource.Attribute.titleTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::NControl.Controls.Droid.Resource.Attribute.titleTextColor = global::LightBoxApp.Droid.Resource.Attribute.titleTextColor;
+			global::NControl.Controls.Droid.Resource.Attribute.titleTextStyle = global::LightBoxApp.Droid.Resource.Attribute.titleTextStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.toolbarId = global::LightBoxApp.Droid.Resource.Attribute.toolbarId;
+			global::NControl.Controls.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.toolbarStyle = global::LightBoxApp.Droid.Resource.Attribute.toolbarStyle;
+			global::NControl.Controls.Droid.Resource.Attribute.track = global::LightBoxApp.Droid.Resource.Attribute.track;
+			global::NControl.Controls.Droid.Resource.Attribute.useCompatPadding = global::LightBoxApp.Droid.Resource.Attribute.useCompatPadding;
+			global::NControl.Controls.Droid.Resource.Attribute.voiceIcon = global::LightBoxApp.Droid.Resource.Attribute.voiceIcon;
+			global::NControl.Controls.Droid.Resource.Attribute.windowActionBar = global::LightBoxApp.Droid.Resource.Attribute.windowActionBar;
+			global::NControl.Controls.Droid.Resource.Attribute.windowActionBarOverlay = global::LightBoxApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::NControl.Controls.Droid.Resource.Attribute.windowActionModeOverlay = global::LightBoxApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::NControl.Controls.Droid.Resource.Attribute.windowFixedHeightMajor = global::LightBoxApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::NControl.Controls.Droid.Resource.Attribute.windowFixedHeightMinor = global::LightBoxApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::NControl.Controls.Droid.Resource.Attribute.windowFixedWidthMajor = global::LightBoxApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::NControl.Controls.Droid.Resource.Attribute.windowFixedWidthMinor = global::LightBoxApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::NControl.Controls.Droid.Resource.Attribute.windowMinWidthMajor = global::LightBoxApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::NControl.Controls.Droid.Resource.Attribute.windowMinWidthMinor = global::LightBoxApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::NControl.Controls.Droid.Resource.Attribute.windowNoTitle = global::LightBoxApp.Droid.Resource.Attribute.windowNoTitle;
+			global::NControl.Controls.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::LightBoxApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::NControl.Controls.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::LightBoxApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::NControl.Controls.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LightBoxApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::NControl.Controls.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::LightBoxApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::NControl.Controls.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::LightBoxApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::NControl.Controls.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LightBoxApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::LightBoxApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::NControl.Controls.Droid.Resource.Color.abc_color_highlight_material = global::LightBoxApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::NControl.Controls.Droid.Resource.Color.abc_input_method_navigation_guard = global::LightBoxApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::NControl.Controls.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::LightBoxApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::LightBoxApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::NControl.Controls.Droid.Resource.Color.abc_primary_text_material_dark = global::LightBoxApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.abc_primary_text_material_light = global::LightBoxApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::NControl.Controls.Droid.Resource.Color.abc_search_url_text = global::LightBoxApp.Droid.Resource.Color.abc_search_url_text;
+			global::NControl.Controls.Droid.Resource.Color.abc_search_url_text_normal = global::LightBoxApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::NControl.Controls.Droid.Resource.Color.abc_search_url_text_pressed = global::LightBoxApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::NControl.Controls.Droid.Resource.Color.abc_search_url_text_selected = global::LightBoxApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::NControl.Controls.Droid.Resource.Color.abc_secondary_text_material_dark = global::LightBoxApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.abc_secondary_text_material_light = global::LightBoxApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::NControl.Controls.Droid.Resource.Color.accent_material_dark = global::LightBoxApp.Droid.Resource.Color.accent_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.accent_material_light = global::LightBoxApp.Droid.Resource.Color.accent_material_light;
+			global::NControl.Controls.Droid.Resource.Color.background_floating_material_dark = global::LightBoxApp.Droid.Resource.Color.background_floating_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.background_floating_material_light = global::LightBoxApp.Droid.Resource.Color.background_floating_material_light;
+			global::NControl.Controls.Droid.Resource.Color.background_material_dark = global::LightBoxApp.Droid.Resource.Color.background_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.background_material_light = global::LightBoxApp.Droid.Resource.Color.background_material_light;
+			global::NControl.Controls.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.bright_foreground_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::NControl.Controls.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::LightBoxApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.bright_foreground_inverse_material_light = global::LightBoxApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::NControl.Controls.Droid.Resource.Color.bright_foreground_material_dark = global::LightBoxApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.bright_foreground_material_light = global::LightBoxApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::NControl.Controls.Droid.Resource.Color.button_material_dark = global::LightBoxApp.Droid.Resource.Color.button_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.button_material_light = global::LightBoxApp.Droid.Resource.Color.button_material_light;
+			global::NControl.Controls.Droid.Resource.Color.cardview_dark_background = global::LightBoxApp.Droid.Resource.Color.cardview_dark_background;
+			global::NControl.Controls.Droid.Resource.Color.cardview_light_background = global::LightBoxApp.Droid.Resource.Color.cardview_light_background;
+			global::NControl.Controls.Droid.Resource.Color.cardview_shadow_end_color = global::LightBoxApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::NControl.Controls.Droid.Resource.Color.cardview_shadow_start_color = global::LightBoxApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::NControl.Controls.Droid.Resource.Color.design_fab_shadow_end_color = global::LightBoxApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::NControl.Controls.Droid.Resource.Color.design_fab_shadow_mid_color = global::LightBoxApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::NControl.Controls.Droid.Resource.Color.design_fab_shadow_start_color = global::LightBoxApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::NControl.Controls.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::LightBoxApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::NControl.Controls.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::LightBoxApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::NControl.Controls.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::LightBoxApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::NControl.Controls.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::LightBoxApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::NControl.Controls.Droid.Resource.Color.design_snackbar_background_color = global::LightBoxApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::NControl.Controls.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.dim_foreground_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::NControl.Controls.Droid.Resource.Color.dim_foreground_material_dark = global::LightBoxApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.dim_foreground_material_light = global::LightBoxApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::NControl.Controls.Droid.Resource.Color.foreground_material_dark = global::LightBoxApp.Droid.Resource.Color.foreground_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.foreground_material_light = global::LightBoxApp.Droid.Resource.Color.foreground_material_light;
+			global::NControl.Controls.Droid.Resource.Color.highlighted_text_material_dark = global::LightBoxApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.highlighted_text_material_light = global::LightBoxApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::NControl.Controls.Droid.Resource.Color.material_blue_grey_800 = global::LightBoxApp.Droid.Resource.Color.material_blue_grey_800;
+			global::NControl.Controls.Droid.Resource.Color.material_blue_grey_900 = global::LightBoxApp.Droid.Resource.Color.material_blue_grey_900;
+			global::NControl.Controls.Droid.Resource.Color.material_blue_grey_950 = global::LightBoxApp.Droid.Resource.Color.material_blue_grey_950;
+			global::NControl.Controls.Droid.Resource.Color.material_deep_teal_200 = global::LightBoxApp.Droid.Resource.Color.material_deep_teal_200;
+			global::NControl.Controls.Droid.Resource.Color.material_deep_teal_500 = global::LightBoxApp.Droid.Resource.Color.material_deep_teal_500;
+			global::NControl.Controls.Droid.Resource.Color.material_grey_100 = global::LightBoxApp.Droid.Resource.Color.material_grey_100;
+			global::NControl.Controls.Droid.Resource.Color.material_grey_300 = global::LightBoxApp.Droid.Resource.Color.material_grey_300;
+			global::NControl.Controls.Droid.Resource.Color.material_grey_50 = global::LightBoxApp.Droid.Resource.Color.material_grey_50;
+			global::NControl.Controls.Droid.Resource.Color.material_grey_600 = global::LightBoxApp.Droid.Resource.Color.material_grey_600;
+			global::NControl.Controls.Droid.Resource.Color.material_grey_800 = global::LightBoxApp.Droid.Resource.Color.material_grey_800;
+			global::NControl.Controls.Droid.Resource.Color.material_grey_850 = global::LightBoxApp.Droid.Resource.Color.material_grey_850;
+			global::NControl.Controls.Droid.Resource.Color.material_grey_900 = global::LightBoxApp.Droid.Resource.Color.material_grey_900;
+			global::NControl.Controls.Droid.Resource.Color.primary_dark_material_dark = global::LightBoxApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.primary_dark_material_light = global::LightBoxApp.Droid.Resource.Color.primary_dark_material_light;
+			global::NControl.Controls.Droid.Resource.Color.primary_material_dark = global::LightBoxApp.Droid.Resource.Color.primary_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.primary_material_light = global::LightBoxApp.Droid.Resource.Color.primary_material_light;
+			global::NControl.Controls.Droid.Resource.Color.primary_text_default_material_dark = global::LightBoxApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.primary_text_default_material_light = global::LightBoxApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::NControl.Controls.Droid.Resource.Color.primary_text_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.primary_text_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::NControl.Controls.Droid.Resource.Color.ripple_material_dark = global::LightBoxApp.Droid.Resource.Color.ripple_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.ripple_material_light = global::LightBoxApp.Droid.Resource.Color.ripple_material_light;
+			global::NControl.Controls.Droid.Resource.Color.secondary_text_default_material_dark = global::LightBoxApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.secondary_text_default_material_light = global::LightBoxApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::NControl.Controls.Droid.Resource.Color.secondary_text_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.secondary_text_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::NControl.Controls.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.switch_thumb_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::NControl.Controls.Droid.Resource.Color.switch_thumb_material_dark = global::LightBoxApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.switch_thumb_material_light = global::LightBoxApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::NControl.Controls.Droid.Resource.Color.switch_thumb_normal_material_dark = global::LightBoxApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::NControl.Controls.Droid.Resource.Color.switch_thumb_normal_material_light = global::LightBoxApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_button_min_height_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_button_min_width_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LightBoxApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::LightBoxApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::LightBoxApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::LightBoxApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::LightBoxApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::LightBoxApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_control_corner_material = global::LightBoxApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_control_inset_material = global::LightBoxApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_control_padding_material = global::LightBoxApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dialog_min_width_major = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dialog_padding_material = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::LightBoxApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::LightBoxApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::LightBoxApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LightBoxApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LightBoxApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LightBoxApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LightBoxApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::LightBoxApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_floating_window_z = global::LightBoxApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LightBoxApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_panel_menu_list_width = global::LightBoxApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_search_view_preferred_width = global::LightBoxApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::LightBoxApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LightBoxApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::LightBoxApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_switch_padding = global::LightBoxApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_body_1_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_body_2_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_button_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_caption_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_display_1_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_display_2_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_display_3_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_display_4_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_headline_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_large_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_medium_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_menu_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_small_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_subhead_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_title_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::NControl.Controls.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::NControl.Controls.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::LightBoxApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::NControl.Controls.Droid.Resource.Dimension.cardview_default_elevation = global::LightBoxApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::NControl.Controls.Droid.Resource.Dimension.cardview_default_radius = global::LightBoxApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::NControl.Controls.Droid.Resource.Dimension.design_appbar_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::NControl.Controls.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::NControl.Controls.Droid.Resource.Dimension.design_fab_border_width = global::LightBoxApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::NControl.Controls.Droid.Resource.Dimension.design_fab_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::NControl.Controls.Droid.Resource.Dimension.design_fab_image_size = global::LightBoxApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::NControl.Controls.Droid.Resource.Dimension.design_fab_size_mini = global::LightBoxApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::NControl.Controls.Droid.Resource.Dimension.design_fab_size_normal = global::LightBoxApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::NControl.Controls.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::LightBoxApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::NControl.Controls.Droid.Resource.Dimension.design_navigation_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::NControl.Controls.Droid.Resource.Dimension.design_navigation_icon_padding = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::NControl.Controls.Droid.Resource.Dimension.design_navigation_icon_size = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::NControl.Controls.Droid.Resource.Dimension.design_navigation_max_width = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::NControl.Controls.Droid.Resource.Dimension.design_navigation_padding_bottom = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::NControl.Controls.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_max_width = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_min_width = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::NControl.Controls.Droid.Resource.Dimension.design_snackbar_text_size = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::NControl.Controls.Droid.Resource.Dimension.design_tab_max_width = global::LightBoxApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::NControl.Controls.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::LightBoxApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::NControl.Controls.Droid.Resource.Dimension.design_tab_text_size = global::LightBoxApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::NControl.Controls.Droid.Resource.Dimension.design_tab_text_size_2line = global::LightBoxApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::NControl.Controls.Droid.Resource.Dimension.disabled_alpha_material_dark = global::LightBoxApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::NControl.Controls.Droid.Resource.Dimension.disabled_alpha_material_light = global::LightBoxApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::NControl.Controls.Droid.Resource.Dimension.highlight_alpha_material_colored = global::LightBoxApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::NControl.Controls.Droid.Resource.Dimension.highlight_alpha_material_dark = global::LightBoxApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::NControl.Controls.Droid.Resource.Dimension.highlight_alpha_material_light = global::LightBoxApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::NControl.Controls.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::LightBoxApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::NControl.Controls.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::LightBoxApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::NControl.Controls.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::LightBoxApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::NControl.Controls.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::LightBoxApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::NControl.Controls.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::LightBoxApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::NControl.Controls.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::LightBoxApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::NControl.Controls.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::LightBoxApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::NControl.Controls.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::LightBoxApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::NControl.Controls.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::LightBoxApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::NControl.Controls.Droid.Resource.Dimension.notification_large_icon_height = global::LightBoxApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::NControl.Controls.Droid.Resource.Dimension.notification_large_icon_width = global::LightBoxApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::NControl.Controls.Droid.Resource.Dimension.notification_subtext_size = global::LightBoxApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::LightBoxApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_borderless_material = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_check_material = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_colored_material = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_radio_material = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::LightBoxApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_cab_background_top_material = global::LightBoxApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_control_background_material = global::LightBoxApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_edit_text_material = global::LightBoxApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_item_background_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_item_background_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_focused_holo = global::LightBoxApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_longpressed_holo = global::LightBoxApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_list_selector_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LightBoxApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::LightBoxApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::LightBoxApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_ratingbar_small_material = global::LightBoxApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::LightBoxApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_seekbar_track_material = global::LightBoxApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::LightBoxApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_switch_thumb_material = global::LightBoxApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_tab_indicator_material = global::LightBoxApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_text_cursor_material = global::LightBoxApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::NControl.Controls.Droid.Resource.Drawable.abc_textfield_search_material = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::NControl.Controls.Droid.Resource.Drawable.design_fab_background = global::LightBoxApp.Droid.Resource.Drawable.design_fab_background;
+			global::NControl.Controls.Droid.Resource.Drawable.design_snackbar_background = global::LightBoxApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::NControl.Controls.Droid.Resource.Drawable.ic_audiotrack_light = global::LightBoxApp.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::NControl.Controls.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::LightBoxApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::NControl.Controls.Droid.Resource.Drawable.mr_dialog_material_background_light = global::LightBoxApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::NControl.Controls.Droid.Resource.Drawable.notification_template_icon_bg = global::LightBoxApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::NControl.Controls.Droid.Resource.Id.action0 = global::LightBoxApp.Droid.Resource.Id.action0;
+			global::NControl.Controls.Droid.Resource.Id.action_bar = global::LightBoxApp.Droid.Resource.Id.action_bar;
+			global::NControl.Controls.Droid.Resource.Id.action_bar_activity_content = global::LightBoxApp.Droid.Resource.Id.action_bar_activity_content;
+			global::NControl.Controls.Droid.Resource.Id.action_bar_container = global::LightBoxApp.Droid.Resource.Id.action_bar_container;
+			global::NControl.Controls.Droid.Resource.Id.action_bar_root = global::LightBoxApp.Droid.Resource.Id.action_bar_root;
+			global::NControl.Controls.Droid.Resource.Id.action_bar_spinner = global::LightBoxApp.Droid.Resource.Id.action_bar_spinner;
+			global::NControl.Controls.Droid.Resource.Id.action_bar_subtitle = global::LightBoxApp.Droid.Resource.Id.action_bar_subtitle;
+			global::NControl.Controls.Droid.Resource.Id.action_bar_title = global::LightBoxApp.Droid.Resource.Id.action_bar_title;
+			global::NControl.Controls.Droid.Resource.Id.action_context_bar = global::LightBoxApp.Droid.Resource.Id.action_context_bar;
+			global::NControl.Controls.Droid.Resource.Id.action_divider = global::LightBoxApp.Droid.Resource.Id.action_divider;
+			global::NControl.Controls.Droid.Resource.Id.action_menu_divider = global::LightBoxApp.Droid.Resource.Id.action_menu_divider;
+			global::NControl.Controls.Droid.Resource.Id.action_menu_presenter = global::LightBoxApp.Droid.Resource.Id.action_menu_presenter;
+			global::NControl.Controls.Droid.Resource.Id.action_mode_bar = global::LightBoxApp.Droid.Resource.Id.action_mode_bar;
+			global::NControl.Controls.Droid.Resource.Id.action_mode_bar_stub = global::LightBoxApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::NControl.Controls.Droid.Resource.Id.action_mode_close_button = global::LightBoxApp.Droid.Resource.Id.action_mode_close_button;
+			global::NControl.Controls.Droid.Resource.Id.activity_chooser_view_content = global::LightBoxApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::NControl.Controls.Droid.Resource.Id.alertTitle = global::LightBoxApp.Droid.Resource.Id.alertTitle;
+			global::NControl.Controls.Droid.Resource.Id.always = global::LightBoxApp.Droid.Resource.Id.always;
+			global::NControl.Controls.Droid.Resource.Id.beginning = global::LightBoxApp.Droid.Resource.Id.beginning;
+			global::NControl.Controls.Droid.Resource.Id.bottom = global::LightBoxApp.Droid.Resource.Id.bottom;
+			global::NControl.Controls.Droid.Resource.Id.buttonPanel = global::LightBoxApp.Droid.Resource.Id.buttonPanel;
+			global::NControl.Controls.Droid.Resource.Id.cancel_action = global::LightBoxApp.Droid.Resource.Id.cancel_action;
+			global::NControl.Controls.Droid.Resource.Id.center = global::LightBoxApp.Droid.Resource.Id.center;
+			global::NControl.Controls.Droid.Resource.Id.center_horizontal = global::LightBoxApp.Droid.Resource.Id.center_horizontal;
+			global::NControl.Controls.Droid.Resource.Id.center_vertical = global::LightBoxApp.Droid.Resource.Id.center_vertical;
+			global::NControl.Controls.Droid.Resource.Id.checkbox = global::LightBoxApp.Droid.Resource.Id.checkbox;
+			global::NControl.Controls.Droid.Resource.Id.chronometer = global::LightBoxApp.Droid.Resource.Id.chronometer;
+			global::NControl.Controls.Droid.Resource.Id.clip_horizontal = global::LightBoxApp.Droid.Resource.Id.clip_horizontal;
+			global::NControl.Controls.Droid.Resource.Id.clip_vertical = global::LightBoxApp.Droid.Resource.Id.clip_vertical;
+			global::NControl.Controls.Droid.Resource.Id.collapseActionView = global::LightBoxApp.Droid.Resource.Id.collapseActionView;
+			global::NControl.Controls.Droid.Resource.Id.contentPanel = global::LightBoxApp.Droid.Resource.Id.contentPanel;
+			global::NControl.Controls.Droid.Resource.Id.custom = global::LightBoxApp.Droid.Resource.Id.custom;
+			global::NControl.Controls.Droid.Resource.Id.customPanel = global::LightBoxApp.Droid.Resource.Id.customPanel;
+			global::NControl.Controls.Droid.Resource.Id.decor_content_parent = global::LightBoxApp.Droid.Resource.Id.decor_content_parent;
+			global::NControl.Controls.Droid.Resource.Id.default_activity_button = global::LightBoxApp.Droid.Resource.Id.default_activity_button;
+			global::NControl.Controls.Droid.Resource.Id.design_bottom_sheet = global::LightBoxApp.Droid.Resource.Id.design_bottom_sheet;
+			global::NControl.Controls.Droid.Resource.Id.design_menu_item_action_area = global::LightBoxApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::NControl.Controls.Droid.Resource.Id.design_menu_item_action_area_stub = global::LightBoxApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::NControl.Controls.Droid.Resource.Id.design_menu_item_text = global::LightBoxApp.Droid.Resource.Id.design_menu_item_text;
+			global::NControl.Controls.Droid.Resource.Id.design_navigation_view = global::LightBoxApp.Droid.Resource.Id.design_navigation_view;
+			global::NControl.Controls.Droid.Resource.Id.disableHome = global::LightBoxApp.Droid.Resource.Id.disableHome;
+			global::NControl.Controls.Droid.Resource.Id.edit_query = global::LightBoxApp.Droid.Resource.Id.edit_query;
+			global::NControl.Controls.Droid.Resource.Id.end = global::LightBoxApp.Droid.Resource.Id.end;
+			global::NControl.Controls.Droid.Resource.Id.end_padder = global::LightBoxApp.Droid.Resource.Id.end_padder;
+			global::NControl.Controls.Droid.Resource.Id.enterAlways = global::LightBoxApp.Droid.Resource.Id.enterAlways;
+			global::NControl.Controls.Droid.Resource.Id.enterAlwaysCollapsed = global::LightBoxApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::NControl.Controls.Droid.Resource.Id.exitUntilCollapsed = global::LightBoxApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::NControl.Controls.Droid.Resource.Id.expand_activities_button = global::LightBoxApp.Droid.Resource.Id.expand_activities_button;
+			global::NControl.Controls.Droid.Resource.Id.expanded_menu = global::LightBoxApp.Droid.Resource.Id.expanded_menu;
+			global::NControl.Controls.Droid.Resource.Id.fill = global::LightBoxApp.Droid.Resource.Id.fill;
+			global::NControl.Controls.Droid.Resource.Id.fill_horizontal = global::LightBoxApp.Droid.Resource.Id.fill_horizontal;
+			global::NControl.Controls.Droid.Resource.Id.fill_vertical = global::LightBoxApp.Droid.Resource.Id.fill_vertical;
+			global::NControl.Controls.Droid.Resource.Id.@fixed = global::LightBoxApp.Droid.Resource.Id.@fixed;
+			global::NControl.Controls.Droid.Resource.Id.home = global::LightBoxApp.Droid.Resource.Id.home;
+			global::NControl.Controls.Droid.Resource.Id.homeAsUp = global::LightBoxApp.Droid.Resource.Id.homeAsUp;
+			global::NControl.Controls.Droid.Resource.Id.icon = global::LightBoxApp.Droid.Resource.Id.icon;
+			global::NControl.Controls.Droid.Resource.Id.ifRoom = global::LightBoxApp.Droid.Resource.Id.ifRoom;
+			global::NControl.Controls.Droid.Resource.Id.image = global::LightBoxApp.Droid.Resource.Id.image;
+			global::NControl.Controls.Droid.Resource.Id.info = global::LightBoxApp.Droid.Resource.Id.info;
+			global::NControl.Controls.Droid.Resource.Id.item_touch_helper_previous_elevation = global::LightBoxApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::NControl.Controls.Droid.Resource.Id.left = global::LightBoxApp.Droid.Resource.Id.left;
+			global::NControl.Controls.Droid.Resource.Id.line1 = global::LightBoxApp.Droid.Resource.Id.line1;
+			global::NControl.Controls.Droid.Resource.Id.line3 = global::LightBoxApp.Droid.Resource.Id.line3;
+			global::NControl.Controls.Droid.Resource.Id.listMode = global::LightBoxApp.Droid.Resource.Id.listMode;
+			global::NControl.Controls.Droid.Resource.Id.list_item = global::LightBoxApp.Droid.Resource.Id.list_item;
+			global::NControl.Controls.Droid.Resource.Id.media_actions = global::LightBoxApp.Droid.Resource.Id.media_actions;
+			global::NControl.Controls.Droid.Resource.Id.middle = global::LightBoxApp.Droid.Resource.Id.middle;
+			global::NControl.Controls.Droid.Resource.Id.mini = global::LightBoxApp.Droid.Resource.Id.mini;
+			global::NControl.Controls.Droid.Resource.Id.mr_art = global::LightBoxApp.Droid.Resource.Id.mr_art;
+			global::NControl.Controls.Droid.Resource.Id.mr_chooser_list = global::LightBoxApp.Droid.Resource.Id.mr_chooser_list;
+			global::NControl.Controls.Droid.Resource.Id.mr_chooser_route_desc = global::LightBoxApp.Droid.Resource.Id.mr_chooser_route_desc;
+			global::NControl.Controls.Droid.Resource.Id.mr_chooser_route_icon = global::LightBoxApp.Droid.Resource.Id.mr_chooser_route_icon;
+			global::NControl.Controls.Droid.Resource.Id.mr_chooser_route_name = global::LightBoxApp.Droid.Resource.Id.mr_chooser_route_name;
+			global::NControl.Controls.Droid.Resource.Id.mr_close = global::LightBoxApp.Droid.Resource.Id.mr_close;
+			global::NControl.Controls.Droid.Resource.Id.mr_control_divider = global::LightBoxApp.Droid.Resource.Id.mr_control_divider;
+			global::NControl.Controls.Droid.Resource.Id.mr_control_subtitle = global::LightBoxApp.Droid.Resource.Id.mr_control_subtitle;
+			global::NControl.Controls.Droid.Resource.Id.mr_control_title = global::LightBoxApp.Droid.Resource.Id.mr_control_title;
+			global::NControl.Controls.Droid.Resource.Id.mr_control_title_container = global::LightBoxApp.Droid.Resource.Id.mr_control_title_container;
+			global::NControl.Controls.Droid.Resource.Id.mr_custom_control = global::LightBoxApp.Droid.Resource.Id.mr_custom_control;
+			global::NControl.Controls.Droid.Resource.Id.mr_default_control = global::LightBoxApp.Droid.Resource.Id.mr_default_control;
+			global::NControl.Controls.Droid.Resource.Id.mr_dialog_area = global::LightBoxApp.Droid.Resource.Id.mr_dialog_area;
+			global::NControl.Controls.Droid.Resource.Id.mr_expandable_area = global::LightBoxApp.Droid.Resource.Id.mr_expandable_area;
+			global::NControl.Controls.Droid.Resource.Id.mr_group_expand_collapse = global::LightBoxApp.Droid.Resource.Id.mr_group_expand_collapse;
+			global::NControl.Controls.Droid.Resource.Id.mr_media_main_control = global::LightBoxApp.Droid.Resource.Id.mr_media_main_control;
+			global::NControl.Controls.Droid.Resource.Id.mr_name = global::LightBoxApp.Droid.Resource.Id.mr_name;
+			global::NControl.Controls.Droid.Resource.Id.mr_playback_control = global::LightBoxApp.Droid.Resource.Id.mr_playback_control;
+			global::NControl.Controls.Droid.Resource.Id.mr_title_bar = global::LightBoxApp.Droid.Resource.Id.mr_title_bar;
+			global::NControl.Controls.Droid.Resource.Id.mr_volume_control = global::LightBoxApp.Droid.Resource.Id.mr_volume_control;
+			global::NControl.Controls.Droid.Resource.Id.mr_volume_group_list = global::LightBoxApp.Droid.Resource.Id.mr_volume_group_list;
+			global::NControl.Controls.Droid.Resource.Id.mr_volume_item_icon = global::LightBoxApp.Droid.Resource.Id.mr_volume_item_icon;
+			global::NControl.Controls.Droid.Resource.Id.mr_volume_slider = global::LightBoxApp.Droid.Resource.Id.mr_volume_slider;
+			global::NControl.Controls.Droid.Resource.Id.multiply = global::LightBoxApp.Droid.Resource.Id.multiply;
+			global::NControl.Controls.Droid.Resource.Id.navigation_header_container = global::LightBoxApp.Droid.Resource.Id.navigation_header_container;
+			global::NControl.Controls.Droid.Resource.Id.never = global::LightBoxApp.Droid.Resource.Id.never;
+			global::NControl.Controls.Droid.Resource.Id.none = global::LightBoxApp.Droid.Resource.Id.none;
+			global::NControl.Controls.Droid.Resource.Id.normal = global::LightBoxApp.Droid.Resource.Id.normal;
+			global::NControl.Controls.Droid.Resource.Id.parallax = global::LightBoxApp.Droid.Resource.Id.parallax;
+			global::NControl.Controls.Droid.Resource.Id.parentPanel = global::LightBoxApp.Droid.Resource.Id.parentPanel;
+			global::NControl.Controls.Droid.Resource.Id.pin = global::LightBoxApp.Droid.Resource.Id.pin;
+			global::NControl.Controls.Droid.Resource.Id.progress_circular = global::LightBoxApp.Droid.Resource.Id.progress_circular;
+			global::NControl.Controls.Droid.Resource.Id.progress_horizontal = global::LightBoxApp.Droid.Resource.Id.progress_horizontal;
+			global::NControl.Controls.Droid.Resource.Id.radio = global::LightBoxApp.Droid.Resource.Id.radio;
+			global::NControl.Controls.Droid.Resource.Id.right = global::LightBoxApp.Droid.Resource.Id.right;
+			global::NControl.Controls.Droid.Resource.Id.screen = global::LightBoxApp.Droid.Resource.Id.screen;
+			global::NControl.Controls.Droid.Resource.Id.scroll = global::LightBoxApp.Droid.Resource.Id.scroll;
+			global::NControl.Controls.Droid.Resource.Id.scrollIndicatorDown = global::LightBoxApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::NControl.Controls.Droid.Resource.Id.scrollIndicatorUp = global::LightBoxApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::NControl.Controls.Droid.Resource.Id.scrollView = global::LightBoxApp.Droid.Resource.Id.scrollView;
+			global::NControl.Controls.Droid.Resource.Id.scrollable = global::LightBoxApp.Droid.Resource.Id.scrollable;
+			global::NControl.Controls.Droid.Resource.Id.search_badge = global::LightBoxApp.Droid.Resource.Id.search_badge;
+			global::NControl.Controls.Droid.Resource.Id.search_bar = global::LightBoxApp.Droid.Resource.Id.search_bar;
+			global::NControl.Controls.Droid.Resource.Id.search_button = global::LightBoxApp.Droid.Resource.Id.search_button;
+			global::NControl.Controls.Droid.Resource.Id.search_close_btn = global::LightBoxApp.Droid.Resource.Id.search_close_btn;
+			global::NControl.Controls.Droid.Resource.Id.search_edit_frame = global::LightBoxApp.Droid.Resource.Id.search_edit_frame;
+			global::NControl.Controls.Droid.Resource.Id.search_go_btn = global::LightBoxApp.Droid.Resource.Id.search_go_btn;
+			global::NControl.Controls.Droid.Resource.Id.search_mag_icon = global::LightBoxApp.Droid.Resource.Id.search_mag_icon;
+			global::NControl.Controls.Droid.Resource.Id.search_plate = global::LightBoxApp.Droid.Resource.Id.search_plate;
+			global::NControl.Controls.Droid.Resource.Id.search_src_text = global::LightBoxApp.Droid.Resource.Id.search_src_text;
+			global::NControl.Controls.Droid.Resource.Id.search_voice_btn = global::LightBoxApp.Droid.Resource.Id.search_voice_btn;
+			global::NControl.Controls.Droid.Resource.Id.select_dialog_listview = global::LightBoxApp.Droid.Resource.Id.select_dialog_listview;
+			global::NControl.Controls.Droid.Resource.Id.shortcut = global::LightBoxApp.Droid.Resource.Id.shortcut;
+			global::NControl.Controls.Droid.Resource.Id.showCustom = global::LightBoxApp.Droid.Resource.Id.showCustom;
+			global::NControl.Controls.Droid.Resource.Id.showHome = global::LightBoxApp.Droid.Resource.Id.showHome;
+			global::NControl.Controls.Droid.Resource.Id.showTitle = global::LightBoxApp.Droid.Resource.Id.showTitle;
+			global::NControl.Controls.Droid.Resource.Id.snackbar_action = global::LightBoxApp.Droid.Resource.Id.snackbar_action;
+			global::NControl.Controls.Droid.Resource.Id.snackbar_text = global::LightBoxApp.Droid.Resource.Id.snackbar_text;
+			global::NControl.Controls.Droid.Resource.Id.snap = global::LightBoxApp.Droid.Resource.Id.snap;
+			global::NControl.Controls.Droid.Resource.Id.spacer = global::LightBoxApp.Droid.Resource.Id.spacer;
+			global::NControl.Controls.Droid.Resource.Id.split_action_bar = global::LightBoxApp.Droid.Resource.Id.split_action_bar;
+			global::NControl.Controls.Droid.Resource.Id.src_atop = global::LightBoxApp.Droid.Resource.Id.src_atop;
+			global::NControl.Controls.Droid.Resource.Id.src_in = global::LightBoxApp.Droid.Resource.Id.src_in;
+			global::NControl.Controls.Droid.Resource.Id.src_over = global::LightBoxApp.Droid.Resource.Id.src_over;
+			global::NControl.Controls.Droid.Resource.Id.start = global::LightBoxApp.Droid.Resource.Id.start;
+			global::NControl.Controls.Droid.Resource.Id.status_bar_latest_event_content = global::LightBoxApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::NControl.Controls.Droid.Resource.Id.submit_area = global::LightBoxApp.Droid.Resource.Id.submit_area;
+			global::NControl.Controls.Droid.Resource.Id.tabMode = global::LightBoxApp.Droid.Resource.Id.tabMode;
+			global::NControl.Controls.Droid.Resource.Id.text = global::LightBoxApp.Droid.Resource.Id.text;
+			global::NControl.Controls.Droid.Resource.Id.text2 = global::LightBoxApp.Droid.Resource.Id.text2;
+			global::NControl.Controls.Droid.Resource.Id.textSpacerNoButtons = global::LightBoxApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::NControl.Controls.Droid.Resource.Id.time = global::LightBoxApp.Droid.Resource.Id.time;
+			global::NControl.Controls.Droid.Resource.Id.title = global::LightBoxApp.Droid.Resource.Id.title;
+			global::NControl.Controls.Droid.Resource.Id.title_template = global::LightBoxApp.Droid.Resource.Id.title_template;
+			global::NControl.Controls.Droid.Resource.Id.top = global::LightBoxApp.Droid.Resource.Id.top;
+			global::NControl.Controls.Droid.Resource.Id.topPanel = global::LightBoxApp.Droid.Resource.Id.topPanel;
+			global::NControl.Controls.Droid.Resource.Id.touch_outside = global::LightBoxApp.Droid.Resource.Id.touch_outside;
+			global::NControl.Controls.Droid.Resource.Id.up = global::LightBoxApp.Droid.Resource.Id.up;
+			global::NControl.Controls.Droid.Resource.Id.useLogo = global::LightBoxApp.Droid.Resource.Id.useLogo;
+			global::NControl.Controls.Droid.Resource.Id.view_offset_helper = global::LightBoxApp.Droid.Resource.Id.view_offset_helper;
+			global::NControl.Controls.Droid.Resource.Id.volume_item_container = global::LightBoxApp.Droid.Resource.Id.volume_item_container;
+			global::NControl.Controls.Droid.Resource.Id.withText = global::LightBoxApp.Droid.Resource.Id.withText;
+			global::NControl.Controls.Droid.Resource.Id.wrap_content = global::LightBoxApp.Droid.Resource.Id.wrap_content;
+			global::NControl.Controls.Droid.Resource.Integer.abc_config_activityDefaultDur = global::LightBoxApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::NControl.Controls.Droid.Resource.Integer.abc_config_activityShortDur = global::LightBoxApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::NControl.Controls.Droid.Resource.Integer.bottom_sheet_slide_duration = global::LightBoxApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::NControl.Controls.Droid.Resource.Integer.cancel_button_image_alpha = global::LightBoxApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::NControl.Controls.Droid.Resource.Integer.design_snackbar_text_max_lines = global::LightBoxApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::NControl.Controls.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::LightBoxApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::NControl.Controls.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::LightBoxApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::NControl.Controls.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::LightBoxApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::NControl.Controls.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::LightBoxApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::NControl.Controls.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::LightBoxApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::NControl.Controls.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::LightBoxApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::NControl.Controls.Droid.Resource.Layout.abc_action_bar_title_item = global::LightBoxApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::NControl.Controls.Droid.Resource.Layout.abc_action_bar_up_container = global::LightBoxApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::NControl.Controls.Droid.Resource.Layout.abc_action_menu_item_layout = global::LightBoxApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::NControl.Controls.Droid.Resource.Layout.abc_action_menu_layout = global::LightBoxApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::NControl.Controls.Droid.Resource.Layout.abc_action_mode_bar = global::LightBoxApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::NControl.Controls.Droid.Resource.Layout.abc_action_mode_close_item_material = global::LightBoxApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::NControl.Controls.Droid.Resource.Layout.abc_activity_chooser_view = global::LightBoxApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::NControl.Controls.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::LightBoxApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::NControl.Controls.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::LightBoxApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::NControl.Controls.Droid.Resource.Layout.abc_alert_dialog_material = global::LightBoxApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::NControl.Controls.Droid.Resource.Layout.abc_dialog_title_material = global::LightBoxApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::NControl.Controls.Droid.Resource.Layout.abc_expanded_menu_layout = global::LightBoxApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::NControl.Controls.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::LightBoxApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::NControl.Controls.Droid.Resource.Layout.abc_list_menu_item_icon = global::LightBoxApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::NControl.Controls.Droid.Resource.Layout.abc_list_menu_item_layout = global::LightBoxApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::NControl.Controls.Droid.Resource.Layout.abc_list_menu_item_radio = global::LightBoxApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::NControl.Controls.Droid.Resource.Layout.abc_popup_menu_item_layout = global::LightBoxApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::NControl.Controls.Droid.Resource.Layout.abc_screen_content_include = global::LightBoxApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::NControl.Controls.Droid.Resource.Layout.abc_screen_simple = global::LightBoxApp.Droid.Resource.Layout.abc_screen_simple;
+			global::NControl.Controls.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LightBoxApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::NControl.Controls.Droid.Resource.Layout.abc_screen_toolbar = global::LightBoxApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::NControl.Controls.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LightBoxApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::NControl.Controls.Droid.Resource.Layout.abc_search_view = global::LightBoxApp.Droid.Resource.Layout.abc_search_view;
+			global::NControl.Controls.Droid.Resource.Layout.abc_select_dialog_material = global::LightBoxApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::NControl.Controls.Droid.Resource.Layout.design_bottom_sheet_dialog = global::LightBoxApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::NControl.Controls.Droid.Resource.Layout.design_layout_snackbar = global::LightBoxApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::NControl.Controls.Droid.Resource.Layout.design_layout_snackbar_include = global::LightBoxApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::NControl.Controls.Droid.Resource.Layout.design_layout_tab_icon = global::LightBoxApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::NControl.Controls.Droid.Resource.Layout.design_layout_tab_text = global::LightBoxApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::NControl.Controls.Droid.Resource.Layout.design_menu_item_action_area = global::LightBoxApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::NControl.Controls.Droid.Resource.Layout.design_navigation_item = global::LightBoxApp.Droid.Resource.Layout.design_navigation_item;
+			global::NControl.Controls.Droid.Resource.Layout.design_navigation_item_header = global::LightBoxApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::NControl.Controls.Droid.Resource.Layout.design_navigation_item_separator = global::LightBoxApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::NControl.Controls.Droid.Resource.Layout.design_navigation_item_subheader = global::LightBoxApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::NControl.Controls.Droid.Resource.Layout.design_navigation_menu = global::LightBoxApp.Droid.Resource.Layout.design_navigation_menu;
+			global::NControl.Controls.Droid.Resource.Layout.design_navigation_menu_item = global::LightBoxApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::NControl.Controls.Droid.Resource.Layout.mr_chooser_dialog = global::LightBoxApp.Droid.Resource.Layout.mr_chooser_dialog;
+			global::NControl.Controls.Droid.Resource.Layout.mr_chooser_list_item = global::LightBoxApp.Droid.Resource.Layout.mr_chooser_list_item;
+			global::NControl.Controls.Droid.Resource.Layout.mr_controller_material_dialog_b = global::LightBoxApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::NControl.Controls.Droid.Resource.Layout.mr_controller_volume_item = global::LightBoxApp.Droid.Resource.Layout.mr_controller_volume_item;
+			global::NControl.Controls.Droid.Resource.Layout.mr_playback_control = global::LightBoxApp.Droid.Resource.Layout.mr_playback_control;
+			global::NControl.Controls.Droid.Resource.Layout.mr_volume_control = global::LightBoxApp.Droid.Resource.Layout.mr_volume_control;
+			global::NControl.Controls.Droid.Resource.Layout.notification_media_action = global::LightBoxApp.Droid.Resource.Layout.notification_media_action;
+			global::NControl.Controls.Droid.Resource.Layout.notification_media_cancel_action = global::LightBoxApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::NControl.Controls.Droid.Resource.Layout.notification_template_big_media = global::LightBoxApp.Droid.Resource.Layout.notification_template_big_media;
+			global::NControl.Controls.Droid.Resource.Layout.notification_template_big_media_narrow = global::LightBoxApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::NControl.Controls.Droid.Resource.Layout.notification_template_media = global::LightBoxApp.Droid.Resource.Layout.notification_template_media;
+			global::NControl.Controls.Droid.Resource.Layout.notification_template_part_chronometer = global::LightBoxApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::NControl.Controls.Droid.Resource.Layout.notification_template_part_time = global::LightBoxApp.Droid.Resource.Layout.notification_template_part_time;
+			global::NControl.Controls.Droid.Resource.Layout.select_dialog_item_material = global::LightBoxApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::NControl.Controls.Droid.Resource.Layout.select_dialog_multichoice_material = global::LightBoxApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::NControl.Controls.Droid.Resource.Layout.select_dialog_singlechoice_material = global::LightBoxApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::NControl.Controls.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::LightBoxApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::NControl.Controls.Droid.Resource.String.abc_action_bar_home_description = global::LightBoxApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::NControl.Controls.Droid.Resource.String.abc_action_bar_up_description = global::LightBoxApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::NControl.Controls.Droid.Resource.String.abc_action_menu_overflow_description = global::LightBoxApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::NControl.Controls.Droid.Resource.String.abc_action_mode_done = global::LightBoxApp.Droid.Resource.String.abc_action_mode_done;
+			global::NControl.Controls.Droid.Resource.String.abc_activity_chooser_view_see_all = global::LightBoxApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::NControl.Controls.Droid.Resource.String.abc_activitychooserview_choose_application = global::LightBoxApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::NControl.Controls.Droid.Resource.String.abc_capital_off = global::LightBoxApp.Droid.Resource.String.abc_capital_off;
+			global::NControl.Controls.Droid.Resource.String.abc_capital_on = global::LightBoxApp.Droid.Resource.String.abc_capital_on;
+			global::NControl.Controls.Droid.Resource.String.abc_search_hint = global::LightBoxApp.Droid.Resource.String.abc_search_hint;
+			global::NControl.Controls.Droid.Resource.String.abc_searchview_description_clear = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::NControl.Controls.Droid.Resource.String.abc_searchview_description_query = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_query;
+			global::NControl.Controls.Droid.Resource.String.abc_searchview_description_search = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_search;
+			global::NControl.Controls.Droid.Resource.String.abc_searchview_description_submit = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::NControl.Controls.Droid.Resource.String.abc_searchview_description_voice = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::NControl.Controls.Droid.Resource.String.abc_shareactionprovider_share_with = global::LightBoxApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::NControl.Controls.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::LightBoxApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::NControl.Controls.Droid.Resource.String.abc_toolbar_collapse_description = global::LightBoxApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::NControl.Controls.Droid.Resource.String.appbar_scrolling_view_behavior = global::LightBoxApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::NControl.Controls.Droid.Resource.String.bottom_sheet_behavior = global::LightBoxApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::NControl.Controls.Droid.Resource.String.character_counter_pattern = global::LightBoxApp.Droid.Resource.String.character_counter_pattern;
+			global::NControl.Controls.Droid.Resource.String.library_name = global::LightBoxApp.Droid.Resource.String.library_name;
+			global::NControl.Controls.Droid.Resource.String.mr_button_content_description = global::LightBoxApp.Droid.Resource.String.mr_button_content_description;
+			global::NControl.Controls.Droid.Resource.String.mr_chooser_searching = global::LightBoxApp.Droid.Resource.String.mr_chooser_searching;
+			global::NControl.Controls.Droid.Resource.String.mr_chooser_title = global::LightBoxApp.Droid.Resource.String.mr_chooser_title;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_casting_screen = global::LightBoxApp.Droid.Resource.String.mr_controller_casting_screen;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_close_description = global::LightBoxApp.Droid.Resource.String.mr_controller_close_description;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_collapse_group = global::LightBoxApp.Droid.Resource.String.mr_controller_collapse_group;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_disconnect = global::LightBoxApp.Droid.Resource.String.mr_controller_disconnect;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_expand_group = global::LightBoxApp.Droid.Resource.String.mr_controller_expand_group;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_no_info_available = global::LightBoxApp.Droid.Resource.String.mr_controller_no_info_available;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_no_media_selected = global::LightBoxApp.Droid.Resource.String.mr_controller_no_media_selected;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_pause = global::LightBoxApp.Droid.Resource.String.mr_controller_pause;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_play = global::LightBoxApp.Droid.Resource.String.mr_controller_play;
+			global::NControl.Controls.Droid.Resource.String.mr_controller_stop = global::LightBoxApp.Droid.Resource.String.mr_controller_stop;
+			global::NControl.Controls.Droid.Resource.String.mr_system_route_name = global::LightBoxApp.Droid.Resource.String.mr_system_route_name;
+			global::NControl.Controls.Droid.Resource.String.mr_user_route_category_name = global::LightBoxApp.Droid.Resource.String.mr_user_route_category_name;
+			global::NControl.Controls.Droid.Resource.String.status_bar_notification_info_overflow = global::LightBoxApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::NControl.Controls.Droid.Resource.Style.AlertDialog_AppCompat = global::LightBoxApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Animation_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::LightBoxApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::NControl.Controls.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::LightBoxApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LightBoxApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::NControl.Controls.Droid.Resource.Style.Base_CardView = global::LightBoxApp.Droid.Resource.Style.Base_CardView;
+			global::NControl.Controls.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::NControl.Controls.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::NControl.Controls.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::NControl.Controls.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::NControl.Controls.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Controls.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::LightBoxApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::NControl.Controls.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Controls.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LightBoxApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::NControl.Controls.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::LightBoxApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::NControl.Controls.Droid.Resource.Style.CardView = global::LightBoxApp.Droid.Resource.Style.CardView;
+			global::NControl.Controls.Droid.Resource.Style.CardView_Dark = global::LightBoxApp.Droid.Resource.Style.CardView_Dark;
+			global::NControl.Controls.Droid.Resource.Style.CardView_Light = global::LightBoxApp.Droid.Resource.Style.CardView_Light;
+			global::NControl.Controls.Droid.Resource.Style.Platform_AppCompat = global::LightBoxApp.Droid.Resource.Style.Platform_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Platform_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LightBoxApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LightBoxApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::NControl.Controls.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Platform_V11_AppCompat = global::LightBoxApp.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Platform_V14_AppCompat = global::LightBoxApp.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LightBoxApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::NControl.Controls.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::NControl.Controls.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LightBoxApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::NControl.Controls.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LightBoxApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Design_Counter = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Design_Error = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Design_Hint = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Design_Tab = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::NControl.Controls.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_DayNight = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Theme_Design = global::LightBoxApp.Droid.Resource.Style.Theme_Design;
+			global::NControl.Controls.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::LightBoxApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::NControl.Controls.Droid.Resource.Style.Theme_Design_Light = global::LightBoxApp.Droid.Resource.Style.Theme_Design_Light;
+			global::NControl.Controls.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::LightBoxApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::NControl.Controls.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Theme_Design_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Theme_MediaRouter = global::LightBoxApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::NControl.Controls.Droid.Resource.Style.Theme_MediaRouter_Light = global::LightBoxApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::NControl.Controls.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::LightBoxApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::NControl.Controls.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::LightBoxApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::NControl.Controls.Droid.Resource.Style.ThemeOverlay_AppCompat = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::NControl.Controls.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::NControl.Controls.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Button = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_EditText = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ListView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_SearchView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Spinner = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_AppBarLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::LightBoxApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::LightBoxApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::LightBoxApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_NavigationView = global::LightBoxApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_Snackbar = global::LightBoxApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_TabLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::NControl.Controls.Droid.Resource.Style.Widget_Design_TextInputLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::NControl.Controls.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::LightBoxApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::NControl.Controls.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::LightBoxApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar = global::LightBoxApp.Droid.Resource.Styleable.ActionBar;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_background = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_background;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_displayOptions = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_divider = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_elevation = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_height = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_height;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_homeLayout = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_icon = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_itemPadding = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_logo = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_navigationMode = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_popupTheme = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_subtitle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_title = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_title;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBarLayout = global::LightBoxApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LightBoxApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMenuItemView = global::LightBoxApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LightBoxApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMenuView = global::LightBoxApp.Droid.Resource.Styleable.ActionMenuView;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMode = global::LightBoxApp.Droid.Resource.Styleable.ActionMode;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMode_background = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_background;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMode_height = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_height;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.ActivityChooserView = global::LightBoxApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::NControl.Controls.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LightBoxApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LightBoxApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::NControl.Controls.Droid.Resource.Styleable.AlertDialog = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog;
+			global::NControl.Controls.Droid.Resource.Styleable.AlertDialog_android_layout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::NControl.Controls.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.AlertDialog_listLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.AppBarLayout = global::LightBoxApp.Droid.Resource.Styleable.AppBarLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.AppBarLayout_android_background = global::LightBoxApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::NControl.Controls.Droid.Resource.Styleable.AppBarLayout_elevation = global::LightBoxApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::NControl.Controls.Droid.Resource.Styleable.AppBarLayout_expanded = global::LightBoxApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatImageView = global::LightBoxApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatImageView_android_src = global::LightBoxApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::LightBoxApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTextView = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::NControl.Controls.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::NControl.Controls.Droid.Resource.Styleable.ButtonBarLayout = global::LightBoxApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::LightBoxApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView = global::LightBoxApp.Droid.Resource.Styleable.CardView;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_android_minHeight = global::LightBoxApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_android_minWidth = global::LightBoxApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_cardCornerRadius = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_cardElevation = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_cardMaxElevation = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_contentPadding = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_contentPaddingRight = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::NControl.Controls.Droid.Resource.Styleable.CardView_contentPaddingTop = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::NControl.Controls.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::NControl.Controls.Droid.Resource.Styleable.CompoundButton = global::LightBoxApp.Droid.Resource.Styleable.CompoundButton;
+			global::NControl.Controls.Droid.Resource.Styleable.CompoundButton_android_button = global::LightBoxApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::NControl.Controls.Droid.Resource.Styleable.CompoundButton_buttonTint = global::LightBoxApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::NControl.Controls.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::LightBoxApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::NControl.Controls.Droid.Resource.Styleable.CoordinatorLayout = global::LightBoxApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::LightBoxApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::NControl.Controls.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::LightBoxApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.DesignTheme = global::LightBoxApp.Droid.Resource.Styleable.DesignTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::LightBoxApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::LightBoxApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.DesignTheme_textColorError = global::LightBoxApp.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::NControl.Controls.Droid.Resource.Styleable.DrawerArrowToggle = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::NControl.Controls.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::NControl.Controls.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::NControl.Controls.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::NControl.Controls.Droid.Resource.Styleable.DrawerArrowToggle_color = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::NControl.Controls.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::NControl.Controls.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::NControl.Controls.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::NControl.Controls.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::NControl.Controls.Droid.Resource.Styleable.FloatingActionButton = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::NControl.Controls.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::NControl.Controls.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::NControl.Controls.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.FloatingActionButton_elevation = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::NControl.Controls.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::NControl.Controls.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::NControl.Controls.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::NControl.Controls.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.ForegroundLinearLayout = global::LightBoxApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::LightBoxApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::NControl.Controls.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::LightBoxApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::NControl.Controls.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::LightBoxApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::NControl.Controls.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::NControl.Controls.Droid.Resource.Styleable.ListPopupWindow = global::LightBoxApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::NControl.Controls.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LightBoxApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::NControl.Controls.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LightBoxApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::NControl.Controls.Droid.Resource.Styleable.MediaRouteButton = global::LightBoxApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::NControl.Controls.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::LightBoxApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::NControl.Controls.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::LightBoxApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::LightBoxApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuGroup = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuGroup_android_enabled = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuGroup_android_id = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuGroup_android_visible = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem = global::LightBoxApp.Droid.Resource.Styleable.MenuItem;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_actionLayout = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_actionViewClass = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_checkable = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_checked = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_enabled = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_icon = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_id = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_onClick = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_title = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_android_visible = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuItem_showAsAction = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuView = global::LightBoxApp.Droid.Resource.Styleable.MenuView;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuView_android_headerBackground = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuView_android_itemBackground = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::LightBoxApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView = global::LightBoxApp.Droid.Resource.Styleable.NavigationView;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_android_background = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_elevation = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_headerLayout = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_itemBackground = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_itemIconTint = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_itemTextColor = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::NControl.Controls.Droid.Resource.Styleable.NavigationView_menu = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::NControl.Controls.Droid.Resource.Styleable.PopupWindow = global::LightBoxApp.Droid.Resource.Styleable.PopupWindow;
+			global::NControl.Controls.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::LightBoxApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::LightBoxApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::NControl.Controls.Droid.Resource.Styleable.PopupWindowBackgroundState = global::LightBoxApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::NControl.Controls.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LightBoxApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::NControl.Controls.Droid.Resource.Styleable.RecyclerView = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView;
+			global::NControl.Controls.Droid.Resource.Styleable.RecyclerView_android_orientation = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::NControl.Controls.Droid.Resource.Styleable.RecyclerView_layoutManager = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::NControl.Controls.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.RecyclerView_spanCount = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::NControl.Controls.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::NControl.Controls.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::LightBoxApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::LightBoxApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView = global::LightBoxApp.Droid.Resource.Styleable.SearchView;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_android_focusable = global::LightBoxApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_android_imeOptions = global::LightBoxApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_android_inputType = global::LightBoxApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_android_maxWidth = global::LightBoxApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_closeIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_commitIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::LightBoxApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_goIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::LightBoxApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_layout = global::LightBoxApp.Droid.Resource.Styleable.SearchView_layout;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_queryBackground = global::LightBoxApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_queryHint = global::LightBoxApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_searchHintIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_searchIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_submitBackground = global::LightBoxApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::LightBoxApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.SearchView_voiceIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::NControl.Controls.Droid.Resource.Styleable.SnackbarLayout = global::LightBoxApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::LightBoxApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.SnackbarLayout_elevation = global::LightBoxApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::NControl.Controls.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::LightBoxApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.Spinner = global::LightBoxApp.Droid.Resource.Styleable.Spinner;
+			global::NControl.Controls.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::LightBoxApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.Spinner_android_entries = global::LightBoxApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::NControl.Controls.Droid.Resource.Styleable.Spinner_android_popupBackground = global::LightBoxApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.Spinner_android_prompt = global::LightBoxApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::NControl.Controls.Droid.Resource.Styleable.Spinner_popupTheme = global::LightBoxApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_showText = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.SwitchCompat_track = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::NControl.Controls.Droid.Resource.Styleable.TabItem = global::LightBoxApp.Droid.Resource.Styleable.TabItem;
+			global::NControl.Controls.Droid.Resource.Styleable.TabItem_android_icon = global::LightBoxApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::NControl.Controls.Droid.Resource.Styleable.TabItem_android_layout = global::LightBoxApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::NControl.Controls.Droid.Resource.Styleable.TabItem_android_text = global::LightBoxApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout = global::LightBoxApp.Droid.Resource.Styleable.TabLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabBackground = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabContentStart = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabGravity = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabMode = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabPadding = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.TabLayout_tabTextColor = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance_android_textColor = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance_android_textSize = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance_android_typeface = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::NControl.Controls.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_android_hint = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::NControl.Controls.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar = global::LightBoxApp.Droid.Resource.Styleable.Toolbar;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_android_gravity = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_android_minHeight = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_collapseIcon = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_logo = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_logoDescription = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_navigationIcon = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_popupTheme = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_subtitle = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_title = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_title;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_titleMargins = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::NControl.Controls.Droid.Resource.Styleable.Toolbar_titleTextColor = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::NControl.Controls.Droid.Resource.Styleable.View = global::LightBoxApp.Droid.Resource.Styleable.View;
+			global::NControl.Controls.Droid.Resource.Styleable.View_android_focusable = global::LightBoxApp.Droid.Resource.Styleable.View_android_focusable;
+			global::NControl.Controls.Droid.Resource.Styleable.View_android_theme = global::LightBoxApp.Droid.Resource.Styleable.View_android_theme;
+			global::NControl.Controls.Droid.Resource.Styleable.View_paddingEnd = global::LightBoxApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::NControl.Controls.Droid.Resource.Styleable.View_paddingStart = global::LightBoxApp.Droid.Resource.Styleable.View_paddingStart;
+			global::NControl.Controls.Droid.Resource.Styleable.View_theme = global::LightBoxApp.Droid.Resource.Styleable.View_theme;
+			global::NControl.Controls.Droid.Resource.Styleable.ViewBackgroundHelper = global::LightBoxApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::NControl.Controls.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::LightBoxApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::NControl.Controls.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LightBoxApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::NControl.Controls.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LightBoxApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::NControl.Controls.Droid.Resource.Styleable.ViewStubCompat = global::LightBoxApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::NControl.Controls.Droid.Resource.Styleable.ViewStubCompat_android_id = global::LightBoxApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::NControl.Controls.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LightBoxApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::NControl.Controls.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::LightBoxApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::NControl.Droid.Resource.Animation.abc_fade_in = global::LightBoxApp.Droid.Resource.Animation.abc_fade_in;
+			global::NControl.Droid.Resource.Animation.abc_fade_out = global::LightBoxApp.Droid.Resource.Animation.abc_fade_out;
+			global::NControl.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::LightBoxApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::NControl.Droid.Resource.Animation.abc_popup_enter = global::LightBoxApp.Droid.Resource.Animation.abc_popup_enter;
+			global::NControl.Droid.Resource.Animation.abc_popup_exit = global::LightBoxApp.Droid.Resource.Animation.abc_popup_exit;
+			global::NControl.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LightBoxApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::NControl.Droid.Resource.Animation.abc_slide_in_bottom = global::LightBoxApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::NControl.Droid.Resource.Animation.abc_slide_in_top = global::LightBoxApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::NControl.Droid.Resource.Animation.abc_slide_out_bottom = global::LightBoxApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::NControl.Droid.Resource.Animation.abc_slide_out_top = global::LightBoxApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::NControl.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::LightBoxApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::NControl.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::LightBoxApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::NControl.Droid.Resource.Animation.design_snackbar_in = global::LightBoxApp.Droid.Resource.Animation.design_snackbar_in;
+			global::NControl.Droid.Resource.Animation.design_snackbar_out = global::LightBoxApp.Droid.Resource.Animation.design_snackbar_out;
+			global::NControl.Droid.Resource.Attribute.actionBarDivider = global::LightBoxApp.Droid.Resource.Attribute.actionBarDivider;
+			global::NControl.Droid.Resource.Attribute.actionBarItemBackground = global::LightBoxApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::NControl.Droid.Resource.Attribute.actionBarPopupTheme = global::LightBoxApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::NControl.Droid.Resource.Attribute.actionBarSize = global::LightBoxApp.Droid.Resource.Attribute.actionBarSize;
+			global::NControl.Droid.Resource.Attribute.actionBarSplitStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarTabBarStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarTabStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarTabTextStyle = global::LightBoxApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarTheme = global::LightBoxApp.Droid.Resource.Attribute.actionBarTheme;
+			global::NControl.Droid.Resource.Attribute.actionBarWidgetTheme = global::LightBoxApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::NControl.Droid.Resource.Attribute.actionButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::NControl.Droid.Resource.Attribute.actionDropDownStyle = global::LightBoxApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::NControl.Droid.Resource.Attribute.actionLayout = global::LightBoxApp.Droid.Resource.Attribute.actionLayout;
+			global::NControl.Droid.Resource.Attribute.actionMenuTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::NControl.Droid.Resource.Attribute.actionMenuTextColor = global::LightBoxApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::NControl.Droid.Resource.Attribute.actionModeBackground = global::LightBoxApp.Droid.Resource.Attribute.actionModeBackground;
+			global::NControl.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::NControl.Droid.Resource.Attribute.actionModeCloseDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeCopyDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeCutDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeFindDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModePasteDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModePopupWindowStyle = global::LightBoxApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::NControl.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeShareDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeSplitBackground = global::LightBoxApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::NControl.Droid.Resource.Attribute.actionModeStyle = global::LightBoxApp.Droid.Resource.Attribute.actionModeStyle;
+			global::NControl.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::LightBoxApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::NControl.Droid.Resource.Attribute.actionOverflowButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::NControl.Droid.Resource.Attribute.actionOverflowMenuStyle = global::LightBoxApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::NControl.Droid.Resource.Attribute.actionProviderClass = global::LightBoxApp.Droid.Resource.Attribute.actionProviderClass;
+			global::NControl.Droid.Resource.Attribute.actionViewClass = global::LightBoxApp.Droid.Resource.Attribute.actionViewClass;
+			global::NControl.Droid.Resource.Attribute.activityChooserViewStyle = global::LightBoxApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::NControl.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::LightBoxApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::NControl.Droid.Resource.Attribute.alertDialogCenterButtons = global::LightBoxApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::NControl.Droid.Resource.Attribute.alertDialogStyle = global::LightBoxApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::NControl.Droid.Resource.Attribute.alertDialogTheme = global::LightBoxApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::NControl.Droid.Resource.Attribute.allowStacking = global::LightBoxApp.Droid.Resource.Attribute.allowStacking;
+			global::NControl.Droid.Resource.Attribute.arrowHeadLength = global::LightBoxApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::NControl.Droid.Resource.Attribute.arrowShaftLength = global::LightBoxApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::NControl.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::LightBoxApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::NControl.Droid.Resource.Attribute.background = global::LightBoxApp.Droid.Resource.Attribute.background;
+			global::NControl.Droid.Resource.Attribute.backgroundSplit = global::LightBoxApp.Droid.Resource.Attribute.backgroundSplit;
+			global::NControl.Droid.Resource.Attribute.backgroundStacked = global::LightBoxApp.Droid.Resource.Attribute.backgroundStacked;
+			global::NControl.Droid.Resource.Attribute.backgroundTint = global::LightBoxApp.Droid.Resource.Attribute.backgroundTint;
+			global::NControl.Droid.Resource.Attribute.backgroundTintMode = global::LightBoxApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::NControl.Droid.Resource.Attribute.barLength = global::LightBoxApp.Droid.Resource.Attribute.barLength;
+			global::NControl.Droid.Resource.Attribute.behavior_hideable = global::LightBoxApp.Droid.Resource.Attribute.behavior_hideable;
+			global::NControl.Droid.Resource.Attribute.behavior_overlapTop = global::LightBoxApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::NControl.Droid.Resource.Attribute.behavior_peekHeight = global::LightBoxApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::NControl.Droid.Resource.Attribute.borderWidth = global::LightBoxApp.Droid.Resource.Attribute.borderWidth;
+			global::NControl.Droid.Resource.Attribute.borderlessButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::NControl.Droid.Resource.Attribute.bottomSheetDialogTheme = global::LightBoxApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::NControl.Droid.Resource.Attribute.bottomSheetStyle = global::LightBoxApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::NControl.Droid.Resource.Attribute.buttonPanelSideLayout = global::LightBoxApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::NControl.Droid.Resource.Attribute.buttonStyle = global::LightBoxApp.Droid.Resource.Attribute.buttonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonStyleSmall = global::LightBoxApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::NControl.Droid.Resource.Attribute.buttonTint = global::LightBoxApp.Droid.Resource.Attribute.buttonTint;
+			global::NControl.Droid.Resource.Attribute.buttonTintMode = global::LightBoxApp.Droid.Resource.Attribute.buttonTintMode;
+			global::NControl.Droid.Resource.Attribute.cardBackgroundColor = global::LightBoxApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::NControl.Droid.Resource.Attribute.cardCornerRadius = global::LightBoxApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::NControl.Droid.Resource.Attribute.cardElevation = global::LightBoxApp.Droid.Resource.Attribute.cardElevation;
+			global::NControl.Droid.Resource.Attribute.cardMaxElevation = global::LightBoxApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::NControl.Droid.Resource.Attribute.cardPreventCornerOverlap = global::LightBoxApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::NControl.Droid.Resource.Attribute.cardUseCompatPadding = global::LightBoxApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::NControl.Droid.Resource.Attribute.checkboxStyle = global::LightBoxApp.Droid.Resource.Attribute.checkboxStyle;
+			global::NControl.Droid.Resource.Attribute.checkedTextViewStyle = global::LightBoxApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::NControl.Droid.Resource.Attribute.closeIcon = global::LightBoxApp.Droid.Resource.Attribute.closeIcon;
+			global::NControl.Droid.Resource.Attribute.closeItemLayout = global::LightBoxApp.Droid.Resource.Attribute.closeItemLayout;
+			global::NControl.Droid.Resource.Attribute.collapseContentDescription = global::LightBoxApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::NControl.Droid.Resource.Attribute.collapseIcon = global::LightBoxApp.Droid.Resource.Attribute.collapseIcon;
+			global::NControl.Droid.Resource.Attribute.collapsedTitleGravity = global::LightBoxApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::NControl.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::NControl.Droid.Resource.Attribute.color = global::LightBoxApp.Droid.Resource.Attribute.color;
+			global::NControl.Droid.Resource.Attribute.colorAccent = global::LightBoxApp.Droid.Resource.Attribute.colorAccent;
+			global::NControl.Droid.Resource.Attribute.colorButtonNormal = global::LightBoxApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::NControl.Droid.Resource.Attribute.colorControlActivated = global::LightBoxApp.Droid.Resource.Attribute.colorControlActivated;
+			global::NControl.Droid.Resource.Attribute.colorControlHighlight = global::LightBoxApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::NControl.Droid.Resource.Attribute.colorControlNormal = global::LightBoxApp.Droid.Resource.Attribute.colorControlNormal;
+			global::NControl.Droid.Resource.Attribute.colorPrimary = global::LightBoxApp.Droid.Resource.Attribute.colorPrimary;
+			global::NControl.Droid.Resource.Attribute.colorPrimaryDark = global::LightBoxApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::NControl.Droid.Resource.Attribute.colorSwitchThumbNormal = global::LightBoxApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::NControl.Droid.Resource.Attribute.commitIcon = global::LightBoxApp.Droid.Resource.Attribute.commitIcon;
+			global::NControl.Droid.Resource.Attribute.contentInsetEnd = global::LightBoxApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::NControl.Droid.Resource.Attribute.contentInsetLeft = global::LightBoxApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::NControl.Droid.Resource.Attribute.contentInsetRight = global::LightBoxApp.Droid.Resource.Attribute.contentInsetRight;
+			global::NControl.Droid.Resource.Attribute.contentInsetStart = global::LightBoxApp.Droid.Resource.Attribute.contentInsetStart;
+			global::NControl.Droid.Resource.Attribute.contentPadding = global::LightBoxApp.Droid.Resource.Attribute.contentPadding;
+			global::NControl.Droid.Resource.Attribute.contentPaddingBottom = global::LightBoxApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::NControl.Droid.Resource.Attribute.contentPaddingLeft = global::LightBoxApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::NControl.Droid.Resource.Attribute.contentPaddingRight = global::LightBoxApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::NControl.Droid.Resource.Attribute.contentPaddingTop = global::LightBoxApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::NControl.Droid.Resource.Attribute.contentScrim = global::LightBoxApp.Droid.Resource.Attribute.contentScrim;
+			global::NControl.Droid.Resource.Attribute.controlBackground = global::LightBoxApp.Droid.Resource.Attribute.controlBackground;
+			global::NControl.Droid.Resource.Attribute.counterEnabled = global::LightBoxApp.Droid.Resource.Attribute.counterEnabled;
+			global::NControl.Droid.Resource.Attribute.counterMaxLength = global::LightBoxApp.Droid.Resource.Attribute.counterMaxLength;
+			global::NControl.Droid.Resource.Attribute.counterOverflowTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::NControl.Droid.Resource.Attribute.counterTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::NControl.Droid.Resource.Attribute.customNavigationLayout = global::LightBoxApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::NControl.Droid.Resource.Attribute.defaultQueryHint = global::LightBoxApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::NControl.Droid.Resource.Attribute.dialogPreferredPadding = global::LightBoxApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::NControl.Droid.Resource.Attribute.dialogTheme = global::LightBoxApp.Droid.Resource.Attribute.dialogTheme;
+			global::NControl.Droid.Resource.Attribute.displayOptions = global::LightBoxApp.Droid.Resource.Attribute.displayOptions;
+			global::NControl.Droid.Resource.Attribute.divider = global::LightBoxApp.Droid.Resource.Attribute.divider;
+			global::NControl.Droid.Resource.Attribute.dividerHorizontal = global::LightBoxApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::NControl.Droid.Resource.Attribute.dividerPadding = global::LightBoxApp.Droid.Resource.Attribute.dividerPadding;
+			global::NControl.Droid.Resource.Attribute.dividerVertical = global::LightBoxApp.Droid.Resource.Attribute.dividerVertical;
+			global::NControl.Droid.Resource.Attribute.drawableSize = global::LightBoxApp.Droid.Resource.Attribute.drawableSize;
+			global::NControl.Droid.Resource.Attribute.drawerArrowStyle = global::LightBoxApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::NControl.Droid.Resource.Attribute.dropDownListViewStyle = global::LightBoxApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::NControl.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::LightBoxApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::NControl.Droid.Resource.Attribute.editTextBackground = global::LightBoxApp.Droid.Resource.Attribute.editTextBackground;
+			global::NControl.Droid.Resource.Attribute.editTextColor = global::LightBoxApp.Droid.Resource.Attribute.editTextColor;
+			global::NControl.Droid.Resource.Attribute.editTextStyle = global::LightBoxApp.Droid.Resource.Attribute.editTextStyle;
+			global::NControl.Droid.Resource.Attribute.elevation = global::LightBoxApp.Droid.Resource.Attribute.elevation;
+			global::NControl.Droid.Resource.Attribute.errorEnabled = global::LightBoxApp.Droid.Resource.Attribute.errorEnabled;
+			global::NControl.Droid.Resource.Attribute.errorTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::NControl.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LightBoxApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::NControl.Droid.Resource.Attribute.expanded = global::LightBoxApp.Droid.Resource.Attribute.expanded;
+			global::NControl.Droid.Resource.Attribute.expandedTitleGravity = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMargin = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMarginBottom = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMarginEnd = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMarginStart = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMarginTop = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::NControl.Droid.Resource.Attribute.expandedTitleTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::NControl.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::LightBoxApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::NControl.Droid.Resource.Attribute.fabSize = global::LightBoxApp.Droid.Resource.Attribute.fabSize;
+			global::NControl.Droid.Resource.Attribute.foregroundInsidePadding = global::LightBoxApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::NControl.Droid.Resource.Attribute.gapBetweenBars = global::LightBoxApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::NControl.Droid.Resource.Attribute.goIcon = global::LightBoxApp.Droid.Resource.Attribute.goIcon;
+			global::NControl.Droid.Resource.Attribute.headerLayout = global::LightBoxApp.Droid.Resource.Attribute.headerLayout;
+			global::NControl.Droid.Resource.Attribute.height = global::LightBoxApp.Droid.Resource.Attribute.height;
+			global::NControl.Droid.Resource.Attribute.hideOnContentScroll = global::LightBoxApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::NControl.Droid.Resource.Attribute.hintAnimationEnabled = global::LightBoxApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::NControl.Droid.Resource.Attribute.hintEnabled = global::LightBoxApp.Droid.Resource.Attribute.hintEnabled;
+			global::NControl.Droid.Resource.Attribute.hintTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::NControl.Droid.Resource.Attribute.homeAsUpIndicator = global::LightBoxApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::NControl.Droid.Resource.Attribute.homeLayout = global::LightBoxApp.Droid.Resource.Attribute.homeLayout;
+			global::NControl.Droid.Resource.Attribute.icon = global::LightBoxApp.Droid.Resource.Attribute.icon;
+			global::NControl.Droid.Resource.Attribute.iconifiedByDefault = global::LightBoxApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::NControl.Droid.Resource.Attribute.imageButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::NControl.Droid.Resource.Attribute.indeterminateProgressStyle = global::LightBoxApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::NControl.Droid.Resource.Attribute.initialActivityCount = global::LightBoxApp.Droid.Resource.Attribute.initialActivityCount;
+			global::NControl.Droid.Resource.Attribute.insetForeground = global::LightBoxApp.Droid.Resource.Attribute.insetForeground;
+			global::NControl.Droid.Resource.Attribute.isLightTheme = global::LightBoxApp.Droid.Resource.Attribute.isLightTheme;
+			global::NControl.Droid.Resource.Attribute.itemBackground = global::LightBoxApp.Droid.Resource.Attribute.itemBackground;
+			global::NControl.Droid.Resource.Attribute.itemIconTint = global::LightBoxApp.Droid.Resource.Attribute.itemIconTint;
+			global::NControl.Droid.Resource.Attribute.itemPadding = global::LightBoxApp.Droid.Resource.Attribute.itemPadding;
+			global::NControl.Droid.Resource.Attribute.itemTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::NControl.Droid.Resource.Attribute.itemTextColor = global::LightBoxApp.Droid.Resource.Attribute.itemTextColor;
+			global::NControl.Droid.Resource.Attribute.keylines = global::LightBoxApp.Droid.Resource.Attribute.keylines;
+			global::NControl.Droid.Resource.Attribute.layout = global::LightBoxApp.Droid.Resource.Attribute.layout;
+			global::NControl.Droid.Resource.Attribute.layoutManager = global::LightBoxApp.Droid.Resource.Attribute.layoutManager;
+			global::NControl.Droid.Resource.Attribute.layout_anchor = global::LightBoxApp.Droid.Resource.Attribute.layout_anchor;
+			global::NControl.Droid.Resource.Attribute.layout_anchorGravity = global::LightBoxApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::NControl.Droid.Resource.Attribute.layout_behavior = global::LightBoxApp.Droid.Resource.Attribute.layout_behavior;
+			global::NControl.Droid.Resource.Attribute.layout_collapseMode = global::LightBoxApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::NControl.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::LightBoxApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::NControl.Droid.Resource.Attribute.layout_keyline = global::LightBoxApp.Droid.Resource.Attribute.layout_keyline;
+			global::NControl.Droid.Resource.Attribute.layout_scrollFlags = global::LightBoxApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::NControl.Droid.Resource.Attribute.layout_scrollInterpolator = global::LightBoxApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::NControl.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::LightBoxApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::NControl.Droid.Resource.Attribute.listDividerAlertDialog = global::LightBoxApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::NControl.Droid.Resource.Attribute.listItemLayout = global::LightBoxApp.Droid.Resource.Attribute.listItemLayout;
+			global::NControl.Droid.Resource.Attribute.listLayout = global::LightBoxApp.Droid.Resource.Attribute.listLayout;
+			global::NControl.Droid.Resource.Attribute.listPopupWindowStyle = global::LightBoxApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemHeight = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::LightBoxApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::NControl.Droid.Resource.Attribute.logo = global::LightBoxApp.Droid.Resource.Attribute.logo;
+			global::NControl.Droid.Resource.Attribute.logoDescription = global::LightBoxApp.Droid.Resource.Attribute.logoDescription;
+			global::NControl.Droid.Resource.Attribute.maxActionInlineWidth = global::LightBoxApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::NControl.Droid.Resource.Attribute.maxButtonHeight = global::LightBoxApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::NControl.Droid.Resource.Attribute.measureWithLargestChild = global::LightBoxApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::NControl.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::NControl.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::LightBoxApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::NControl.Droid.Resource.Attribute.menu = global::LightBoxApp.Droid.Resource.Attribute.menu;
+			global::NControl.Droid.Resource.Attribute.multiChoiceItemLayout = global::LightBoxApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::NControl.Droid.Resource.Attribute.navigationContentDescription = global::LightBoxApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::NControl.Droid.Resource.Attribute.navigationIcon = global::LightBoxApp.Droid.Resource.Attribute.navigationIcon;
+			global::NControl.Droid.Resource.Attribute.navigationMode = global::LightBoxApp.Droid.Resource.Attribute.navigationMode;
+			global::NControl.Droid.Resource.Attribute.overlapAnchor = global::LightBoxApp.Droid.Resource.Attribute.overlapAnchor;
+			global::NControl.Droid.Resource.Attribute.paddingEnd = global::LightBoxApp.Droid.Resource.Attribute.paddingEnd;
+			global::NControl.Droid.Resource.Attribute.paddingStart = global::LightBoxApp.Droid.Resource.Attribute.paddingStart;
+			global::NControl.Droid.Resource.Attribute.panelBackground = global::LightBoxApp.Droid.Resource.Attribute.panelBackground;
+			global::NControl.Droid.Resource.Attribute.panelMenuListTheme = global::LightBoxApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::NControl.Droid.Resource.Attribute.panelMenuListWidth = global::LightBoxApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::NControl.Droid.Resource.Attribute.popupMenuStyle = global::LightBoxApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::NControl.Droid.Resource.Attribute.popupTheme = global::LightBoxApp.Droid.Resource.Attribute.popupTheme;
+			global::NControl.Droid.Resource.Attribute.popupWindowStyle = global::LightBoxApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::NControl.Droid.Resource.Attribute.preserveIconSpacing = global::LightBoxApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::NControl.Droid.Resource.Attribute.pressedTranslationZ = global::LightBoxApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::NControl.Droid.Resource.Attribute.progressBarPadding = global::LightBoxApp.Droid.Resource.Attribute.progressBarPadding;
+			global::NControl.Droid.Resource.Attribute.progressBarStyle = global::LightBoxApp.Droid.Resource.Attribute.progressBarStyle;
+			global::NControl.Droid.Resource.Attribute.queryBackground = global::LightBoxApp.Droid.Resource.Attribute.queryBackground;
+			global::NControl.Droid.Resource.Attribute.queryHint = global::LightBoxApp.Droid.Resource.Attribute.queryHint;
+			global::NControl.Droid.Resource.Attribute.radioButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::NControl.Droid.Resource.Attribute.ratingBarStyle = global::LightBoxApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::NControl.Droid.Resource.Attribute.ratingBarStyleIndicator = global::LightBoxApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::NControl.Droid.Resource.Attribute.ratingBarStyleSmall = global::LightBoxApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::NControl.Droid.Resource.Attribute.reverseLayout = global::LightBoxApp.Droid.Resource.Attribute.reverseLayout;
+			global::NControl.Droid.Resource.Attribute.rippleColor = global::LightBoxApp.Droid.Resource.Attribute.rippleColor;
+			global::NControl.Droid.Resource.Attribute.searchHintIcon = global::LightBoxApp.Droid.Resource.Attribute.searchHintIcon;
+			global::NControl.Droid.Resource.Attribute.searchIcon = global::LightBoxApp.Droid.Resource.Attribute.searchIcon;
+			global::NControl.Droid.Resource.Attribute.searchViewStyle = global::LightBoxApp.Droid.Resource.Attribute.searchViewStyle;
+			global::NControl.Droid.Resource.Attribute.seekBarStyle = global::LightBoxApp.Droid.Resource.Attribute.seekBarStyle;
+			global::NControl.Droid.Resource.Attribute.selectableItemBackground = global::LightBoxApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::NControl.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::LightBoxApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::NControl.Droid.Resource.Attribute.showAsAction = global::LightBoxApp.Droid.Resource.Attribute.showAsAction;
+			global::NControl.Droid.Resource.Attribute.showDividers = global::LightBoxApp.Droid.Resource.Attribute.showDividers;
+			global::NControl.Droid.Resource.Attribute.showText = global::LightBoxApp.Droid.Resource.Attribute.showText;
+			global::NControl.Droid.Resource.Attribute.singleChoiceItemLayout = global::LightBoxApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::NControl.Droid.Resource.Attribute.spanCount = global::LightBoxApp.Droid.Resource.Attribute.spanCount;
+			global::NControl.Droid.Resource.Attribute.spinBars = global::LightBoxApp.Droid.Resource.Attribute.spinBars;
+			global::NControl.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::LightBoxApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::NControl.Droid.Resource.Attribute.spinnerStyle = global::LightBoxApp.Droid.Resource.Attribute.spinnerStyle;
+			global::NControl.Droid.Resource.Attribute.splitTrack = global::LightBoxApp.Droid.Resource.Attribute.splitTrack;
+			global::NControl.Droid.Resource.Attribute.srcCompat = global::LightBoxApp.Droid.Resource.Attribute.srcCompat;
+			global::NControl.Droid.Resource.Attribute.stackFromEnd = global::LightBoxApp.Droid.Resource.Attribute.stackFromEnd;
+			global::NControl.Droid.Resource.Attribute.state_above_anchor = global::LightBoxApp.Droid.Resource.Attribute.state_above_anchor;
+			global::NControl.Droid.Resource.Attribute.statusBarBackground = global::LightBoxApp.Droid.Resource.Attribute.statusBarBackground;
+			global::NControl.Droid.Resource.Attribute.statusBarScrim = global::LightBoxApp.Droid.Resource.Attribute.statusBarScrim;
+			global::NControl.Droid.Resource.Attribute.submitBackground = global::LightBoxApp.Droid.Resource.Attribute.submitBackground;
+			global::NControl.Droid.Resource.Attribute.subtitle = global::LightBoxApp.Droid.Resource.Attribute.subtitle;
+			global::NControl.Droid.Resource.Attribute.subtitleTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::NControl.Droid.Resource.Attribute.subtitleTextColor = global::LightBoxApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::NControl.Droid.Resource.Attribute.subtitleTextStyle = global::LightBoxApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::NControl.Droid.Resource.Attribute.suggestionRowLayout = global::LightBoxApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::NControl.Droid.Resource.Attribute.switchMinWidth = global::LightBoxApp.Droid.Resource.Attribute.switchMinWidth;
+			global::NControl.Droid.Resource.Attribute.switchPadding = global::LightBoxApp.Droid.Resource.Attribute.switchPadding;
+			global::NControl.Droid.Resource.Attribute.switchStyle = global::LightBoxApp.Droid.Resource.Attribute.switchStyle;
+			global::NControl.Droid.Resource.Attribute.switchTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::NControl.Droid.Resource.Attribute.tabBackground = global::LightBoxApp.Droid.Resource.Attribute.tabBackground;
+			global::NControl.Droid.Resource.Attribute.tabContentStart = global::LightBoxApp.Droid.Resource.Attribute.tabContentStart;
+			global::NControl.Droid.Resource.Attribute.tabGravity = global::LightBoxApp.Droid.Resource.Attribute.tabGravity;
+			global::NControl.Droid.Resource.Attribute.tabIndicatorColor = global::LightBoxApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::NControl.Droid.Resource.Attribute.tabIndicatorHeight = global::LightBoxApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::NControl.Droid.Resource.Attribute.tabMaxWidth = global::LightBoxApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::NControl.Droid.Resource.Attribute.tabMinWidth = global::LightBoxApp.Droid.Resource.Attribute.tabMinWidth;
+			global::NControl.Droid.Resource.Attribute.tabMode = global::LightBoxApp.Droid.Resource.Attribute.tabMode;
+			global::NControl.Droid.Resource.Attribute.tabPadding = global::LightBoxApp.Droid.Resource.Attribute.tabPadding;
+			global::NControl.Droid.Resource.Attribute.tabPaddingBottom = global::LightBoxApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::NControl.Droid.Resource.Attribute.tabPaddingEnd = global::LightBoxApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::NControl.Droid.Resource.Attribute.tabPaddingStart = global::LightBoxApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::NControl.Droid.Resource.Attribute.tabPaddingTop = global::LightBoxApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::NControl.Droid.Resource.Attribute.tabSelectedTextColor = global::LightBoxApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::NControl.Droid.Resource.Attribute.tabTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::NControl.Droid.Resource.Attribute.tabTextColor = global::LightBoxApp.Droid.Resource.Attribute.tabTextColor;
+			global::NControl.Droid.Resource.Attribute.textAllCaps = global::LightBoxApp.Droid.Resource.Attribute.textAllCaps;
+			global::NControl.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::NControl.Droid.Resource.Attribute.textAppearanceListItem = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::NControl.Droid.Resource.Attribute.textAppearanceListItemSmall = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::NControl.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::NControl.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::NControl.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::LightBoxApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::NControl.Droid.Resource.Attribute.textColorAlertDialogListItem = global::LightBoxApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::NControl.Droid.Resource.Attribute.textColorError = global::LightBoxApp.Droid.Resource.Attribute.textColorError;
+			global::NControl.Droid.Resource.Attribute.textColorSearchUrl = global::LightBoxApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::NControl.Droid.Resource.Attribute.theme = global::LightBoxApp.Droid.Resource.Attribute.theme;
+			global::NControl.Droid.Resource.Attribute.thickness = global::LightBoxApp.Droid.Resource.Attribute.thickness;
+			global::NControl.Droid.Resource.Attribute.thumbTextPadding = global::LightBoxApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::NControl.Droid.Resource.Attribute.title = global::LightBoxApp.Droid.Resource.Attribute.title;
+			global::NControl.Droid.Resource.Attribute.titleEnabled = global::LightBoxApp.Droid.Resource.Attribute.titleEnabled;
+			global::NControl.Droid.Resource.Attribute.titleMarginBottom = global::LightBoxApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::NControl.Droid.Resource.Attribute.titleMarginEnd = global::LightBoxApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::NControl.Droid.Resource.Attribute.titleMarginStart = global::LightBoxApp.Droid.Resource.Attribute.titleMarginStart;
+			global::NControl.Droid.Resource.Attribute.titleMarginTop = global::LightBoxApp.Droid.Resource.Attribute.titleMarginTop;
+			global::NControl.Droid.Resource.Attribute.titleMargins = global::LightBoxApp.Droid.Resource.Attribute.titleMargins;
+			global::NControl.Droid.Resource.Attribute.titleTextAppearance = global::LightBoxApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::NControl.Droid.Resource.Attribute.titleTextColor = global::LightBoxApp.Droid.Resource.Attribute.titleTextColor;
+			global::NControl.Droid.Resource.Attribute.titleTextStyle = global::LightBoxApp.Droid.Resource.Attribute.titleTextStyle;
+			global::NControl.Droid.Resource.Attribute.toolbarId = global::LightBoxApp.Droid.Resource.Attribute.toolbarId;
+			global::NControl.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::LightBoxApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::NControl.Droid.Resource.Attribute.toolbarStyle = global::LightBoxApp.Droid.Resource.Attribute.toolbarStyle;
+			global::NControl.Droid.Resource.Attribute.track = global::LightBoxApp.Droid.Resource.Attribute.track;
+			global::NControl.Droid.Resource.Attribute.useCompatPadding = global::LightBoxApp.Droid.Resource.Attribute.useCompatPadding;
+			global::NControl.Droid.Resource.Attribute.voiceIcon = global::LightBoxApp.Droid.Resource.Attribute.voiceIcon;
+			global::NControl.Droid.Resource.Attribute.windowActionBar = global::LightBoxApp.Droid.Resource.Attribute.windowActionBar;
+			global::NControl.Droid.Resource.Attribute.windowActionBarOverlay = global::LightBoxApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::NControl.Droid.Resource.Attribute.windowActionModeOverlay = global::LightBoxApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::NControl.Droid.Resource.Attribute.windowFixedHeightMajor = global::LightBoxApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::NControl.Droid.Resource.Attribute.windowFixedHeightMinor = global::LightBoxApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::NControl.Droid.Resource.Attribute.windowFixedWidthMajor = global::LightBoxApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::NControl.Droid.Resource.Attribute.windowFixedWidthMinor = global::LightBoxApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::NControl.Droid.Resource.Attribute.windowMinWidthMajor = global::LightBoxApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::NControl.Droid.Resource.Attribute.windowMinWidthMinor = global::LightBoxApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::NControl.Droid.Resource.Attribute.windowNoTitle = global::LightBoxApp.Droid.Resource.Attribute.windowNoTitle;
+			global::NControl.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::LightBoxApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::NControl.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::LightBoxApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::NControl.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LightBoxApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::NControl.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::LightBoxApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::NControl.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::LightBoxApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::NControl.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LightBoxApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::NControl.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::LightBoxApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::NControl.Droid.Resource.Color.abc_color_highlight_material = global::LightBoxApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::NControl.Droid.Resource.Color.abc_input_method_navigation_guard = global::LightBoxApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::NControl.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::LightBoxApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::NControl.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::LightBoxApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::NControl.Droid.Resource.Color.abc_primary_text_material_dark = global::LightBoxApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::NControl.Droid.Resource.Color.abc_primary_text_material_light = global::LightBoxApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::NControl.Droid.Resource.Color.abc_search_url_text = global::LightBoxApp.Droid.Resource.Color.abc_search_url_text;
+			global::NControl.Droid.Resource.Color.abc_search_url_text_normal = global::LightBoxApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::NControl.Droid.Resource.Color.abc_search_url_text_pressed = global::LightBoxApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::NControl.Droid.Resource.Color.abc_search_url_text_selected = global::LightBoxApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::NControl.Droid.Resource.Color.abc_secondary_text_material_dark = global::LightBoxApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::NControl.Droid.Resource.Color.abc_secondary_text_material_light = global::LightBoxApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::NControl.Droid.Resource.Color.accent_material_dark = global::LightBoxApp.Droid.Resource.Color.accent_material_dark;
+			global::NControl.Droid.Resource.Color.accent_material_light = global::LightBoxApp.Droid.Resource.Color.accent_material_light;
+			global::NControl.Droid.Resource.Color.background_floating_material_dark = global::LightBoxApp.Droid.Resource.Color.background_floating_material_dark;
+			global::NControl.Droid.Resource.Color.background_floating_material_light = global::LightBoxApp.Droid.Resource.Color.background_floating_material_light;
+			global::NControl.Droid.Resource.Color.background_material_dark = global::LightBoxApp.Droid.Resource.Color.background_material_dark;
+			global::NControl.Droid.Resource.Color.background_material_light = global::LightBoxApp.Droid.Resource.Color.background_material_light;
+			global::NControl.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.bright_foreground_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::NControl.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::LightBoxApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::NControl.Droid.Resource.Color.bright_foreground_inverse_material_light = global::LightBoxApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::NControl.Droid.Resource.Color.bright_foreground_material_dark = global::LightBoxApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::NControl.Droid.Resource.Color.bright_foreground_material_light = global::LightBoxApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::NControl.Droid.Resource.Color.button_material_dark = global::LightBoxApp.Droid.Resource.Color.button_material_dark;
+			global::NControl.Droid.Resource.Color.button_material_light = global::LightBoxApp.Droid.Resource.Color.button_material_light;
+			global::NControl.Droid.Resource.Color.cardview_dark_background = global::LightBoxApp.Droid.Resource.Color.cardview_dark_background;
+			global::NControl.Droid.Resource.Color.cardview_light_background = global::LightBoxApp.Droid.Resource.Color.cardview_light_background;
+			global::NControl.Droid.Resource.Color.cardview_shadow_end_color = global::LightBoxApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::NControl.Droid.Resource.Color.cardview_shadow_start_color = global::LightBoxApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::NControl.Droid.Resource.Color.design_fab_shadow_end_color = global::LightBoxApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::NControl.Droid.Resource.Color.design_fab_shadow_mid_color = global::LightBoxApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::NControl.Droid.Resource.Color.design_fab_shadow_start_color = global::LightBoxApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::NControl.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::LightBoxApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::NControl.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::LightBoxApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::NControl.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::LightBoxApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::NControl.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::LightBoxApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::NControl.Droid.Resource.Color.design_snackbar_background_color = global::LightBoxApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::NControl.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.dim_foreground_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::NControl.Droid.Resource.Color.dim_foreground_material_dark = global::LightBoxApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::NControl.Droid.Resource.Color.dim_foreground_material_light = global::LightBoxApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::NControl.Droid.Resource.Color.foreground_material_dark = global::LightBoxApp.Droid.Resource.Color.foreground_material_dark;
+			global::NControl.Droid.Resource.Color.foreground_material_light = global::LightBoxApp.Droid.Resource.Color.foreground_material_light;
+			global::NControl.Droid.Resource.Color.highlighted_text_material_dark = global::LightBoxApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::NControl.Droid.Resource.Color.highlighted_text_material_light = global::LightBoxApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::NControl.Droid.Resource.Color.material_blue_grey_800 = global::LightBoxApp.Droid.Resource.Color.material_blue_grey_800;
+			global::NControl.Droid.Resource.Color.material_blue_grey_900 = global::LightBoxApp.Droid.Resource.Color.material_blue_grey_900;
+			global::NControl.Droid.Resource.Color.material_blue_grey_950 = global::LightBoxApp.Droid.Resource.Color.material_blue_grey_950;
+			global::NControl.Droid.Resource.Color.material_deep_teal_200 = global::LightBoxApp.Droid.Resource.Color.material_deep_teal_200;
+			global::NControl.Droid.Resource.Color.material_deep_teal_500 = global::LightBoxApp.Droid.Resource.Color.material_deep_teal_500;
+			global::NControl.Droid.Resource.Color.material_grey_100 = global::LightBoxApp.Droid.Resource.Color.material_grey_100;
+			global::NControl.Droid.Resource.Color.material_grey_300 = global::LightBoxApp.Droid.Resource.Color.material_grey_300;
+			global::NControl.Droid.Resource.Color.material_grey_50 = global::LightBoxApp.Droid.Resource.Color.material_grey_50;
+			global::NControl.Droid.Resource.Color.material_grey_600 = global::LightBoxApp.Droid.Resource.Color.material_grey_600;
+			global::NControl.Droid.Resource.Color.material_grey_800 = global::LightBoxApp.Droid.Resource.Color.material_grey_800;
+			global::NControl.Droid.Resource.Color.material_grey_850 = global::LightBoxApp.Droid.Resource.Color.material_grey_850;
+			global::NControl.Droid.Resource.Color.material_grey_900 = global::LightBoxApp.Droid.Resource.Color.material_grey_900;
+			global::NControl.Droid.Resource.Color.primary_dark_material_dark = global::LightBoxApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::NControl.Droid.Resource.Color.primary_dark_material_light = global::LightBoxApp.Droid.Resource.Color.primary_dark_material_light;
+			global::NControl.Droid.Resource.Color.primary_material_dark = global::LightBoxApp.Droid.Resource.Color.primary_material_dark;
+			global::NControl.Droid.Resource.Color.primary_material_light = global::LightBoxApp.Droid.Resource.Color.primary_material_light;
+			global::NControl.Droid.Resource.Color.primary_text_default_material_dark = global::LightBoxApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::NControl.Droid.Resource.Color.primary_text_default_material_light = global::LightBoxApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::NControl.Droid.Resource.Color.primary_text_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.primary_text_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::NControl.Droid.Resource.Color.ripple_material_dark = global::LightBoxApp.Droid.Resource.Color.ripple_material_dark;
+			global::NControl.Droid.Resource.Color.ripple_material_light = global::LightBoxApp.Droid.Resource.Color.ripple_material_light;
+			global::NControl.Droid.Resource.Color.secondary_text_default_material_dark = global::LightBoxApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::NControl.Droid.Resource.Color.secondary_text_default_material_light = global::LightBoxApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::NControl.Droid.Resource.Color.secondary_text_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.secondary_text_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::NControl.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::LightBoxApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.switch_thumb_disabled_material_light = global::LightBoxApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::NControl.Droid.Resource.Color.switch_thumb_material_dark = global::LightBoxApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::NControl.Droid.Resource.Color.switch_thumb_material_light = global::LightBoxApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::NControl.Droid.Resource.Color.switch_thumb_normal_material_dark = global::LightBoxApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::NControl.Droid.Resource.Color.switch_thumb_normal_material_light = global::LightBoxApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_button_min_height_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_button_min_width_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LightBoxApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::NControl.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LightBoxApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::NControl.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::LightBoxApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::NControl.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::LightBoxApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::NControl.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::LightBoxApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::NControl.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::LightBoxApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::NControl.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::LightBoxApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::NControl.Droid.Resource.Dimension.abc_control_corner_material = global::LightBoxApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::NControl.Droid.Resource.Dimension.abc_control_inset_material = global::LightBoxApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::NControl.Droid.Resource.Dimension.abc_control_padding_material = global::LightBoxApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_min_width_major = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_padding_material = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::LightBoxApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::NControl.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::LightBoxApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::NControl.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::LightBoxApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::NControl.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::LightBoxApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::NControl.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LightBoxApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::NControl.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LightBoxApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::NControl.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LightBoxApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::NControl.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LightBoxApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::NControl.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::LightBoxApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::NControl.Droid.Resource.Dimension.abc_floating_window_z = global::LightBoxApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::NControl.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LightBoxApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::NControl.Droid.Resource.Dimension.abc_panel_menu_list_width = global::LightBoxApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::NControl.Droid.Resource.Dimension.abc_search_view_preferred_width = global::LightBoxApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::NControl.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::LightBoxApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::NControl.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LightBoxApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::NControl.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::LightBoxApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::NControl.Droid.Resource.Dimension.abc_switch_padding = global::LightBoxApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_body_1_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_body_2_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_button_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_caption_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_display_1_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_display_2_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_display_3_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_display_4_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_headline_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_large_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_medium_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_menu_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_small_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_subhead_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_title_material = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::LightBoxApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::NControl.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::LightBoxApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::NControl.Droid.Resource.Dimension.cardview_default_elevation = global::LightBoxApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::NControl.Droid.Resource.Dimension.cardview_default_radius = global::LightBoxApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::NControl.Droid.Resource.Dimension.design_appbar_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::NControl.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::NControl.Droid.Resource.Dimension.design_fab_border_width = global::LightBoxApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::NControl.Droid.Resource.Dimension.design_fab_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::NControl.Droid.Resource.Dimension.design_fab_image_size = global::LightBoxApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::NControl.Droid.Resource.Dimension.design_fab_size_mini = global::LightBoxApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::NControl.Droid.Resource.Dimension.design_fab_size_normal = global::LightBoxApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::NControl.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::LightBoxApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::NControl.Droid.Resource.Dimension.design_navigation_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::NControl.Droid.Resource.Dimension.design_navigation_icon_padding = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::NControl.Droid.Resource.Dimension.design_navigation_icon_size = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::NControl.Droid.Resource.Dimension.design_navigation_max_width = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::NControl.Droid.Resource.Dimension.design_navigation_padding_bottom = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::NControl.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::LightBoxApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_elevation = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_max_width = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_min_width = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_text_size = global::LightBoxApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::NControl.Droid.Resource.Dimension.design_tab_max_width = global::LightBoxApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::NControl.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::LightBoxApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::NControl.Droid.Resource.Dimension.design_tab_text_size = global::LightBoxApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::NControl.Droid.Resource.Dimension.design_tab_text_size_2line = global::LightBoxApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::NControl.Droid.Resource.Dimension.disabled_alpha_material_dark = global::LightBoxApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::NControl.Droid.Resource.Dimension.disabled_alpha_material_light = global::LightBoxApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::NControl.Droid.Resource.Dimension.highlight_alpha_material_colored = global::LightBoxApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::NControl.Droid.Resource.Dimension.highlight_alpha_material_dark = global::LightBoxApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::NControl.Droid.Resource.Dimension.highlight_alpha_material_light = global::LightBoxApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::NControl.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::LightBoxApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::NControl.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::LightBoxApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::NControl.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::LightBoxApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::NControl.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::LightBoxApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::NControl.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::LightBoxApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::NControl.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::LightBoxApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::NControl.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::LightBoxApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::NControl.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::LightBoxApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::NControl.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::LightBoxApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::NControl.Droid.Resource.Dimension.notification_large_icon_height = global::LightBoxApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::NControl.Droid.Resource.Dimension.notification_large_icon_width = global::LightBoxApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::NControl.Droid.Resource.Dimension.notification_subtext_size = global::LightBoxApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::NControl.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::LightBoxApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_borderless_material = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_check_material = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::NControl.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::NControl.Droid.Resource.Drawable.abc_btn_colored_material = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::NControl.Droid.Resource.Drawable.abc_btn_radio_material = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::NControl.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::NControl.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::NControl.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LightBoxApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::NControl.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::LightBoxApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::NControl.Droid.Resource.Drawable.abc_cab_background_top_material = global::LightBoxApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::NControl.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_control_background_material = global::LightBoxApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::NControl.Droid.Resource.Drawable.abc_edit_text_material = global::LightBoxApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::NControl.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::NControl.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::NControl.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::NControl.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::LightBoxApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::NControl.Droid.Resource.Drawable.abc_item_background_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_item_background_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_list_focused_holo = global::LightBoxApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::NControl.Droid.Resource.Drawable.abc_list_longpressed_holo = global::LightBoxApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::NControl.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_holo_light = global::LightBoxApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LightBoxApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::NControl.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::LightBoxApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::NControl.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::LightBoxApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::NControl.Droid.Resource.Drawable.abc_ratingbar_small_material = global::LightBoxApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::LightBoxApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::NControl.Droid.Resource.Drawable.abc_seekbar_track_material = global::LightBoxApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::NControl.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::LightBoxApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::NControl.Droid.Resource.Drawable.abc_switch_thumb_material = global::LightBoxApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::NControl.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_tab_indicator_material = global::LightBoxApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::NControl.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_text_cursor_material = global::LightBoxApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_search_material = global::LightBoxApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::NControl.Droid.Resource.Drawable.design_fab_background = global::LightBoxApp.Droid.Resource.Drawable.design_fab_background;
+			global::NControl.Droid.Resource.Drawable.design_snackbar_background = global::LightBoxApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::NControl.Droid.Resource.Drawable.ic_audiotrack_light = global::LightBoxApp.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::NControl.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::LightBoxApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::NControl.Droid.Resource.Drawable.mr_dialog_material_background_light = global::LightBoxApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::NControl.Droid.Resource.Drawable.notification_template_icon_bg = global::LightBoxApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::NControl.Droid.Resource.Id.action0 = global::LightBoxApp.Droid.Resource.Id.action0;
+			global::NControl.Droid.Resource.Id.action_bar = global::LightBoxApp.Droid.Resource.Id.action_bar;
+			global::NControl.Droid.Resource.Id.action_bar_activity_content = global::LightBoxApp.Droid.Resource.Id.action_bar_activity_content;
+			global::NControl.Droid.Resource.Id.action_bar_container = global::LightBoxApp.Droid.Resource.Id.action_bar_container;
+			global::NControl.Droid.Resource.Id.action_bar_root = global::LightBoxApp.Droid.Resource.Id.action_bar_root;
+			global::NControl.Droid.Resource.Id.action_bar_spinner = global::LightBoxApp.Droid.Resource.Id.action_bar_spinner;
+			global::NControl.Droid.Resource.Id.action_bar_subtitle = global::LightBoxApp.Droid.Resource.Id.action_bar_subtitle;
+			global::NControl.Droid.Resource.Id.action_bar_title = global::LightBoxApp.Droid.Resource.Id.action_bar_title;
+			global::NControl.Droid.Resource.Id.action_context_bar = global::LightBoxApp.Droid.Resource.Id.action_context_bar;
+			global::NControl.Droid.Resource.Id.action_divider = global::LightBoxApp.Droid.Resource.Id.action_divider;
+			global::NControl.Droid.Resource.Id.action_menu_divider = global::LightBoxApp.Droid.Resource.Id.action_menu_divider;
+			global::NControl.Droid.Resource.Id.action_menu_presenter = global::LightBoxApp.Droid.Resource.Id.action_menu_presenter;
+			global::NControl.Droid.Resource.Id.action_mode_bar = global::LightBoxApp.Droid.Resource.Id.action_mode_bar;
+			global::NControl.Droid.Resource.Id.action_mode_bar_stub = global::LightBoxApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::NControl.Droid.Resource.Id.action_mode_close_button = global::LightBoxApp.Droid.Resource.Id.action_mode_close_button;
+			global::NControl.Droid.Resource.Id.activity_chooser_view_content = global::LightBoxApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::NControl.Droid.Resource.Id.alertTitle = global::LightBoxApp.Droid.Resource.Id.alertTitle;
+			global::NControl.Droid.Resource.Id.always = global::LightBoxApp.Droid.Resource.Id.always;
+			global::NControl.Droid.Resource.Id.beginning = global::LightBoxApp.Droid.Resource.Id.beginning;
+			global::NControl.Droid.Resource.Id.bottom = global::LightBoxApp.Droid.Resource.Id.bottom;
+			global::NControl.Droid.Resource.Id.buttonPanel = global::LightBoxApp.Droid.Resource.Id.buttonPanel;
+			global::NControl.Droid.Resource.Id.cancel_action = global::LightBoxApp.Droid.Resource.Id.cancel_action;
+			global::NControl.Droid.Resource.Id.center = global::LightBoxApp.Droid.Resource.Id.center;
+			global::NControl.Droid.Resource.Id.center_horizontal = global::LightBoxApp.Droid.Resource.Id.center_horizontal;
+			global::NControl.Droid.Resource.Id.center_vertical = global::LightBoxApp.Droid.Resource.Id.center_vertical;
+			global::NControl.Droid.Resource.Id.checkbox = global::LightBoxApp.Droid.Resource.Id.checkbox;
+			global::NControl.Droid.Resource.Id.chronometer = global::LightBoxApp.Droid.Resource.Id.chronometer;
+			global::NControl.Droid.Resource.Id.clip_horizontal = global::LightBoxApp.Droid.Resource.Id.clip_horizontal;
+			global::NControl.Droid.Resource.Id.clip_vertical = global::LightBoxApp.Droid.Resource.Id.clip_vertical;
+			global::NControl.Droid.Resource.Id.collapseActionView = global::LightBoxApp.Droid.Resource.Id.collapseActionView;
+			global::NControl.Droid.Resource.Id.contentPanel = global::LightBoxApp.Droid.Resource.Id.contentPanel;
+			global::NControl.Droid.Resource.Id.custom = global::LightBoxApp.Droid.Resource.Id.custom;
+			global::NControl.Droid.Resource.Id.customPanel = global::LightBoxApp.Droid.Resource.Id.customPanel;
+			global::NControl.Droid.Resource.Id.decor_content_parent = global::LightBoxApp.Droid.Resource.Id.decor_content_parent;
+			global::NControl.Droid.Resource.Id.default_activity_button = global::LightBoxApp.Droid.Resource.Id.default_activity_button;
+			global::NControl.Droid.Resource.Id.design_bottom_sheet = global::LightBoxApp.Droid.Resource.Id.design_bottom_sheet;
+			global::NControl.Droid.Resource.Id.design_menu_item_action_area = global::LightBoxApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::NControl.Droid.Resource.Id.design_menu_item_action_area_stub = global::LightBoxApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::NControl.Droid.Resource.Id.design_menu_item_text = global::LightBoxApp.Droid.Resource.Id.design_menu_item_text;
+			global::NControl.Droid.Resource.Id.design_navigation_view = global::LightBoxApp.Droid.Resource.Id.design_navigation_view;
+			global::NControl.Droid.Resource.Id.disableHome = global::LightBoxApp.Droid.Resource.Id.disableHome;
+			global::NControl.Droid.Resource.Id.edit_query = global::LightBoxApp.Droid.Resource.Id.edit_query;
+			global::NControl.Droid.Resource.Id.end = global::LightBoxApp.Droid.Resource.Id.end;
+			global::NControl.Droid.Resource.Id.end_padder = global::LightBoxApp.Droid.Resource.Id.end_padder;
+			global::NControl.Droid.Resource.Id.enterAlways = global::LightBoxApp.Droid.Resource.Id.enterAlways;
+			global::NControl.Droid.Resource.Id.enterAlwaysCollapsed = global::LightBoxApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::NControl.Droid.Resource.Id.exitUntilCollapsed = global::LightBoxApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::NControl.Droid.Resource.Id.expand_activities_button = global::LightBoxApp.Droid.Resource.Id.expand_activities_button;
+			global::NControl.Droid.Resource.Id.expanded_menu = global::LightBoxApp.Droid.Resource.Id.expanded_menu;
+			global::NControl.Droid.Resource.Id.fill = global::LightBoxApp.Droid.Resource.Id.fill;
+			global::NControl.Droid.Resource.Id.fill_horizontal = global::LightBoxApp.Droid.Resource.Id.fill_horizontal;
+			global::NControl.Droid.Resource.Id.fill_vertical = global::LightBoxApp.Droid.Resource.Id.fill_vertical;
+			global::NControl.Droid.Resource.Id.@fixed = global::LightBoxApp.Droid.Resource.Id.@fixed;
+			global::NControl.Droid.Resource.Id.home = global::LightBoxApp.Droid.Resource.Id.home;
+			global::NControl.Droid.Resource.Id.homeAsUp = global::LightBoxApp.Droid.Resource.Id.homeAsUp;
+			global::NControl.Droid.Resource.Id.icon = global::LightBoxApp.Droid.Resource.Id.icon;
+			global::NControl.Droid.Resource.Id.ifRoom = global::LightBoxApp.Droid.Resource.Id.ifRoom;
+			global::NControl.Droid.Resource.Id.image = global::LightBoxApp.Droid.Resource.Id.image;
+			global::NControl.Droid.Resource.Id.info = global::LightBoxApp.Droid.Resource.Id.info;
+			global::NControl.Droid.Resource.Id.item_touch_helper_previous_elevation = global::LightBoxApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::NControl.Droid.Resource.Id.left = global::LightBoxApp.Droid.Resource.Id.left;
+			global::NControl.Droid.Resource.Id.line1 = global::LightBoxApp.Droid.Resource.Id.line1;
+			global::NControl.Droid.Resource.Id.line3 = global::LightBoxApp.Droid.Resource.Id.line3;
+			global::NControl.Droid.Resource.Id.listMode = global::LightBoxApp.Droid.Resource.Id.listMode;
+			global::NControl.Droid.Resource.Id.list_item = global::LightBoxApp.Droid.Resource.Id.list_item;
+			global::NControl.Droid.Resource.Id.media_actions = global::LightBoxApp.Droid.Resource.Id.media_actions;
+			global::NControl.Droid.Resource.Id.middle = global::LightBoxApp.Droid.Resource.Id.middle;
+			global::NControl.Droid.Resource.Id.mini = global::LightBoxApp.Droid.Resource.Id.mini;
+			global::NControl.Droid.Resource.Id.mr_art = global::LightBoxApp.Droid.Resource.Id.mr_art;
+			global::NControl.Droid.Resource.Id.mr_chooser_list = global::LightBoxApp.Droid.Resource.Id.mr_chooser_list;
+			global::NControl.Droid.Resource.Id.mr_chooser_route_desc = global::LightBoxApp.Droid.Resource.Id.mr_chooser_route_desc;
+			global::NControl.Droid.Resource.Id.mr_chooser_route_icon = global::LightBoxApp.Droid.Resource.Id.mr_chooser_route_icon;
+			global::NControl.Droid.Resource.Id.mr_chooser_route_name = global::LightBoxApp.Droid.Resource.Id.mr_chooser_route_name;
+			global::NControl.Droid.Resource.Id.mr_close = global::LightBoxApp.Droid.Resource.Id.mr_close;
+			global::NControl.Droid.Resource.Id.mr_control_divider = global::LightBoxApp.Droid.Resource.Id.mr_control_divider;
+			global::NControl.Droid.Resource.Id.mr_control_subtitle = global::LightBoxApp.Droid.Resource.Id.mr_control_subtitle;
+			global::NControl.Droid.Resource.Id.mr_control_title = global::LightBoxApp.Droid.Resource.Id.mr_control_title;
+			global::NControl.Droid.Resource.Id.mr_control_title_container = global::LightBoxApp.Droid.Resource.Id.mr_control_title_container;
+			global::NControl.Droid.Resource.Id.mr_custom_control = global::LightBoxApp.Droid.Resource.Id.mr_custom_control;
+			global::NControl.Droid.Resource.Id.mr_default_control = global::LightBoxApp.Droid.Resource.Id.mr_default_control;
+			global::NControl.Droid.Resource.Id.mr_dialog_area = global::LightBoxApp.Droid.Resource.Id.mr_dialog_area;
+			global::NControl.Droid.Resource.Id.mr_expandable_area = global::LightBoxApp.Droid.Resource.Id.mr_expandable_area;
+			global::NControl.Droid.Resource.Id.mr_group_expand_collapse = global::LightBoxApp.Droid.Resource.Id.mr_group_expand_collapse;
+			global::NControl.Droid.Resource.Id.mr_media_main_control = global::LightBoxApp.Droid.Resource.Id.mr_media_main_control;
+			global::NControl.Droid.Resource.Id.mr_name = global::LightBoxApp.Droid.Resource.Id.mr_name;
+			global::NControl.Droid.Resource.Id.mr_playback_control = global::LightBoxApp.Droid.Resource.Id.mr_playback_control;
+			global::NControl.Droid.Resource.Id.mr_title_bar = global::LightBoxApp.Droid.Resource.Id.mr_title_bar;
+			global::NControl.Droid.Resource.Id.mr_volume_control = global::LightBoxApp.Droid.Resource.Id.mr_volume_control;
+			global::NControl.Droid.Resource.Id.mr_volume_group_list = global::LightBoxApp.Droid.Resource.Id.mr_volume_group_list;
+			global::NControl.Droid.Resource.Id.mr_volume_item_icon = global::LightBoxApp.Droid.Resource.Id.mr_volume_item_icon;
+			global::NControl.Droid.Resource.Id.mr_volume_slider = global::LightBoxApp.Droid.Resource.Id.mr_volume_slider;
+			global::NControl.Droid.Resource.Id.multiply = global::LightBoxApp.Droid.Resource.Id.multiply;
+			global::NControl.Droid.Resource.Id.navigation_header_container = global::LightBoxApp.Droid.Resource.Id.navigation_header_container;
+			global::NControl.Droid.Resource.Id.never = global::LightBoxApp.Droid.Resource.Id.never;
+			global::NControl.Droid.Resource.Id.none = global::LightBoxApp.Droid.Resource.Id.none;
+			global::NControl.Droid.Resource.Id.normal = global::LightBoxApp.Droid.Resource.Id.normal;
+			global::NControl.Droid.Resource.Id.parallax = global::LightBoxApp.Droid.Resource.Id.parallax;
+			global::NControl.Droid.Resource.Id.parentPanel = global::LightBoxApp.Droid.Resource.Id.parentPanel;
+			global::NControl.Droid.Resource.Id.pin = global::LightBoxApp.Droid.Resource.Id.pin;
+			global::NControl.Droid.Resource.Id.progress_circular = global::LightBoxApp.Droid.Resource.Id.progress_circular;
+			global::NControl.Droid.Resource.Id.progress_horizontal = global::LightBoxApp.Droid.Resource.Id.progress_horizontal;
+			global::NControl.Droid.Resource.Id.radio = global::LightBoxApp.Droid.Resource.Id.radio;
+			global::NControl.Droid.Resource.Id.right = global::LightBoxApp.Droid.Resource.Id.right;
+			global::NControl.Droid.Resource.Id.screen = global::LightBoxApp.Droid.Resource.Id.screen;
+			global::NControl.Droid.Resource.Id.scroll = global::LightBoxApp.Droid.Resource.Id.scroll;
+			global::NControl.Droid.Resource.Id.scrollIndicatorDown = global::LightBoxApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::NControl.Droid.Resource.Id.scrollIndicatorUp = global::LightBoxApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::NControl.Droid.Resource.Id.scrollView = global::LightBoxApp.Droid.Resource.Id.scrollView;
+			global::NControl.Droid.Resource.Id.scrollable = global::LightBoxApp.Droid.Resource.Id.scrollable;
+			global::NControl.Droid.Resource.Id.search_badge = global::LightBoxApp.Droid.Resource.Id.search_badge;
+			global::NControl.Droid.Resource.Id.search_bar = global::LightBoxApp.Droid.Resource.Id.search_bar;
+			global::NControl.Droid.Resource.Id.search_button = global::LightBoxApp.Droid.Resource.Id.search_button;
+			global::NControl.Droid.Resource.Id.search_close_btn = global::LightBoxApp.Droid.Resource.Id.search_close_btn;
+			global::NControl.Droid.Resource.Id.search_edit_frame = global::LightBoxApp.Droid.Resource.Id.search_edit_frame;
+			global::NControl.Droid.Resource.Id.search_go_btn = global::LightBoxApp.Droid.Resource.Id.search_go_btn;
+			global::NControl.Droid.Resource.Id.search_mag_icon = global::LightBoxApp.Droid.Resource.Id.search_mag_icon;
+			global::NControl.Droid.Resource.Id.search_plate = global::LightBoxApp.Droid.Resource.Id.search_plate;
+			global::NControl.Droid.Resource.Id.search_src_text = global::LightBoxApp.Droid.Resource.Id.search_src_text;
+			global::NControl.Droid.Resource.Id.search_voice_btn = global::LightBoxApp.Droid.Resource.Id.search_voice_btn;
+			global::NControl.Droid.Resource.Id.select_dialog_listview = global::LightBoxApp.Droid.Resource.Id.select_dialog_listview;
+			global::NControl.Droid.Resource.Id.shortcut = global::LightBoxApp.Droid.Resource.Id.shortcut;
+			global::NControl.Droid.Resource.Id.showCustom = global::LightBoxApp.Droid.Resource.Id.showCustom;
+			global::NControl.Droid.Resource.Id.showHome = global::LightBoxApp.Droid.Resource.Id.showHome;
+			global::NControl.Droid.Resource.Id.showTitle = global::LightBoxApp.Droid.Resource.Id.showTitle;
+			global::NControl.Droid.Resource.Id.snackbar_action = global::LightBoxApp.Droid.Resource.Id.snackbar_action;
+			global::NControl.Droid.Resource.Id.snackbar_text = global::LightBoxApp.Droid.Resource.Id.snackbar_text;
+			global::NControl.Droid.Resource.Id.snap = global::LightBoxApp.Droid.Resource.Id.snap;
+			global::NControl.Droid.Resource.Id.spacer = global::LightBoxApp.Droid.Resource.Id.spacer;
+			global::NControl.Droid.Resource.Id.split_action_bar = global::LightBoxApp.Droid.Resource.Id.split_action_bar;
+			global::NControl.Droid.Resource.Id.src_atop = global::LightBoxApp.Droid.Resource.Id.src_atop;
+			global::NControl.Droid.Resource.Id.src_in = global::LightBoxApp.Droid.Resource.Id.src_in;
+			global::NControl.Droid.Resource.Id.src_over = global::LightBoxApp.Droid.Resource.Id.src_over;
+			global::NControl.Droid.Resource.Id.start = global::LightBoxApp.Droid.Resource.Id.start;
+			global::NControl.Droid.Resource.Id.status_bar_latest_event_content = global::LightBoxApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::NControl.Droid.Resource.Id.submit_area = global::LightBoxApp.Droid.Resource.Id.submit_area;
+			global::NControl.Droid.Resource.Id.tabMode = global::LightBoxApp.Droid.Resource.Id.tabMode;
+			global::NControl.Droid.Resource.Id.text = global::LightBoxApp.Droid.Resource.Id.text;
+			global::NControl.Droid.Resource.Id.text2 = global::LightBoxApp.Droid.Resource.Id.text2;
+			global::NControl.Droid.Resource.Id.textSpacerNoButtons = global::LightBoxApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::NControl.Droid.Resource.Id.time = global::LightBoxApp.Droid.Resource.Id.time;
+			global::NControl.Droid.Resource.Id.title = global::LightBoxApp.Droid.Resource.Id.title;
+			global::NControl.Droid.Resource.Id.title_template = global::LightBoxApp.Droid.Resource.Id.title_template;
+			global::NControl.Droid.Resource.Id.top = global::LightBoxApp.Droid.Resource.Id.top;
+			global::NControl.Droid.Resource.Id.topPanel = global::LightBoxApp.Droid.Resource.Id.topPanel;
+			global::NControl.Droid.Resource.Id.touch_outside = global::LightBoxApp.Droid.Resource.Id.touch_outside;
+			global::NControl.Droid.Resource.Id.up = global::LightBoxApp.Droid.Resource.Id.up;
+			global::NControl.Droid.Resource.Id.useLogo = global::LightBoxApp.Droid.Resource.Id.useLogo;
+			global::NControl.Droid.Resource.Id.view_offset_helper = global::LightBoxApp.Droid.Resource.Id.view_offset_helper;
+			global::NControl.Droid.Resource.Id.volume_item_container = global::LightBoxApp.Droid.Resource.Id.volume_item_container;
+			global::NControl.Droid.Resource.Id.withText = global::LightBoxApp.Droid.Resource.Id.withText;
+			global::NControl.Droid.Resource.Id.wrap_content = global::LightBoxApp.Droid.Resource.Id.wrap_content;
+			global::NControl.Droid.Resource.Integer.abc_config_activityDefaultDur = global::LightBoxApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::NControl.Droid.Resource.Integer.abc_config_activityShortDur = global::LightBoxApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::NControl.Droid.Resource.Integer.bottom_sheet_slide_duration = global::LightBoxApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::NControl.Droid.Resource.Integer.cancel_button_image_alpha = global::LightBoxApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::NControl.Droid.Resource.Integer.design_snackbar_text_max_lines = global::LightBoxApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::NControl.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::LightBoxApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::NControl.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::LightBoxApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::NControl.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::LightBoxApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::NControl.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::LightBoxApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::NControl.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::LightBoxApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::NControl.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::LightBoxApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::NControl.Droid.Resource.Layout.abc_action_bar_title_item = global::LightBoxApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::NControl.Droid.Resource.Layout.abc_action_bar_up_container = global::LightBoxApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::NControl.Droid.Resource.Layout.abc_action_menu_item_layout = global::LightBoxApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::NControl.Droid.Resource.Layout.abc_action_menu_layout = global::LightBoxApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::NControl.Droid.Resource.Layout.abc_action_mode_bar = global::LightBoxApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::NControl.Droid.Resource.Layout.abc_action_mode_close_item_material = global::LightBoxApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::NControl.Droid.Resource.Layout.abc_activity_chooser_view = global::LightBoxApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::NControl.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::LightBoxApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::NControl.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::LightBoxApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::NControl.Droid.Resource.Layout.abc_alert_dialog_material = global::LightBoxApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::NControl.Droid.Resource.Layout.abc_dialog_title_material = global::LightBoxApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::NControl.Droid.Resource.Layout.abc_expanded_menu_layout = global::LightBoxApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::NControl.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::LightBoxApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::NControl.Droid.Resource.Layout.abc_list_menu_item_icon = global::LightBoxApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::NControl.Droid.Resource.Layout.abc_list_menu_item_layout = global::LightBoxApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::NControl.Droid.Resource.Layout.abc_list_menu_item_radio = global::LightBoxApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::NControl.Droid.Resource.Layout.abc_popup_menu_item_layout = global::LightBoxApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::NControl.Droid.Resource.Layout.abc_screen_content_include = global::LightBoxApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::NControl.Droid.Resource.Layout.abc_screen_simple = global::LightBoxApp.Droid.Resource.Layout.abc_screen_simple;
+			global::NControl.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LightBoxApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::NControl.Droid.Resource.Layout.abc_screen_toolbar = global::LightBoxApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::NControl.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LightBoxApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::NControl.Droid.Resource.Layout.abc_search_view = global::LightBoxApp.Droid.Resource.Layout.abc_search_view;
+			global::NControl.Droid.Resource.Layout.abc_select_dialog_material = global::LightBoxApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::NControl.Droid.Resource.Layout.design_bottom_sheet_dialog = global::LightBoxApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::NControl.Droid.Resource.Layout.design_layout_snackbar = global::LightBoxApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::NControl.Droid.Resource.Layout.design_layout_snackbar_include = global::LightBoxApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::NControl.Droid.Resource.Layout.design_layout_tab_icon = global::LightBoxApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::NControl.Droid.Resource.Layout.design_layout_tab_text = global::LightBoxApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::NControl.Droid.Resource.Layout.design_menu_item_action_area = global::LightBoxApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::NControl.Droid.Resource.Layout.design_navigation_item = global::LightBoxApp.Droid.Resource.Layout.design_navigation_item;
+			global::NControl.Droid.Resource.Layout.design_navigation_item_header = global::LightBoxApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::NControl.Droid.Resource.Layout.design_navigation_item_separator = global::LightBoxApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::NControl.Droid.Resource.Layout.design_navigation_item_subheader = global::LightBoxApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::NControl.Droid.Resource.Layout.design_navigation_menu = global::LightBoxApp.Droid.Resource.Layout.design_navigation_menu;
+			global::NControl.Droid.Resource.Layout.design_navigation_menu_item = global::LightBoxApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::NControl.Droid.Resource.Layout.mr_chooser_dialog = global::LightBoxApp.Droid.Resource.Layout.mr_chooser_dialog;
+			global::NControl.Droid.Resource.Layout.mr_chooser_list_item = global::LightBoxApp.Droid.Resource.Layout.mr_chooser_list_item;
+			global::NControl.Droid.Resource.Layout.mr_controller_material_dialog_b = global::LightBoxApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::NControl.Droid.Resource.Layout.mr_controller_volume_item = global::LightBoxApp.Droid.Resource.Layout.mr_controller_volume_item;
+			global::NControl.Droid.Resource.Layout.mr_playback_control = global::LightBoxApp.Droid.Resource.Layout.mr_playback_control;
+			global::NControl.Droid.Resource.Layout.mr_volume_control = global::LightBoxApp.Droid.Resource.Layout.mr_volume_control;
+			global::NControl.Droid.Resource.Layout.notification_media_action = global::LightBoxApp.Droid.Resource.Layout.notification_media_action;
+			global::NControl.Droid.Resource.Layout.notification_media_cancel_action = global::LightBoxApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::NControl.Droid.Resource.Layout.notification_template_big_media = global::LightBoxApp.Droid.Resource.Layout.notification_template_big_media;
+			global::NControl.Droid.Resource.Layout.notification_template_big_media_narrow = global::LightBoxApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::NControl.Droid.Resource.Layout.notification_template_media = global::LightBoxApp.Droid.Resource.Layout.notification_template_media;
+			global::NControl.Droid.Resource.Layout.notification_template_part_chronometer = global::LightBoxApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::NControl.Droid.Resource.Layout.notification_template_part_time = global::LightBoxApp.Droid.Resource.Layout.notification_template_part_time;
+			global::NControl.Droid.Resource.Layout.select_dialog_item_material = global::LightBoxApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::NControl.Droid.Resource.Layout.select_dialog_multichoice_material = global::LightBoxApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::NControl.Droid.Resource.Layout.select_dialog_singlechoice_material = global::LightBoxApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::NControl.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::LightBoxApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::NControl.Droid.Resource.String.abc_action_bar_home_description = global::LightBoxApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::NControl.Droid.Resource.String.abc_action_bar_up_description = global::LightBoxApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::NControl.Droid.Resource.String.abc_action_menu_overflow_description = global::LightBoxApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::NControl.Droid.Resource.String.abc_action_mode_done = global::LightBoxApp.Droid.Resource.String.abc_action_mode_done;
+			global::NControl.Droid.Resource.String.abc_activity_chooser_view_see_all = global::LightBoxApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::NControl.Droid.Resource.String.abc_activitychooserview_choose_application = global::LightBoxApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::NControl.Droid.Resource.String.abc_capital_off = global::LightBoxApp.Droid.Resource.String.abc_capital_off;
+			global::NControl.Droid.Resource.String.abc_capital_on = global::LightBoxApp.Droid.Resource.String.abc_capital_on;
+			global::NControl.Droid.Resource.String.abc_search_hint = global::LightBoxApp.Droid.Resource.String.abc_search_hint;
+			global::NControl.Droid.Resource.String.abc_searchview_description_clear = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::NControl.Droid.Resource.String.abc_searchview_description_query = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_query;
+			global::NControl.Droid.Resource.String.abc_searchview_description_search = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_search;
+			global::NControl.Droid.Resource.String.abc_searchview_description_submit = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::NControl.Droid.Resource.String.abc_searchview_description_voice = global::LightBoxApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::NControl.Droid.Resource.String.abc_shareactionprovider_share_with = global::LightBoxApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::NControl.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::LightBoxApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::NControl.Droid.Resource.String.abc_toolbar_collapse_description = global::LightBoxApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::NControl.Droid.Resource.String.appbar_scrolling_view_behavior = global::LightBoxApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::NControl.Droid.Resource.String.bottom_sheet_behavior = global::LightBoxApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::NControl.Droid.Resource.String.character_counter_pattern = global::LightBoxApp.Droid.Resource.String.character_counter_pattern;
+			global::NControl.Droid.Resource.String.library_name = global::LightBoxApp.Droid.Resource.String.library_name;
+			global::NControl.Droid.Resource.String.mr_button_content_description = global::LightBoxApp.Droid.Resource.String.mr_button_content_description;
+			global::NControl.Droid.Resource.String.mr_chooser_searching = global::LightBoxApp.Droid.Resource.String.mr_chooser_searching;
+			global::NControl.Droid.Resource.String.mr_chooser_title = global::LightBoxApp.Droid.Resource.String.mr_chooser_title;
+			global::NControl.Droid.Resource.String.mr_controller_casting_screen = global::LightBoxApp.Droid.Resource.String.mr_controller_casting_screen;
+			global::NControl.Droid.Resource.String.mr_controller_close_description = global::LightBoxApp.Droid.Resource.String.mr_controller_close_description;
+			global::NControl.Droid.Resource.String.mr_controller_collapse_group = global::LightBoxApp.Droid.Resource.String.mr_controller_collapse_group;
+			global::NControl.Droid.Resource.String.mr_controller_disconnect = global::LightBoxApp.Droid.Resource.String.mr_controller_disconnect;
+			global::NControl.Droid.Resource.String.mr_controller_expand_group = global::LightBoxApp.Droid.Resource.String.mr_controller_expand_group;
+			global::NControl.Droid.Resource.String.mr_controller_no_info_available = global::LightBoxApp.Droid.Resource.String.mr_controller_no_info_available;
+			global::NControl.Droid.Resource.String.mr_controller_no_media_selected = global::LightBoxApp.Droid.Resource.String.mr_controller_no_media_selected;
+			global::NControl.Droid.Resource.String.mr_controller_pause = global::LightBoxApp.Droid.Resource.String.mr_controller_pause;
+			global::NControl.Droid.Resource.String.mr_controller_play = global::LightBoxApp.Droid.Resource.String.mr_controller_play;
+			global::NControl.Droid.Resource.String.mr_controller_stop = global::LightBoxApp.Droid.Resource.String.mr_controller_stop;
+			global::NControl.Droid.Resource.String.mr_system_route_name = global::LightBoxApp.Droid.Resource.String.mr_system_route_name;
+			global::NControl.Droid.Resource.String.mr_user_route_category_name = global::LightBoxApp.Droid.Resource.String.mr_user_route_category_name;
+			global::NControl.Droid.Resource.String.status_bar_notification_info_overflow = global::LightBoxApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::NControl.Droid.Resource.Style.AlertDialog_AppCompat = global::LightBoxApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::NControl.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Animation_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::LightBoxApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::NControl.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::LightBoxApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::NControl.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LightBoxApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::NControl.Droid.Resource.Style.Base_CardView = global::LightBoxApp.Droid.Resource.Style.Base_CardView;
+			global::NControl.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LightBoxApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::LightBoxApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::NControl.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LightBoxApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LightBoxApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::NControl.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::LightBoxApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::NControl.Droid.Resource.Style.CardView = global::LightBoxApp.Droid.Resource.Style.CardView;
+			global::NControl.Droid.Resource.Style.CardView_Dark = global::LightBoxApp.Droid.Resource.Style.CardView_Dark;
+			global::NControl.Droid.Resource.Style.CardView_Light = global::LightBoxApp.Droid.Resource.Style.CardView_Light;
+			global::NControl.Droid.Resource.Style.Platform_AppCompat = global::LightBoxApp.Droid.Resource.Style.Platform_AppCompat;
+			global::NControl.Droid.Resource.Style.Platform_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LightBoxApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::NControl.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LightBoxApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::NControl.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Platform_V11_AppCompat = global::LightBoxApp.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::NControl.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Platform_V14_AppCompat = global::LightBoxApp.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::NControl.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LightBoxApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::NControl.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LightBoxApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::NControl.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LightBoxApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::NControl.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LightBoxApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LightBoxApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Counter = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Error = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Hint = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Tab = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::NControl.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::NControl.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LightBoxApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Dialog = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_Design = global::LightBoxApp.Droid.Resource.Style.Theme_Design;
+			global::NControl.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::LightBoxApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::NControl.Droid.Resource.Style.Theme_Design_Light = global::LightBoxApp.Droid.Resource.Style.Theme_Design_Light;
+			global::NControl.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::LightBoxApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::NControl.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_Design_NoActionBar = global::LightBoxApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_MediaRouter = global::LightBoxApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::NControl.Droid.Resource.Style.Theme_MediaRouter_Light = global::LightBoxApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::NControl.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::LightBoxApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::NControl.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::LightBoxApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::LightBoxApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_EditText = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ListView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_SearchView = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Spinner = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LightBoxApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::NControl.Droid.Resource.Style.Widget_Design_AppBarLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::NControl.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::LightBoxApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::NControl.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::LightBoxApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::NControl.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::NControl.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::LightBoxApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::NControl.Droid.Resource.Style.Widget_Design_NavigationView = global::LightBoxApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::NControl.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::NControl.Droid.Resource.Style.Widget_Design_Snackbar = global::LightBoxApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::NControl.Droid.Resource.Style.Widget_Design_TabLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::NControl.Droid.Resource.Style.Widget_Design_TextInputLayout = global::LightBoxApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::NControl.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::LightBoxApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::NControl.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::LightBoxApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::NControl.Droid.Resource.Styleable.ActionBar = global::LightBoxApp.Droid.Resource.Styleable.ActionBar;
+			global::NControl.Droid.Resource.Styleable.ActionBar_background = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_background;
+			global::NControl.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::NControl.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::NControl.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::NControl.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::NControl.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::NControl.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::NControl.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::NControl.Droid.Resource.Styleable.ActionBar_displayOptions = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::NControl.Droid.Resource.Styleable.ActionBar_divider = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::NControl.Droid.Resource.Styleable.ActionBar_elevation = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::NControl.Droid.Resource.Styleable.ActionBar_height = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_height;
+			global::NControl.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::NControl.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::NControl.Droid.Resource.Styleable.ActionBar_homeLayout = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::NControl.Droid.Resource.Styleable.ActionBar_icon = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::NControl.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::NControl.Droid.Resource.Styleable.ActionBar_itemPadding = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::NControl.Droid.Resource.Styleable.ActionBar_logo = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::NControl.Droid.Resource.Styleable.ActionBar_navigationMode = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::NControl.Droid.Resource.Styleable.ActionBar_popupTheme = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::NControl.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::NControl.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::NControl.Droid.Resource.Styleable.ActionBar_subtitle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::NControl.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::NControl.Droid.Resource.Styleable.ActionBar_title = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_title;
+			global::NControl.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::NControl.Droid.Resource.Styleable.ActionBarLayout = global::LightBoxApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::NControl.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LightBoxApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::NControl.Droid.Resource.Styleable.ActionMenuItemView = global::LightBoxApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::NControl.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LightBoxApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::NControl.Droid.Resource.Styleable.ActionMenuView = global::LightBoxApp.Droid.Resource.Styleable.ActionMenuView;
+			global::NControl.Droid.Resource.Styleable.ActionMode = global::LightBoxApp.Droid.Resource.Styleable.ActionMode;
+			global::NControl.Droid.Resource.Styleable.ActionMode_background = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_background;
+			global::NControl.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::NControl.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::NControl.Droid.Resource.Styleable.ActionMode_height = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_height;
+			global::NControl.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::NControl.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::LightBoxApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::NControl.Droid.Resource.Styleable.ActivityChooserView = global::LightBoxApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::NControl.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LightBoxApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::NControl.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LightBoxApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::NControl.Droid.Resource.Styleable.AlertDialog = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_android_layout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_listLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LightBoxApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::NControl.Droid.Resource.Styleable.AppBarLayout = global::LightBoxApp.Droid.Resource.Styleable.AppBarLayout;
+			global::NControl.Droid.Resource.Styleable.AppBarLayout_android_background = global::LightBoxApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::NControl.Droid.Resource.Styleable.AppBarLayout_elevation = global::LightBoxApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::NControl.Droid.Resource.Styleable.AppBarLayout_expanded = global::LightBoxApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::NControl.Droid.Resource.Styleable.AppCompatImageView = global::LightBoxApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::NControl.Droid.Resource.Styleable.AppCompatImageView_android_src = global::LightBoxApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::NControl.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::LightBoxApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::NControl.Droid.Resource.Styleable.AppCompatTextView = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::NControl.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::NControl.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LightBoxApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::NControl.Droid.Resource.Styleable.ButtonBarLayout = global::LightBoxApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::NControl.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::LightBoxApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::NControl.Droid.Resource.Styleable.CardView = global::LightBoxApp.Droid.Resource.Styleable.CardView;
+			global::NControl.Droid.Resource.Styleable.CardView_android_minHeight = global::LightBoxApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::NControl.Droid.Resource.Styleable.CardView_android_minWidth = global::LightBoxApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::NControl.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::NControl.Droid.Resource.Styleable.CardView_cardCornerRadius = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::NControl.Droid.Resource.Styleable.CardView_cardElevation = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::NControl.Droid.Resource.Styleable.CardView_cardMaxElevation = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::NControl.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::NControl.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::LightBoxApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPadding = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPaddingRight = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPaddingTop = global::LightBoxApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::LightBoxApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::NControl.Droid.Resource.Styleable.CompoundButton = global::LightBoxApp.Droid.Resource.Styleable.CompoundButton;
+			global::NControl.Droid.Resource.Styleable.CompoundButton_android_button = global::LightBoxApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::NControl.Droid.Resource.Styleable.CompoundButton_buttonTint = global::LightBoxApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::NControl.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::LightBoxApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::NControl.Droid.Resource.Styleable.CoordinatorLayout = global::LightBoxApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::NControl.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::LightBoxApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::NControl.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::LightBoxApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::NControl.Droid.Resource.Styleable.DesignTheme = global::LightBoxApp.Droid.Resource.Styleable.DesignTheme;
+			global::NControl.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::LightBoxApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::NControl.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::LightBoxApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::NControl.Droid.Resource.Styleable.DesignTheme_textColorError = global::LightBoxApp.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_color = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::LightBoxApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_elevation = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::LightBoxApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::NControl.Droid.Resource.Styleable.ForegroundLinearLayout = global::LightBoxApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::NControl.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::LightBoxApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::NControl.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::LightBoxApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::NControl.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::LightBoxApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LightBoxApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::NControl.Droid.Resource.Styleable.ListPopupWindow = global::LightBoxApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::NControl.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LightBoxApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::NControl.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LightBoxApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::NControl.Droid.Resource.Styleable.MediaRouteButton = global::LightBoxApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::NControl.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::LightBoxApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::NControl.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::LightBoxApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::NControl.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::LightBoxApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::NControl.Droid.Resource.Styleable.MenuGroup = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_enabled = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_id = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_visible = global::LightBoxApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::NControl.Droid.Resource.Styleable.MenuItem = global::LightBoxApp.Droid.Resource.Styleable.MenuItem;
+			global::NControl.Droid.Resource.Styleable.MenuItem_actionLayout = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::NControl.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::NControl.Droid.Resource.Styleable.MenuItem_actionViewClass = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_checkable = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_checked = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_enabled = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_icon = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_id = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_onClick = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_title = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_visible = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::NControl.Droid.Resource.Styleable.MenuItem_showAsAction = global::LightBoxApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::NControl.Droid.Resource.Styleable.MenuView = global::LightBoxApp.Droid.Resource.Styleable.MenuView;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_headerBackground = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_itemBackground = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LightBoxApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::NControl.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::LightBoxApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::NControl.Droid.Resource.Styleable.NavigationView = global::LightBoxApp.Droid.Resource.Styleable.NavigationView;
+			global::NControl.Droid.Resource.Styleable.NavigationView_android_background = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::NControl.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::NControl.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::NControl.Droid.Resource.Styleable.NavigationView_elevation = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::NControl.Droid.Resource.Styleable.NavigationView_headerLayout = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::NControl.Droid.Resource.Styleable.NavigationView_itemBackground = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::NControl.Droid.Resource.Styleable.NavigationView_itemIconTint = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::NControl.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::NControl.Droid.Resource.Styleable.NavigationView_itemTextColor = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::NControl.Droid.Resource.Styleable.NavigationView_menu = global::LightBoxApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::NControl.Droid.Resource.Styleable.PopupWindow = global::LightBoxApp.Droid.Resource.Styleable.PopupWindow;
+			global::NControl.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::LightBoxApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::NControl.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::LightBoxApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::NControl.Droid.Resource.Styleable.PopupWindowBackgroundState = global::LightBoxApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::NControl.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LightBoxApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::NControl.Droid.Resource.Styleable.RecyclerView = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_android_orientation = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_layoutManager = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_spanCount = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::LightBoxApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::NControl.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::LightBoxApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::NControl.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::LightBoxApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::NControl.Droid.Resource.Styleable.SearchView = global::LightBoxApp.Droid.Resource.Styleable.SearchView;
+			global::NControl.Droid.Resource.Styleable.SearchView_android_focusable = global::LightBoxApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::NControl.Droid.Resource.Styleable.SearchView_android_imeOptions = global::LightBoxApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::NControl.Droid.Resource.Styleable.SearchView_android_inputType = global::LightBoxApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::NControl.Droid.Resource.Styleable.SearchView_android_maxWidth = global::LightBoxApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::NControl.Droid.Resource.Styleable.SearchView_closeIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_commitIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::LightBoxApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::NControl.Droid.Resource.Styleable.SearchView_goIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::LightBoxApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::NControl.Droid.Resource.Styleable.SearchView_layout = global::LightBoxApp.Droid.Resource.Styleable.SearchView_layout;
+			global::NControl.Droid.Resource.Styleable.SearchView_queryBackground = global::LightBoxApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::NControl.Droid.Resource.Styleable.SearchView_queryHint = global::LightBoxApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::NControl.Droid.Resource.Styleable.SearchView_searchHintIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_searchIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_submitBackground = global::LightBoxApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::NControl.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::LightBoxApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::NControl.Droid.Resource.Styleable.SearchView_voiceIcon = global::LightBoxApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::NControl.Droid.Resource.Styleable.SnackbarLayout = global::LightBoxApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::NControl.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::LightBoxApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::NControl.Droid.Resource.Styleable.SnackbarLayout_elevation = global::LightBoxApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::NControl.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::LightBoxApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::NControl.Droid.Resource.Styleable.Spinner = global::LightBoxApp.Droid.Resource.Styleable.Spinner;
+			global::NControl.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::LightBoxApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::NControl.Droid.Resource.Styleable.Spinner_android_entries = global::LightBoxApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::NControl.Droid.Resource.Styleable.Spinner_android_popupBackground = global::LightBoxApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::NControl.Droid.Resource.Styleable.Spinner_android_prompt = global::LightBoxApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::NControl.Droid.Resource.Styleable.Spinner_popupTheme = global::LightBoxApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_showText = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_track = global::LightBoxApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::NControl.Droid.Resource.Styleable.TabItem = global::LightBoxApp.Droid.Resource.Styleable.TabItem;
+			global::NControl.Droid.Resource.Styleable.TabItem_android_icon = global::LightBoxApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::NControl.Droid.Resource.Styleable.TabItem_android_layout = global::LightBoxApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::NControl.Droid.Resource.Styleable.TabItem_android_text = global::LightBoxApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::NControl.Droid.Resource.Styleable.TabLayout = global::LightBoxApp.Droid.Resource.Styleable.TabLayout;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabBackground = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabContentStart = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabGravity = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabMode = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPadding = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabTextColor = global::LightBoxApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::NControl.Droid.Resource.Styleable.TextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_textColor = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_textSize = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_typeface = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::LightBoxApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_android_hint = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::NControl.Droid.Resource.Styleable.Toolbar = global::LightBoxApp.Droid.Resource.Styleable.Toolbar;
+			global::NControl.Droid.Resource.Styleable.Toolbar_android_gravity = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::NControl.Droid.Resource.Styleable.Toolbar_android_minHeight = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::NControl.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::NControl.Droid.Resource.Styleable.Toolbar_collapseIcon = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::NControl.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::NControl.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::NControl.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::NControl.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::NControl.Droid.Resource.Styleable.Toolbar_logo = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::NControl.Droid.Resource.Styleable.Toolbar_logoDescription = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::NControl.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::NControl.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::NControl.Droid.Resource.Styleable.Toolbar_navigationIcon = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::NControl.Droid.Resource.Styleable.Toolbar_popupTheme = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::NControl.Droid.Resource.Styleable.Toolbar_subtitle = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::NControl.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::NControl.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::NControl.Droid.Resource.Styleable.Toolbar_title = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_title;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMargins = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleTextColor = global::LightBoxApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::NControl.Droid.Resource.Styleable.View = global::LightBoxApp.Droid.Resource.Styleable.View;
+			global::NControl.Droid.Resource.Styleable.View_android_focusable = global::LightBoxApp.Droid.Resource.Styleable.View_android_focusable;
+			global::NControl.Droid.Resource.Styleable.View_android_theme = global::LightBoxApp.Droid.Resource.Styleable.View_android_theme;
+			global::NControl.Droid.Resource.Styleable.View_paddingEnd = global::LightBoxApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::NControl.Droid.Resource.Styleable.View_paddingStart = global::LightBoxApp.Droid.Resource.Styleable.View_paddingStart;
+			global::NControl.Droid.Resource.Styleable.View_theme = global::LightBoxApp.Droid.Resource.Styleable.View_theme;
+			global::NControl.Droid.Resource.Styleable.ViewBackgroundHelper = global::LightBoxApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::NControl.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::LightBoxApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::NControl.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LightBoxApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::NControl.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LightBoxApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::NControl.Droid.Resource.Styleable.ViewStubCompat = global::LightBoxApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::NControl.Droid.Resource.Styleable.ViewStubCompat_android_id = global::LightBoxApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::NControl.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LightBoxApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::NControl.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::LightBoxApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::NGraphics.Android.Resource.String.library_name = global::LightBoxApp.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::LightBoxApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -210,6 +3496,42 @@ namespace LightBoxApp.Droid
 			
 			// aapt resource value: 0x7f01008e
 			public const int activityChooserViewStyle = 2130772110;
+			
+			// aapt resource value: 0x7f010176
+			public const int ahBarColor = 2130772342;
+			
+			// aapt resource value: 0x7f01017e
+			public const int ahBarLength = 2130772350;
+			
+			// aapt resource value: 0x7f01017d
+			public const int ahBarWidth = 2130772349;
+			
+			// aapt resource value: 0x7f01017b
+			public const int ahCircleColor = 2130772347;
+			
+			// aapt resource value: 0x7f01017a
+			public const int ahDelayMillis = 2130772346;
+			
+			// aapt resource value: 0x7f01017c
+			public const int ahRadius = 2130772348;
+			
+			// aapt resource value: 0x7f010177
+			public const int ahRimColor = 2130772343;
+			
+			// aapt resource value: 0x7f010178
+			public const int ahRimWidth = 2130772344;
+			
+			// aapt resource value: 0x7f010179
+			public const int ahSpinSpeed = 2130772345;
+			
+			// aapt resource value: 0x7f010173
+			public const int ahText = 2130772339;
+			
+			// aapt resource value: 0x7f010174
+			public const int ahTextColor = 2130772340;
+			
+			// aapt resource value: 0x7f010175
+			public const int ahTextSize = 2130772341;
 			
 			// aapt resource value: 0x7f0100b3
 			public const int alertDialogButtonGroupStyle = 2130772147;
@@ -2342,26 +5664,26 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02012f
-			public const int avd_hide_password_1 = 2130837807;
+			// aapt resource value: 0x7f020133
+			public const int avd_hide_password_1 = 2130837811;
 			
-			// aapt resource value: 0x7f020130
-			public const int avd_hide_password_2 = 2130837808;
+			// aapt resource value: 0x7f020134
+			public const int avd_hide_password_2 = 2130837812;
 			
-			// aapt resource value: 0x7f020131
-			public const int avd_hide_password_3 = 2130837809;
+			// aapt resource value: 0x7f020135
+			public const int avd_hide_password_3 = 2130837813;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020132
-			public const int avd_show_password_1 = 2130837810;
+			// aapt resource value: 0x7f020136
+			public const int avd_show_password_1 = 2130837814;
 			
-			// aapt resource value: 0x7f020133
-			public const int avd_show_password_2 = 2130837811;
+			// aapt resource value: 0x7f020137
+			public const int avd_show_password_2 = 2130837815;
 			
-			// aapt resource value: 0x7f020134
-			public const int avd_show_password_3 = 2130837812;
+			// aapt resource value: 0x7f020138
+			public const int avd_show_password_3 = 2130837816;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2394,628 +5716,640 @@ namespace LightBoxApp.Droid
 			public const int ic_dialog_close_light = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_group_collapse_00 = 2130837599;
+			public const int ic_errorstatus = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_01 = 2130837600;
+			public const int ic_group_collapse_00 = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_02 = 2130837601;
+			public const int ic_group_collapse_01 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_03 = 2130837602;
+			public const int ic_group_collapse_02 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_04 = 2130837603;
+			public const int ic_group_collapse_03 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_05 = 2130837604;
+			public const int ic_group_collapse_04 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_06 = 2130837605;
+			public const int ic_group_collapse_05 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_07 = 2130837606;
+			public const int ic_group_collapse_06 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_08 = 2130837607;
+			public const int ic_group_collapse_07 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_09 = 2130837608;
+			public const int ic_group_collapse_08 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_10 = 2130837609;
+			public const int ic_group_collapse_09 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_11 = 2130837610;
+			public const int ic_group_collapse_10 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_12 = 2130837611;
+			public const int ic_group_collapse_11 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_13 = 2130837612;
+			public const int ic_group_collapse_12 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_14 = 2130837613;
+			public const int ic_group_collapse_13 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_15 = 2130837614;
+			public const int ic_group_collapse_14 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_expand_00 = 2130837615;
+			public const int ic_group_collapse_15 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_01 = 2130837616;
+			public const int ic_group_expand_00 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_02 = 2130837617;
+			public const int ic_group_expand_01 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_03 = 2130837618;
+			public const int ic_group_expand_02 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_04 = 2130837619;
+			public const int ic_group_expand_03 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_05 = 2130837620;
+			public const int ic_group_expand_04 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_06 = 2130837621;
+			public const int ic_group_expand_05 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_07 = 2130837622;
+			public const int ic_group_expand_06 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_08 = 2130837623;
+			public const int ic_group_expand_07 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_09 = 2130837624;
+			public const int ic_group_expand_08 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_10 = 2130837625;
+			public const int ic_group_expand_09 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_11 = 2130837626;
+			public const int ic_group_expand_10 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_12 = 2130837627;
+			public const int ic_group_expand_11 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_13 = 2130837628;
+			public const int ic_group_expand_12 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_14 = 2130837629;
+			public const int ic_group_expand_13 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_15 = 2130837630;
+			public const int ic_group_expand_14 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_media_pause_dark = 2130837631;
+			public const int ic_group_expand_15 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_light = 2130837632;
+			public const int ic_media_pause_dark = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_play_dark = 2130837633;
+			public const int ic_media_pause_light = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_light = 2130837634;
+			public const int ic_media_play_dark = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_stop_dark = 2130837635;
+			public const int ic_media_play_light = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_light = 2130837636;
+			public const int ic_media_stop_dark = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_mr_button_connected_00_dark = 2130837637;
+			public const int ic_media_stop_light = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_light = 2130837638;
+			public const int ic_mr_button_connected_00_dark = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_01_dark = 2130837639;
+			public const int ic_mr_button_connected_00_light = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_light = 2130837640;
+			public const int ic_mr_button_connected_01_dark = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_02_dark = 2130837641;
+			public const int ic_mr_button_connected_01_light = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_light = 2130837642;
+			public const int ic_mr_button_connected_02_dark = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_03_dark = 2130837643;
+			public const int ic_mr_button_connected_02_light = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_light = 2130837644;
+			public const int ic_mr_button_connected_03_dark = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_04_dark = 2130837645;
+			public const int ic_mr_button_connected_03_light = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_light = 2130837646;
+			public const int ic_mr_button_connected_04_dark = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_05_dark = 2130837647;
+			public const int ic_mr_button_connected_04_light = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_light = 2130837648;
+			public const int ic_mr_button_connected_05_dark = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_06_dark = 2130837649;
+			public const int ic_mr_button_connected_05_light = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_light = 2130837650;
+			public const int ic_mr_button_connected_06_dark = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_07_dark = 2130837651;
+			public const int ic_mr_button_connected_06_light = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_light = 2130837652;
+			public const int ic_mr_button_connected_07_dark = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_08_dark = 2130837653;
+			public const int ic_mr_button_connected_07_light = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_light = 2130837654;
+			public const int ic_mr_button_connected_08_dark = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_09_dark = 2130837655;
+			public const int ic_mr_button_connected_08_light = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_light = 2130837656;
+			public const int ic_mr_button_connected_09_dark = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_10_dark = 2130837657;
+			public const int ic_mr_button_connected_09_light = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_light = 2130837658;
+			public const int ic_mr_button_connected_10_dark = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_11_dark = 2130837659;
+			public const int ic_mr_button_connected_10_light = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_light = 2130837660;
+			public const int ic_mr_button_connected_11_dark = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_12_dark = 2130837661;
+			public const int ic_mr_button_connected_11_light = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_light = 2130837662;
+			public const int ic_mr_button_connected_12_dark = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_13_dark = 2130837663;
+			public const int ic_mr_button_connected_12_light = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_light = 2130837664;
+			public const int ic_mr_button_connected_13_dark = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_14_dark = 2130837665;
+			public const int ic_mr_button_connected_13_light = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_light = 2130837666;
+			public const int ic_mr_button_connected_14_dark = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_15_dark = 2130837667;
+			public const int ic_mr_button_connected_14_light = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_light = 2130837668;
+			public const int ic_mr_button_connected_15_dark = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_16_dark = 2130837669;
+			public const int ic_mr_button_connected_15_light = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_light = 2130837670;
+			public const int ic_mr_button_connected_16_dark = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_17_dark = 2130837671;
+			public const int ic_mr_button_connected_16_light = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_light = 2130837672;
+			public const int ic_mr_button_connected_17_dark = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_18_dark = 2130837673;
+			public const int ic_mr_button_connected_17_light = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_light = 2130837674;
+			public const int ic_mr_button_connected_18_dark = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_19_dark = 2130837675;
+			public const int ic_mr_button_connected_18_light = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_light = 2130837676;
+			public const int ic_mr_button_connected_19_dark = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_20_dark = 2130837677;
+			public const int ic_mr_button_connected_19_light = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_light = 2130837678;
+			public const int ic_mr_button_connected_20_dark = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_21_dark = 2130837679;
+			public const int ic_mr_button_connected_20_light = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_light = 2130837680;
+			public const int ic_mr_button_connected_21_dark = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_22_dark = 2130837681;
+			public const int ic_mr_button_connected_21_light = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_light = 2130837682;
+			public const int ic_mr_button_connected_22_dark = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_23_dark = 2130837683;
+			public const int ic_mr_button_connected_22_light = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_23_light = 2130837684;
+			public const int ic_mr_button_connected_23_dark = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_24_dark = 2130837685;
+			public const int ic_mr_button_connected_23_light = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_24_light = 2130837686;
+			public const int ic_mr_button_connected_24_dark = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_25_dark = 2130837687;
+			public const int ic_mr_button_connected_24_light = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_25_light = 2130837688;
+			public const int ic_mr_button_connected_25_dark = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_26_dark = 2130837689;
+			public const int ic_mr_button_connected_25_light = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_26_light = 2130837690;
+			public const int ic_mr_button_connected_26_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_27_dark = 2130837691;
+			public const int ic_mr_button_connected_26_light = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_27_light = 2130837692;
+			public const int ic_mr_button_connected_27_dark = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_28_dark = 2130837693;
+			public const int ic_mr_button_connected_27_light = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_28_light = 2130837694;
+			public const int ic_mr_button_connected_28_dark = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_29_dark = 2130837695;
+			public const int ic_mr_button_connected_28_light = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_29_light = 2130837696;
+			public const int ic_mr_button_connected_29_dark = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_30_dark = 2130837697;
+			public const int ic_mr_button_connected_29_light = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_30_light = 2130837698;
+			public const int ic_mr_button_connected_30_dark = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connecting_00_dark = 2130837699;
+			public const int ic_mr_button_connected_30_light = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_00_light = 2130837700;
+			public const int ic_mr_button_connecting_00_dark = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_01_dark = 2130837701;
+			public const int ic_mr_button_connecting_00_light = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_01_light = 2130837702;
+			public const int ic_mr_button_connecting_01_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_02_dark = 2130837703;
+			public const int ic_mr_button_connecting_01_light = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_02_light = 2130837704;
+			public const int ic_mr_button_connecting_02_dark = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_03_dark = 2130837705;
+			public const int ic_mr_button_connecting_02_light = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_03_light = 2130837706;
+			public const int ic_mr_button_connecting_03_dark = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_04_dark = 2130837707;
+			public const int ic_mr_button_connecting_03_light = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_04_light = 2130837708;
+			public const int ic_mr_button_connecting_04_dark = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_05_dark = 2130837709;
+			public const int ic_mr_button_connecting_04_light = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_05_light = 2130837710;
+			public const int ic_mr_button_connecting_05_dark = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_06_dark = 2130837711;
+			public const int ic_mr_button_connecting_05_light = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_06_light = 2130837712;
+			public const int ic_mr_button_connecting_06_dark = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_07_dark = 2130837713;
+			public const int ic_mr_button_connecting_06_light = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_07_light = 2130837714;
+			public const int ic_mr_button_connecting_07_dark = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_08_dark = 2130837715;
+			public const int ic_mr_button_connecting_07_light = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_08_light = 2130837716;
+			public const int ic_mr_button_connecting_08_dark = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_09_dark = 2130837717;
+			public const int ic_mr_button_connecting_08_light = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_09_light = 2130837718;
+			public const int ic_mr_button_connecting_09_dark = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_10_dark = 2130837719;
+			public const int ic_mr_button_connecting_09_light = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_10_light = 2130837720;
+			public const int ic_mr_button_connecting_10_dark = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_11_dark = 2130837721;
+			public const int ic_mr_button_connecting_10_light = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_11_light = 2130837722;
+			public const int ic_mr_button_connecting_11_dark = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_12_dark = 2130837723;
+			public const int ic_mr_button_connecting_11_light = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_12_light = 2130837724;
+			public const int ic_mr_button_connecting_12_dark = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_13_dark = 2130837725;
+			public const int ic_mr_button_connecting_12_light = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_13_light = 2130837726;
+			public const int ic_mr_button_connecting_13_dark = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_14_dark = 2130837727;
+			public const int ic_mr_button_connecting_13_light = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_14_light = 2130837728;
+			public const int ic_mr_button_connecting_14_dark = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_15_dark = 2130837729;
+			public const int ic_mr_button_connecting_14_light = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_15_light = 2130837730;
+			public const int ic_mr_button_connecting_15_dark = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_16_dark = 2130837731;
+			public const int ic_mr_button_connecting_15_light = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_16_light = 2130837732;
+			public const int ic_mr_button_connecting_16_dark = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_17_dark = 2130837733;
+			public const int ic_mr_button_connecting_16_light = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_17_light = 2130837734;
+			public const int ic_mr_button_connecting_17_dark = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_18_dark = 2130837735;
+			public const int ic_mr_button_connecting_17_light = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_18_light = 2130837736;
+			public const int ic_mr_button_connecting_18_dark = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_19_dark = 2130837737;
+			public const int ic_mr_button_connecting_18_light = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_19_light = 2130837738;
+			public const int ic_mr_button_connecting_19_dark = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_20_dark = 2130837739;
+			public const int ic_mr_button_connecting_19_light = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_20_light = 2130837740;
+			public const int ic_mr_button_connecting_20_dark = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_21_dark = 2130837741;
+			public const int ic_mr_button_connecting_20_light = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_21_light = 2130837742;
+			public const int ic_mr_button_connecting_21_dark = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_22_dark = 2130837743;
+			public const int ic_mr_button_connecting_21_light = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_22_light = 2130837744;
+			public const int ic_mr_button_connecting_22_dark = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_23_dark = 2130837745;
+			public const int ic_mr_button_connecting_22_light = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_23_light = 2130837746;
+			public const int ic_mr_button_connecting_23_dark = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_24_dark = 2130837747;
+			public const int ic_mr_button_connecting_23_light = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_24_light = 2130837748;
+			public const int ic_mr_button_connecting_24_dark = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_25_dark = 2130837749;
+			public const int ic_mr_button_connecting_24_light = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_25_light = 2130837750;
+			public const int ic_mr_button_connecting_25_dark = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_26_dark = 2130837751;
+			public const int ic_mr_button_connecting_25_light = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_26_light = 2130837752;
+			public const int ic_mr_button_connecting_26_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_27_dark = 2130837753;
+			public const int ic_mr_button_connecting_26_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_27_light = 2130837754;
+			public const int ic_mr_button_connecting_27_dark = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_28_dark = 2130837755;
+			public const int ic_mr_button_connecting_27_light = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_28_light = 2130837756;
+			public const int ic_mr_button_connecting_28_dark = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_29_dark = 2130837757;
+			public const int ic_mr_button_connecting_28_light = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_29_light = 2130837758;
+			public const int ic_mr_button_connecting_29_dark = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_30_dark = 2130837759;
+			public const int ic_mr_button_connecting_29_light = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_30_light = 2130837760;
+			public const int ic_mr_button_connecting_30_dark = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_disabled_dark = 2130837761;
+			public const int ic_mr_button_connecting_30_light = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_disabled_light = 2130837762;
+			public const int ic_mr_button_disabled_dark = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_disconnected_dark = 2130837763;
+			public const int ic_mr_button_disabled_light = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_disconnected_light = 2130837764;
+			public const int ic_mr_button_disconnected_dark = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_grey = 2130837765;
+			public const int ic_mr_button_disconnected_light = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_vol_type_speaker_dark = 2130837766;
+			public const int ic_mr_button_grey = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_vol_type_speaker_group_dark = 2130837767;
+			public const int ic_successstatus = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_vol_type_speaker_group_light = 2130837768;
+			public const int ic_vol_type_speaker_dark = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_vol_type_speaker_light = 2130837769;
+			public const int ic_vol_type_speaker_group_dark = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_vol_type_tv_dark = 2130837770;
+			public const int ic_vol_type_speaker_group_light = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_vol_type_tv_light = 2130837771;
+			public const int ic_vol_type_speaker_light = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int mr_button_connected_dark = 2130837772;
+			public const int ic_vol_type_tv_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int mr_button_connected_light = 2130837773;
+			public const int ic_vol_type_tv_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int mr_button_connecting_dark = 2130837774;
+			public const int mr_button_connected_dark = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int mr_button_connecting_light = 2130837775;
+			public const int mr_button_connected_light = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int mr_button_dark = 2130837776;
+			public const int mr_button_connecting_dark = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int mr_button_light = 2130837777;
+			public const int mr_button_connecting_light = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int mr_dialog_close_dark = 2130837778;
+			public const int mr_button_dark = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int mr_dialog_close_light = 2130837779;
+			public const int mr_button_light = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int mr_dialog_material_background_dark = 2130837780;
+			public const int mr_dialog_close_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int mr_dialog_material_background_light = 2130837781;
+			public const int mr_dialog_close_light = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int mr_group_collapse = 2130837782;
+			public const int mr_dialog_material_background_dark = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int mr_group_expand = 2130837783;
+			public const int mr_dialog_material_background_light = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int mr_media_pause_dark = 2130837784;
+			public const int mr_group_collapse = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int mr_media_pause_light = 2130837785;
+			public const int mr_group_expand = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int mr_media_play_dark = 2130837786;
+			public const int mr_media_pause_dark = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int mr_media_play_light = 2130837787;
+			public const int mr_media_pause_light = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int mr_media_stop_dark = 2130837788;
+			public const int mr_media_play_dark = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int mr_media_stop_light = 2130837789;
+			public const int mr_media_play_light = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int mr_vol_type_audiotrack_dark = 2130837790;
+			public const int mr_media_stop_dark = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int mr_vol_type_audiotrack_light = 2130837791;
+			public const int mr_media_stop_light = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int navigation_empty_icon = 2130837792;
+			public const int mr_vol_type_audiotrack_dark = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int notification_action_background = 2130837793;
+			public const int mr_vol_type_audiotrack_light = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int notification_bg = 2130837794;
+			public const int navigation_empty_icon = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int notification_bg_low = 2130837795;
+			public const int notification_action_background = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int notification_bg_low_normal = 2130837796;
+			public const int notification_bg = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int notification_bg_low_pressed = 2130837797;
+			public const int notification_bg_low = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int notification_bg_normal = 2130837798;
+			public const int notification_bg_low_normal = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int notification_bg_normal_pressed = 2130837799;
+			public const int notification_bg_low_pressed = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int notification_icon_background = 2130837800;
-			
-			// aapt resource value: 0x7f02012d
-			public const int notification_template_icon_bg = 2130837805;
-			
-			// aapt resource value: 0x7f02012e
-			public const int notification_template_icon_low_bg = 2130837806;
+			public const int notification_bg_normal = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int notification_tile_bg = 2130837801;
+			public const int notification_bg_normal_pressed = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int notify_panel_notification_icon_bg = 2130837802;
+			public const int notification_icon_background = 2130837802;
+			
+			// aapt resource value: 0x7f020131
+			public const int notification_template_icon_bg = 2130837809;
+			
+			// aapt resource value: 0x7f020132
+			public const int notification_template_icon_low_bg = 2130837810;
 			
 			// aapt resource value: 0x7f02012b
-			public const int tooltip_frame_dark = 2130837803;
+			public const int notification_tile_bg = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int tooltip_frame_light = 2130837804;
+			public const int notify_panel_notification_icon_bg = 2130837804;
+			
+			// aapt resource value: 0x7f02012d
+			public const int roundedbg = 2130837805;
+			
+			// aapt resource value: 0x7f02012e
+			public const int roundedbgdark = 2130837806;
+			
+			// aapt resource value: 0x7f02012f
+			public const int tooltip_frame_dark = 2130837807;
+			
+			// aapt resource value: 0x7f020130
+			public const int tooltip_frame_light = 2130837808;
 			
 			static Drawable()
 			{
@@ -3048,8 +6382,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090037
 			public const int SYM = 2131296311;
 			
-			// aapt resource value: 0x7f0900b6
-			public const int action0 = 2131296438;
+			// aapt resource value: 0x7f0900ba
+			public const int action0 = 2131296442;
 			
 			// aapt resource value: 0x7f09007c
 			public const int action_bar = 2131296380;
@@ -3072,17 +6406,17 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f09005a
 			public const int action_bar_title = 2131296346;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int action_container = 2131296435;
+			// aapt resource value: 0x7f0900b7
+			public const int action_container = 2131296439;
 			
 			// aapt resource value: 0x7f09007d
 			public const int action_context_bar = 2131296381;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int action_divider = 2131296442;
+			// aapt resource value: 0x7f0900be
+			public const int action_divider = 2131296446;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int action_image = 2131296436;
+			// aapt resource value: 0x7f0900b8
+			public const int action_image = 2131296440;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -3099,11 +6433,11 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f09005c
 			public const int action_mode_close_button = 2131296348;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int action_text = 2131296437;
+			// aapt resource value: 0x7f0900b9
+			public const int action_text = 2131296441;
 			
-			// aapt resource value: 0x7f0900c3
-			public const int actions = 2131296451;
+			// aapt resource value: 0x7f0900c7
+			public const int actions = 2131296455;
 			
 			// aapt resource value: 0x7f09005d
 			public const int activity_chooser_view_content = 2131296349;
@@ -3138,8 +6472,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090063
 			public const int buttonPanel = 2131296355;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int cancel_action = 2131296439;
+			// aapt resource value: 0x7f0900bb
+			public const int cancel_action = 2131296443;
 			
 			// aapt resource value: 0x7f090045
 			public const int center = 2131296325;
@@ -3153,8 +6487,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090073
 			public const int checkbox = 2131296371;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int chronometer = 2131296447;
+			// aapt resource value: 0x7f0900c3
+			public const int chronometer = 2131296451;
 			
 			// aapt resource value: 0x7f09004e
 			public const int clip_horizontal = 2131296334;
@@ -3210,8 +6544,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090030
 			public const int end = 2131296304;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int end_padder = 2131296453;
+			// aapt resource value: 0x7f0900c9
+			public const int end_padder = 2131296457;
 			
 			// aapt resource value: 0x7f09003f
 			public const int enterAlways = 2131296319;
@@ -3255,8 +6589,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090062
 			public const int icon = 2131296354;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int icon_group = 2131296452;
+			// aapt resource value: 0x7f0900c8
+			public const int icon_group = 2131296456;
 			
 			// aapt resource value: 0x7f09003a
 			public const int ifRoom = 2131296314;
@@ -3264,8 +6598,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f09005f
 			public const int image = 2131296351;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int info = 2131296448;
+			// aapt resource value: 0x7f0900c4
+			public const int info = 2131296452;
 			
 			// aapt resource value: 0x7f090059
 			public const int italic = 2131296345;
@@ -3291,14 +6625,23 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090061
 			public const int list_item = 2131296353;
 			
-			// aapt resource value: 0x7f0900ca
-			public const int masked = 2131296458;
+			// aapt resource value: 0x7f09009b
+			public const int loadingImage = 2131296411;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int media_actions = 2131296441;
+			// aapt resource value: 0x7f090099
+			public const int loadingProgressBar = 2131296409;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int message = 2131296456;
+			// aapt resource value: 0x7f09009c
+			public const int loadingProgressWheel = 2131296412;
+			
+			// aapt resource value: 0x7f0900ce
+			public const int masked = 2131296462;
+			
+			// aapt resource value: 0x7f0900bd
+			public const int media_actions = 2131296445;
+			
+			// aapt resource value: 0x7f0900cc
+			public const int message = 2131296460;
 			
 			// aapt resource value: 0x7f090031
 			public const int middle = 2131296305;
@@ -3306,80 +6649,80 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090053
 			public const int mini = 2131296339;
 			
-			// aapt resource value: 0x7f0900a5
-			public const int mr_art = 2131296421;
-			
-			// aapt resource value: 0x7f09009a
-			public const int mr_chooser_list = 2131296410;
-			
-			// aapt resource value: 0x7f09009d
-			public const int mr_chooser_route_desc = 2131296413;
-			
-			// aapt resource value: 0x7f09009b
-			public const int mr_chooser_route_icon = 2131296411;
-			
-			// aapt resource value: 0x7f09009c
-			public const int mr_chooser_route_name = 2131296412;
-			
-			// aapt resource value: 0x7f090099
-			public const int mr_chooser_title = 2131296409;
-			
-			// aapt resource value: 0x7f0900a2
-			public const int mr_close = 2131296418;
-			
-			// aapt resource value: 0x7f0900a8
-			public const int mr_control_divider = 2131296424;
-			
-			// aapt resource value: 0x7f0900ae
-			public const int mr_control_playback_ctrl = 2131296430;
-			
-			// aapt resource value: 0x7f0900b1
-			public const int mr_control_subtitle = 2131296433;
-			
-			// aapt resource value: 0x7f0900b0
-			public const int mr_control_title = 2131296432;
-			
-			// aapt resource value: 0x7f0900af
-			public const int mr_control_title_container = 2131296431;
-			
-			// aapt resource value: 0x7f0900a3
-			public const int mr_custom_control = 2131296419;
-			
-			// aapt resource value: 0x7f0900a4
-			public const int mr_default_control = 2131296420;
-			
-			// aapt resource value: 0x7f09009f
-			public const int mr_dialog_area = 2131296415;
+			// aapt resource value: 0x7f0900a9
+			public const int mr_art = 2131296425;
 			
 			// aapt resource value: 0x7f09009e
-			public const int mr_expandable_area = 2131296414;
-			
-			// aapt resource value: 0x7f0900b2
-			public const int mr_group_expand_collapse = 2131296434;
-			
-			// aapt resource value: 0x7f0900a6
-			public const int mr_media_main_control = 2131296422;
+			public const int mr_chooser_list = 2131296414;
 			
 			// aapt resource value: 0x7f0900a1
-			public const int mr_name = 2131296417;
+			public const int mr_chooser_route_desc = 2131296417;
 			
-			// aapt resource value: 0x7f0900a7
-			public const int mr_playback_control = 2131296423;
+			// aapt resource value: 0x7f09009f
+			public const int mr_chooser_route_icon = 2131296415;
 			
 			// aapt resource value: 0x7f0900a0
-			public const int mr_title_bar = 2131296416;
+			public const int mr_chooser_route_name = 2131296416;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int mr_volume_control = 2131296425;
+			// aapt resource value: 0x7f09009d
+			public const int mr_chooser_title = 2131296413;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int mr_volume_group_list = 2131296426;
+			// aapt resource value: 0x7f0900a6
+			public const int mr_close = 2131296422;
 			
 			// aapt resource value: 0x7f0900ac
-			public const int mr_volume_item_icon = 2131296428;
+			public const int mr_control_divider = 2131296428;
+			
+			// aapt resource value: 0x7f0900b2
+			public const int mr_control_playback_ctrl = 2131296434;
+			
+			// aapt resource value: 0x7f0900b5
+			public const int mr_control_subtitle = 2131296437;
+			
+			// aapt resource value: 0x7f0900b4
+			public const int mr_control_title = 2131296436;
+			
+			// aapt resource value: 0x7f0900b3
+			public const int mr_control_title_container = 2131296435;
+			
+			// aapt resource value: 0x7f0900a7
+			public const int mr_custom_control = 2131296423;
+			
+			// aapt resource value: 0x7f0900a8
+			public const int mr_default_control = 2131296424;
+			
+			// aapt resource value: 0x7f0900a3
+			public const int mr_dialog_area = 2131296419;
+			
+			// aapt resource value: 0x7f0900a2
+			public const int mr_expandable_area = 2131296418;
+			
+			// aapt resource value: 0x7f0900b6
+			public const int mr_group_expand_collapse = 2131296438;
+			
+			// aapt resource value: 0x7f0900aa
+			public const int mr_media_main_control = 2131296426;
+			
+			// aapt resource value: 0x7f0900a5
+			public const int mr_name = 2131296421;
+			
+			// aapt resource value: 0x7f0900ab
+			public const int mr_playback_control = 2131296427;
+			
+			// aapt resource value: 0x7f0900a4
+			public const int mr_title_bar = 2131296420;
 			
 			// aapt resource value: 0x7f0900ad
-			public const int mr_volume_slider = 2131296429;
+			public const int mr_volume_control = 2131296429;
+			
+			// aapt resource value: 0x7f0900ae
+			public const int mr_volume_group_list = 2131296430;
+			
+			// aapt resource value: 0x7f0900b0
+			public const int mr_volume_item_icon = 2131296432;
+			
+			// aapt resource value: 0x7f0900b1
+			public const int mr_volume_slider = 2131296433;
 			
 			// aapt resource value: 0x7f090028
 			public const int multiply = 2131296296;
@@ -3396,14 +6739,14 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f09001e
 			public const int normal = 2131296286;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int notification_background = 2131296450;
+			// aapt resource value: 0x7f0900c6
+			public const int notification_background = 2131296454;
 			
-			// aapt resource value: 0x7f0900bc
-			public const int notification_main_column = 2131296444;
+			// aapt resource value: 0x7f0900c0
+			public const int notification_main_column = 2131296448;
 			
-			// aapt resource value: 0x7f0900bb
-			public const int notification_main_column_container = 2131296443;
+			// aapt resource value: 0x7f0900bf
+			public const int notification_main_column_container = 2131296447;
 			
 			// aapt resource value: 0x7f09004c
 			public const int parallax = 2131296332;
@@ -3429,11 +6772,11 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f09004a
 			public const int right = 2131296330;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int right_icon = 2131296449;
+			// aapt resource value: 0x7f0900c5
+			public const int right_icon = 2131296453;
 			
-			// aapt resource value: 0x7f0900bd
-			public const int right_side = 2131296445;
+			// aapt resource value: 0x7f0900c1
+			public const int right_side = 2131296449;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -3507,8 +6850,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090025
 			public const int showTitle = 2131296293;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int sliding_tabs = 2131296454;
+			// aapt resource value: 0x7f0900ca
+			public const int sliding_tabs = 2131296458;
 			
 			// aapt resource value: 0x7f09008b
 			public const int smallLabel = 2131296395;
@@ -3540,8 +6883,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f09004b
 			public const int start = 2131296331;
 			
-			// aapt resource value: 0x7f0900b8
-			public const int status_bar_latest_event_content = 2131296440;
+			// aapt resource value: 0x7f0900bc
+			public const int status_bar_latest_event_content = 2131296444;
 			
 			// aapt resource value: 0x7f090076
 			public const int submenuarrow = 2131296374;
@@ -3567,6 +6910,9 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090069
 			public const int textSpacerNoTitle = 2131296361;
 			
+			// aapt resource value: 0x7f09009a
+			public const int textViewStatus = 2131296410;
+			
 			// aapt resource value: 0x7f090098
 			public const int text_input_password_toggle = 2131296408;
 			
@@ -3576,8 +6922,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090015
 			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f0900be
-			public const int time = 2131296446;
+			// aapt resource value: 0x7f0900c2
+			public const int time = 2131296450;
 			
 			// aapt resource value: 0x7f09001c
 			public const int title = 2131296284;
@@ -3588,8 +6934,8 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f09006f
 			public const int title_template = 2131296367;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int toolbar = 2131296455;
+			// aapt resource value: 0x7f0900cb
+			public const int toolbar = 2131296459;
 			
 			// aapt resource value: 0x7f09003e
 			public const int top = 2131296318;
@@ -3627,11 +6973,11 @@ namespace LightBoxApp.Droid
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int visible = 2131296457;
+			// aapt resource value: 0x7f0900cd
+			public const int visible = 2131296461;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int volume_item_container = 2131296427;
+			// aapt resource value: 0x7f0900af
+			public const int volume_item_container = 2131296431;
 			
 			// aapt resource value: 0x7f09003c
 			public const int withText = 2131296316;
@@ -3844,88 +7190,97 @@ namespace LightBoxApp.Droid
 			public const int design_text_input_password_icon = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int mr_chooser_dialog = 2130968616;
+			public const int loading = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int mr_chooser_list_item = 2130968617;
+			public const int loadingimage = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int mr_controller_material_dialog_b = 2130968618;
+			public const int loadingprogress = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int mr_controller_volume_item = 2130968619;
+			public const int mr_chooser_dialog = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int mr_playback_control = 2130968620;
+			public const int mr_chooser_list_item = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int mr_volume_control = 2130968621;
+			public const int mr_controller_material_dialog_b = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_action = 2130968622;
+			public const int mr_controller_volume_item = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_action_tombstone = 2130968623;
+			public const int mr_playback_control = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_media_action = 2130968624;
+			public const int mr_volume_control = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_media_cancel_action = 2130968625;
+			public const int notification_action = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_big_media = 2130968626;
+			public const int notification_action_tombstone = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_big_media_custom = 2130968627;
+			public const int notification_media_action = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_big_media_narrow = 2130968628;
+			public const int notification_media_cancel_action = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_big_media_narrow_custom = 2130968629;
+			public const int notification_template_big_media = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_custom_big = 2130968630;
+			public const int notification_template_big_media_custom = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_icon_group = 2130968631;
+			public const int notification_template_big_media_narrow = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_lines_media = 2130968632;
+			public const int notification_template_big_media_narrow_custom = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_media = 2130968633;
+			public const int notification_template_custom_big = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_media_custom = 2130968634;
+			public const int notification_template_icon_group = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_part_chronometer = 2130968635;
+			public const int notification_template_lines_media = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_part_time = 2130968636;
+			public const int notification_template_media = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int select_dialog_item_material = 2130968637;
+			public const int notification_template_media_custom = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int select_dialog_multichoice_material = 2130968638;
+			public const int notification_template_part_chronometer = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int select_dialog_singlechoice_material = 2130968639;
+			public const int notification_template_part_time = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int support_simple_spinner_dropdown_item = 2130968640;
+			public const int select_dialog_item_material = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int Tabbar = 2130968641;
+			public const int select_dialog_multichoice_material = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int Toolbar = 2130968642;
+			public const int select_dialog_singlechoice_material = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int tooltip = 2130968643;
+			public const int support_simple_spinner_dropdown_item = 2130968643;
+			
+			// aapt resource value: 0x7f040044
+			public const int Tabbar = 2130968644;
+			
+			// aapt resource value: 0x7f040045
+			public const int Toolbar = 2130968645;
+			
+			// aapt resource value: 0x7f040046
+			public const int tooltip = 2130968646;
 			
 			static Layout()
 			{
@@ -4057,6 +7412,9 @@ namespace LightBoxApp.Droid
 			
 			// aapt resource value: 0x7f0a0035
 			public const int character_counter_pattern = 2131361845;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int library_name = 2131361852;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;
@@ -6889,6 +10247,56 @@ namespace LightBoxApp.Droid
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] ProgressWheel = new int[] {
+					2130772339,
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346,
+					2130772347,
+					2130772348,
+					2130772349,
+					2130772350};
+			
+			// aapt resource value: 3
+			public const int ProgressWheel_ahBarColor = 3;
+			
+			// aapt resource value: 11
+			public const int ProgressWheel_ahBarLength = 11;
+			
+			// aapt resource value: 10
+			public const int ProgressWheel_ahBarWidth = 10;
+			
+			// aapt resource value: 8
+			public const int ProgressWheel_ahCircleColor = 8;
+			
+			// aapt resource value: 7
+			public const int ProgressWheel_ahDelayMillis = 7;
+			
+			// aapt resource value: 9
+			public const int ProgressWheel_ahRadius = 9;
+			
+			// aapt resource value: 4
+			public const int ProgressWheel_ahRimColor = 4;
+			
+			// aapt resource value: 5
+			public const int ProgressWheel_ahRimWidth = 5;
+			
+			// aapt resource value: 6
+			public const int ProgressWheel_ahSpinSpeed = 6;
+			
+			// aapt resource value: 0
+			public const int ProgressWheel_ahText = 0;
+			
+			// aapt resource value: 1
+			public const int ProgressWheel_ahTextColor = 1;
+			
+			// aapt resource value: 2
+			public const int ProgressWheel_ahTextSize = 2;
 			
 			public static int[] RecycleListView = new int[] {
 					2130772200,

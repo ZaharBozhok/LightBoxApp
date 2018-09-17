@@ -11,6 +11,9 @@ using Prism.Ioc;
 using LightBoxApp.Services;
 using LightBoxApp.Droid.Services;
 using Android.Content;
+using NControl.Droid;
+using NControl.Controls.Droid;
+using Acr.UserDialogs;
 
 namespace LightBoxApp.Droid
 {
@@ -21,9 +24,13 @@ namespace LightBoxApp.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
-
+            App.ScreenWidth = (int)((double)Resources.DisplayMetrics.WidthPixels / (double)Resources.DisplayMetrics.Density);
+            App.ScreenHeight = (int)((double)Resources.DisplayMetrics.HeightPixels / (double)Resources.DisplayMetrics.Density);
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            NControlViewRenderer.Init();
+            NControls.Init();
+            UserDialogs.Init(this);
             LoadApplication(new App(new AndroidInitializer(this)));
         }
         public class AndroidInitializer : IPlatformInitializer

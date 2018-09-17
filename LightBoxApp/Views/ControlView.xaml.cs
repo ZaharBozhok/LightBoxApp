@@ -10,6 +10,7 @@ namespace LightBoxApp.Views
         public ControlView()
         {
             InitializeComponent();
+            Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
         }
 
         protected override void OnAppearing()

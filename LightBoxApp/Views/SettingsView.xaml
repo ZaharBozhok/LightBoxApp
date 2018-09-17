@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:BaseContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:p="clr-namespace:LightBoxApp.Views;assembly=LightBoxApp" 
+    xmlns:controls="clr-namespace:LightBoxApp.Controls" 
+    xmlns:this="clr-namespace:LightBoxApp"
+    x:Class="LightBoxApp.Views.SettingsView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <controls:ClickableContentView Grid.Row="0" HorizontalOptions="Start" Command="{Binding BackCommand}">
+            <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="Fuchsia"/>
+        </controls:ClickableContentView>
+        <ScrollView Grid.Row="1">
+            <StackLayout HorizontalOptions="Center" Spacing="15" Padding="0,15,0,0">
+                <controls:ClickableContentView Command="{Binding ConfigureWhenAP}">
+                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Configure LightBox when connected to it's AP"/>
+                </controls:ClickableContentView>
+                <controls:ClickableContentView Command="{Binding ManualMAC}">
+                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Manual mac entering when in local net"/>
+                </controls:ClickableContentView>
+                <controls:ClickableContentView Command="{Binding Autodetect}">
+                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Autodetection in local network"/>
+                </controls:ClickableContentView>
+                <controls:ClickableContentView Command="{Binding Placement}">
+                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Configure placement"/>
+                </controls:ClickableContentView>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</p:BaseContentPage>

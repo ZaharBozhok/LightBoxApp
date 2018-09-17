@@ -2,20 +2,45 @@
 <p:BaseContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    xmlns:p="clr-namespace:LightBoxApp.Views;assembly=LightBoxApp"
-    xmlns:controls="clr-namespace:LightBoxApp.Controls"
+    xmlns:p="clr-namespace:LightBoxApp.Views;assembly=LightBoxApp" 
+    xmlns:controls="clr-namespace:LightBoxApp.Controls" 
+    xmlns:this="clr-namespace:LightBoxApp"
     x:Class="LightBoxApp.Views.ControlView">
-    <Grid HorizontalOptions="Center" VerticalOptions="Center" ColumnSpacing="10">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
+    <Grid BackgroundColor="{x:Static this:Constants.OffColor}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <controls:ClickableGrid Grid.Column="0" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}"/>
-        <controls:ClickableGrid Grid.Column="1" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}"/>
-        <controls:ClickableGrid Grid.Column="2" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}"/>
+        <controls:ClickableContentView HorizontalOptions="End" Command="{Binding SettingsCommand}" Grid.Row="0">
+            <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="Fuchsia"/>
+        </controls:ClickableContentView>
+        <Grid HorizontalOptions="Center" Grid.Row="1" VerticalOptions="CenterAndExpand" ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <controls:ClickableGrid Grid.Column="0" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
+                                    BackgroundColor="{x:Static this:Constants.BorderColor}" 
+                                    Padding="1" States="{Binding FirstStates}"
+                                    OnAnyStateChanged="{Binding SendCommand}"/>
+            <controls:ClickableGrid Grid.Column="1" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
+                                    BackgroundColor="{x:Static this:Constants.BorderColor}" 
+                                    Padding="1" States="{Binding SecondStates}"
+                                    OnAnyStateChanged="{Binding SendCommand}"/>
+            <controls:ClickableGrid Grid.Column="2" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
+                                    BackgroundColor="{x:Static this:Constants.BorderColor}" 
+                                    Padding="1" States="{Binding ThirdStates}"
+                                    OnAnyStateChanged="{Binding SendCommand}"/>
+        </Grid>
+        <Button Command="{Binding SendCommand}" Text="Send" 
+                TextColor="{x:Static this:Constants.OffColor}" 
+                HeightRequest="40" BackgroundColor="White" 
+                VerticalOptions="End" HorizontalOptions="Fill"
+                Grid.Row="2"/>
     </Grid>
 </p:BaseContentPage>

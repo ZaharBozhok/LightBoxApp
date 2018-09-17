@@ -13,6 +13,11 @@
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
     <PackageReference Include="Prism.Core" Version="7.0.0.396" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.0.0.396" />
+    <PackageReference Include="NControl" Version="0.9.1" />
+    <PackageReference Include="NControl.Controls" Version="0.9.4.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Acr.UserDialogs" Version="7.0.1" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
@@ -20,6 +25,10 @@
     <Folder Include="Services\" />
     <Folder Include="Enums\" />
     <Folder Include="Controls\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\Storage\" />
+    <Folder Include="Services\AppSettingsManager\" />
+    <Folder Include="Converters\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="MainPage.xaml.cs" />

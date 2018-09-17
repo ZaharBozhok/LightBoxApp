@@ -1,11 +1,19 @@
 ﻿using System;
+using System.Windows.Input;
 using Prism.Mvvm;
 using Prism.Navigation;
+using Xamarin.Forms;
 
 namespace LightBoxApp.ViewModels
 {
     public class BaseViewModel : BindableBase, INavigationAware, IDestructible
     {
+        protected readonly INavigationService _navigationService;
+
+        public BaseViewModel(INavigationService navigationService)
+        {
+            _navigationService = navigationService;
+        }
         #region -- IViewActionsHandler implementation --
 
         public virtual void OnAppearing()
@@ -56,6 +64,14 @@ namespace LightBoxApp.ViewModels
             {
                 throw new ArgumentException(parameter + " parsmeter doesn't setted");
             }
+        }
+
+        private ICommand _BackCommand;
+        public ICommand BackCommand => _BackCommand ?? (_BackCommand = new Command(OnBackCommand));
+
+        public virtual async void OnBackCommand(object obj)
+        {
+            await _navigationService.GoBackAsync();
         }
     }
 }

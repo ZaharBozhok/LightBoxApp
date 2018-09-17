@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:BaseContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:p="clr-namespace:LightBoxApp.Views;assembly=LightBoxApp" 
+    xmlns:controls="clr-namespace:LightBoxApp.Controls" 
+    xmlns:this="clr-namespace:LightBoxApp"
+    x:Class="LightBoxApp.Views.ConfigureAsAPView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <controls:ClickableContentView Grid.Row="0" HorizontalOptions="Start" Command="{Binding BackCommand}">
+            <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="Fuchsia"/>
+        </controls:ClickableContentView>
+    <Grid Grid.Row="1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Entry Grid.Row="0" Placeholder="AP name" Text="{Binding APName}"/>
+        <Entry Grid.Row="1" Placeholder="AP password" Text="{Binding APPassword}"/>
+        <Entry Grid.Row="2" Placeholder="MAC address" Text="{Binding MAC}"/>
+        <Entry Grid.Row="3" Placeholder="Site " Text="{Binding Site}"/>
+        <Grid Grid.Row="4" VerticalOptions="End" ColumnSpacing="0" RowSpacing="0">
+            <Button Grid.Column="0" BackgroundColor="{x:Static this:Constants.OffColor}"  
+                    HeightRequest="30" Text="Write" HorizontalOptions="Fill" VerticalOptions="Center" 
+                    TextColor="{x:Static this:Constants.BorderColor}"
+                    Command="{Binding WriteCommand}"/>
+            <Button Grid.Column="1" BackgroundColor="{x:Static this:Constants.OffColor}"  
+                    HeightRequest="30" Text="Read" HorizontalOptions="Fill" VerticalOptions="Center" 
+                    TextColor="{x:Static this:Constants.BorderColor}"
+                    Command="{Binding ReadCommand}"/>
+            <Button Grid.Column="2" BackgroundColor="{x:Static this:Constants.OffColor}"  
+                    HeightRequest="30" Text="Write+Reset" HorizontalOptions="Fill" VerticalOptions="Center" 
+                    TextColor="{x:Static this:Constants.BorderColor}"
+                    Command="{Binding ResetCommand}"/>
+        </Grid>
+    </Grid>
+        </Grid>
+</p:BaseContentPage>
