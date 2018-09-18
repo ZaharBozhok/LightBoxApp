@@ -15,6 +15,7 @@ namespace LightBoxApp
         public static string ControlPath = "control";
 
         public static string DevicesKey = "Devices";
+        public static string PresetsKey = "Presets";
 
         public static int XAmount = 5;
         public static int YAmount = 5;

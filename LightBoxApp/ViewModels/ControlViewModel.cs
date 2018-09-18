@@ -28,10 +28,18 @@ namespace LightBoxApp.ViewModels
             _orientationService = orientationService;
             _appSettingsManager = appSettingsManager;
             _userDialogs = userDialogs;
-            _orientationService.SetOrientation(Enums.EDeviceOrientations.Landscape);
+            //_orientationService.SetOrientation(Enums.EDeviceOrientations.Landscape);
             _XAmount = Constants.XAmount;
             _YAmount = Constants.YAmount;
             LoadSites();
+            _PresetModel = new PresetModel(5,5);
+        }
+
+        private PresetModel _PresetModel;
+        public PresetModel PresetModel
+        {
+            get { return _PresetModel; }
+            set { SetProperty(ref _PresetModel, value); }
         }
 
         private void LoadSites()
@@ -60,25 +68,7 @@ namespace LightBoxApp.ViewModels
             set { SetProperty(ref _YAmount, value); }
         }
 
-        private List<StateModel> _FirstStates;
-        public List<StateModel> FirstStates
-        {
-            get { return _FirstStates; }
-            set { SetProperty(ref _FirstStates, value); }
-        }
-        private List<StateModel> _SecondStates;
-        public List<StateModel> SecondStates
-        {
-            get { return _SecondStates; }
-            set { SetProperty(ref _SecondStates, value); }
-        }
 
-        private List<StateModel> _ThirdStates;
-        public List<StateModel> ThirdStates
-        {
-            get { return _ThirdStates; }
-            set { SetProperty(ref _ThirdStates, value); }
-        }
 
         private ICommand _SendCommand;
         public ICommand SendCommand => _SendCommand ?? (_SendCommand = new Command(OnSendCommand));
@@ -94,11 +84,20 @@ namespace LightBoxApp.ViewModels
             return ret;
         }
 
+        private ICommand _SaveCommand;
+        public ICommand SaveCommand => _SaveCommand ?? (_SaveCommand = new Command(OnSaveCommand));
+
+        private async void OnSaveCommand(object obj)
+        {
+            PresetModel.id = Guid.NewGuid();
+            await _appSettingsManager.UpdatePresetByNameAsync(PresetModel);
+        }
+
         private async void OnSendCommand(object obj)
         {
-            var data1 = StatesToString(FirstStates);
-            var data2 = StatesToString(SecondStates);
-            var data3 = StatesToString(ThirdStates);
+            var data1 = StatesToString(PresetModel.FirstPanel);
+            var data2 = StatesToString(PresetModel.SecondPanel);
+            var data3 = StatesToString(PresetModel.ThirdPanel);
             CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
             ProgressDialogConfig progressDialogConfig = new ProgressDialogConfig()
             {
@@ -160,7 +159,15 @@ namespace LightBoxApp.ViewModels
         {
             base.OnNavigatedTo(parameters);
             LoadSites();
-            Debug.WriteLine("Navigated to");
+            if(parameters.TryGetValue("Preset", out PresetModel presetModel))
+            {
+                this.PresetModel.FirstPanel = presetModel.FirstPanel;
+                this.PresetModel.SecondPanel = presetModel.SecondPanel;
+                this.PresetModel.ThirdPanel = presetModel.ThirdPanel;
+                this.PresetModel.Name = presetModel.Name;
+                OnSendCommand(null);
+            }
+            Debug.WriteLine("OnNavigatingTo to");
         }
 
         private ICommand _SettingsCommand;
@@ -169,6 +176,14 @@ namespace LightBoxApp.ViewModels
         private async void OnSettingsCommand(object obj)
         {
             await _navigationService.NavigateAsync("SettingsView");
+        }
+
+        private ICommand _PresetsCommand;
+        public ICommand PresetsCommand => _PresetsCommand ?? (_PresetsCommand = new Command(OnPresetsCommand));
+
+        private async void OnPresetsCommand(object obj)
+        {
+            await _navigationService.NavigateAsync("PresetsView");
         }
     }
 }

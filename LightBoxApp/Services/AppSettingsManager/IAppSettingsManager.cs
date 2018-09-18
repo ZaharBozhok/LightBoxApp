@@ -11,5 +11,11 @@ namespace LightBoxApp.Services.AppSettingsManager
         Task AddDeviceAsync(DeviceModel deviceModel);
         Task RemoveDeviceAsync(DeviceModel deviceModel);
         Task UpdateDeviceAsync(DeviceModel deviceModel);
+
+        Task<List<PresetModel>> GetPresetsAsync();
+        Task AddPresetAsync(PresetModel presetModel);
+        Task RemovePresetAsync(Guid id);
+        Task UpdatePresetAsync(PresetModel presetModel);
+        Task UpdatePresetByNameAsync(PresetModel presetModel);
     }
 }

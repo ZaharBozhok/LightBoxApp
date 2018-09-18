@@ -15,6 +15,9 @@
         <controls:ClickableContentView HorizontalOptions="End" Command="{Binding SettingsCommand}" Grid.Row="0">
             <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="Fuchsia"/>
         </controls:ClickableContentView>
+        <controls:ClickableContentView HorizontalOptions="Start" Command="{Binding PresetsCommand}" Grid.Row="0">
+            <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="Fuchsia"/>
+        </controls:ClickableContentView>
         <Grid HorizontalOptions="Center" Grid.Row="1" VerticalOptions="CenterAndExpand" ColumnSpacing="10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
@@ -26,21 +29,27 @@
             </Grid.RowDefinitions>
             <controls:ClickableGrid Grid.Column="0" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
                                     BackgroundColor="{x:Static this:Constants.BorderColor}" 
-                                    Padding="1" States="{Binding FirstStates}"
+                                    Padding="1" States="{Binding PresetModel.FirstPanel, Mode=TwoWay}"
                                     />
             <controls:ClickableGrid Grid.Column="1" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
                                     BackgroundColor="{x:Static this:Constants.BorderColor}" 
-                                    Padding="1" States="{Binding SecondStates}"
+                                    Padding="1" States="{Binding PresetModel.SecondPanel, Mode=TwoWay}"
                                     />
             <controls:ClickableGrid Grid.Column="2" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
-                                    BackgroundColor="{x:Static this:Constants.BorderColor}" 
-                                    Padding="1" States="{Binding ThirdStates}"
+                                    BackgroundColor="{x:Static this:Constants.BorderColor, Mode=TwoWay}" 
+                                    Padding="1" States="{Binding PresetModel.ThirdPanel}"
                                     />
         </Grid>
         <Button Command="{Binding SendCommand}" Text="Send" 
                 TextColor="{x:Static this:Constants.OffColor}" 
                 HeightRequest="40" BackgroundColor="White" 
-                VerticalOptions="End" HorizontalOptions="Fill"
+                VerticalOptions="End" HorizontalOptions="Start"
+                Grid.Row="2"/>
+        <Entry Text="{Binding PresetModel.Name}" Grid.Row="2" HorizontalOptions="Center" WidthRequest="200"/>
+        <Button Command="{Binding SaveCommand}" Text="Save" 
+                TextColor="{x:Static this:Constants.OffColor}" 
+                HeightRequest="40" BackgroundColor="White" 
+                VerticalOptions="End" HorizontalOptions="End"
                 Grid.Row="2"/>
     </Grid>
 </p:BaseContentPage>

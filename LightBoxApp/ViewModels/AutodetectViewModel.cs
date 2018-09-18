@@ -53,21 +53,6 @@ namespace LightBoxApp.ViewModels
         public async override void OnNavigatedTo(NavigationParameters parameters)
         {
             base.OnNavigatedTo(parameters);
-            //_userDialogs.ShowLoading("Loading...");
-            //try
-            //{
-            //    var res = await _appSettingsManager.GetDevicesAsync();
-            //    Devices = new ObservableCollection<DeviceModel>(res.OrderBy((arg) => arg.Mac));
-            //}
-            //catch(Exception ex)
-            //{
-
-            //}
-            //finally
-            //{
-            //    _userDialogs.HideLoading();
-            //}
-
         }
     }
 }

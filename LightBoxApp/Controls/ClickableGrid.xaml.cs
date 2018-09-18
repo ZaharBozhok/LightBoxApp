@@ -16,6 +16,7 @@ namespace LightBoxApp.Controls
         public ClickableGrid()
         {
             InitializeComponent();
+            this.States = new List<StateModel>();
             DrawGrid();
         }
 
@@ -29,7 +30,13 @@ namespace LightBoxApp.Controls
         }
 
         public static readonly BindableProperty StatesProperty = BindableProperty.Create(
-            nameof(States), typeof(List<StateModel>), typeof(ClickableGrid), new List<StateModel>(), BindingMode.TwoWay);
+            nameof(States), typeof(List<StateModel>), typeof(ClickableGrid), new List<StateModel>(), BindingMode.TwoWay, propertyChanged: OnStatesPropertyChanged);
+
+        private static void OnStatesPropertyChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            var _this = (ClickableGrid)bindable;
+            _this.DrawGrid();
+        }
 
         public List<StateModel> States
         {
@@ -74,21 +81,19 @@ namespace LightBoxApp.Controls
 
         void DrawGrid()
         {
-            this.States = new List<StateModel>();
-            this.grid.Children.Clear();
 
+            this.grid.Children.Clear();
             double size = Math.Max(App.ScreenWidth, App.ScreenHeight) * 0.06;
             int dindIndex = 0;
             for (int i = 0; i < XAmount; i++)
             {
-                for (int j = 0; j < YAmount; j++)
+                for (int j = 0; j < YAmount && dindIndex < States.Count; j++,dindIndex++)
                 {
-                    States.Add(new StateModel());
                     SwitchableBoxView boxView = new SwitchableBoxView();
                     boxView.BackgroundColor = Constants.OffColor;
                     boxView.OnColor = Constants.OnColor;
                     boxView.OffColor = Constants.OffColor;
-                    boxView.SetBinding(SwitchableBoxView.StateProperty, new Binding("State",BindingMode.TwoWay, source: States[dindIndex++]));
+                    boxView.SetBinding(SwitchableBoxView.StateProperty, new Binding("State",BindingMode.TwoWay, source: States[dindIndex]));
                     boxView.HeightRequest = size;
                     boxView.WidthRequest = boxView.HeightRequest;
 
