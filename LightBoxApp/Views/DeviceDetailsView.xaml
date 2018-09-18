@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:p="clr-namespace:LightBoxApp.Views;assembly=LightBoxApp" xmlns:controls="clr-namespace:LightBoxApp.Controls" xmlns:this="clr-namespace:LightBoxApp" x:Class="LightBoxApp.Views.DeviceDetailsView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <controls:ClickableContentView Grid.Row="0" HorizontalOptions="Start" Command="{Binding BackCommand}">
+            <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="Fuchsia" />
+        </controls:ClickableContentView>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Entry Grid.Row="0" Text="{Binding DeviceModel.Name}" />
+            <Entry Grid.Row="1" Text="{Binding DeviceModel.Mac}" />
+            <Entry Grid.Row="2" Text="{Binding DeviceModel.Site}" />
+            <Switch Grid.Row="3" IsToggled="{Binding DeviceModel.IsEnabled}" />
+            <Picker Grid.Row="4" Title="Panel" SelectedItem="{Binding DeviceModel.Panel, Mode=TwoWay}">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <controls:ClickableContentView Grid.Row="5" Command="{Binding ConfigureWhenAP}">
+                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Configure as AP"/>
+            </controls:ClickableContentView>
+            <Button Grid.Row="6" Command="{Binding RemoveCommand}" Text="Remove" HorizontalOptions="Fill" VerticalOptions="End" HeightRequest="40" BackgroundColor="{x:Static this:Constants.OffColor}" TextColor="White"/>
+        </Grid>
+    </Grid>
+</p:BaseContentPage>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Text.RegularExpressions;
 using System.Windows.Input;
 using Prism.Navigation;
 using Xamarin.Forms;
@@ -24,8 +25,11 @@ namespace LightBoxApp.ViewModels
         private ICommand _ManualMAC;
         public ICommand ManualMAC => _ManualMAC ?? (_ManualMAC = new Command(OnManualMAC));
 
-        private void OnManualMAC(object obj)
+        private async void OnManualMAC(object obj)
         {
+            NavigationParameters pairs = new NavigationParameters();
+            pairs.Add("Path", FormattedMac + Constants.ConfigsPath);
+            await _navigationService.NavigateAsync("ConfigureAsAPView",pairs);
             Debug.WriteLine("OnManualMAC");
         }
 
@@ -44,6 +48,26 @@ namespace LightBoxApp.ViewModels
         {
             Debug.WriteLine("OnPlacement");
         }
+        private string _ManualMac;
+        public string ManualMac
+        {
+            get { return _ManualMac; }
+            set { SetProperty(ref _ManualMac, value); RaisePropertyChanged(nameof(FormattedMac)); }
+        }
+
+        public string FormattedMac
+        {
+            get { return "http://lightbox" + MacToPath(_ManualMac) + ".local"; }
+        }
+
+        private string MacToPath(string mac)
+        {
+            string res = default(String);
+            if(!string.IsNullOrEmpty(mac))
+                res = Regex.Replace(mac, ":", "").ToLower();
+            return res;
+        }
+
     }
 }
 

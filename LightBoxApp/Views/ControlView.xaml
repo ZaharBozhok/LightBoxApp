@@ -27,15 +27,15 @@
             <controls:ClickableGrid Grid.Column="0" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
                                     BackgroundColor="{x:Static this:Constants.BorderColor}" 
                                     Padding="1" States="{Binding FirstStates}"
-                                    OnAnyStateChanged="{Binding SendCommand}"/>
+                                    />
             <controls:ClickableGrid Grid.Column="1" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
                                     BackgroundColor="{x:Static this:Constants.BorderColor}" 
                                     Padding="1" States="{Binding SecondStates}"
-                                    OnAnyStateChanged="{Binding SendCommand}"/>
+                                    />
             <controls:ClickableGrid Grid.Column="2" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
                                     BackgroundColor="{x:Static this:Constants.BorderColor}" 
                                     Padding="1" States="{Binding ThirdStates}"
-                                    OnAnyStateChanged="{Binding SendCommand}"/>
+                                    />
         </Grid>
         <Button Command="{Binding SendCommand}" Text="Send" 
                 TextColor="{x:Static this:Constants.OffColor}" 

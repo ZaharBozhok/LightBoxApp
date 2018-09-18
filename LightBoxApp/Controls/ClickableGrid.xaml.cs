@@ -78,6 +78,7 @@ namespace LightBoxApp.Controls
             this.grid.Children.Clear();
 
             double size = Math.Max(App.ScreenWidth, App.ScreenHeight) * 0.06;
+            int dindIndex = 0;
             for (int i = 0; i < XAmount; i++)
             {
                 for (int j = 0; j < YAmount; j++)
@@ -87,7 +88,7 @@ namespace LightBoxApp.Controls
                     boxView.BackgroundColor = Constants.OffColor;
                     boxView.OnColor = Constants.OnColor;
                     boxView.OffColor = Constants.OffColor;
-                    boxView.SetBinding(SwitchableBoxView.StateProperty, new Binding("State",BindingMode.TwoWay, source: States[i]));
+                    boxView.SetBinding(SwitchableBoxView.StateProperty, new Binding("State",BindingMode.TwoWay, source: States[dindIndex++]));
                     boxView.HeightRequest = size;
                     boxView.WidthRequest = boxView.HeightRequest;
 

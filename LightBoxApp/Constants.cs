@@ -12,7 +12,7 @@ namespace LightBoxApp
 
         public static string AddressOnAP = "http://192.168.4.1";
         public static string ConfigsPath = "/configs";
-        public static string ControlPath = "/control";
+        public static string ControlPath = "control";
 
         public static string DevicesKey = "Devices";
 
@@ -20,5 +20,7 @@ namespace LightBoxApp
         public static int YAmount = 5;
 
         public static string DefaultLightBoxName = "LightBox";
+
+        public static TimeSpan HttpRequestTimeout = new TimeSpan(0, 0, 5);
     }
 }

@@ -63,6 +63,7 @@ namespace LightBoxApp
             containerRegistry.RegisterForNavigation<SettingsView>();
             containerRegistry.RegisterForNavigation<ConfigureAsAPView>();
             containerRegistry.RegisterForNavigation<AutodetectView>();
+            containerRegistry.RegisterForNavigation<DeviceDetailsView>();
         }
 
         public static int ScreenWidth;

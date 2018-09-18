@@ -20,7 +20,7 @@ namespace LightBoxApp.Services.AppSettingsManager
         public async Task AddDeviceAsync(DeviceModel deviceModel)
         {
             try
-            {
+            {//84:F3:EB:5A:1F:8A // "84:F3:EB:5A:1F:8A"
                 HashSet<DeviceModel> deviceModels = await _storageService.LoadAsync<HashSet<DeviceModel>>(Constants.DevicesKey);
                 if (deviceModels == null)
                     deviceModels = new HashSet<DeviceModel>();
@@ -28,7 +28,8 @@ namespace LightBoxApp.Services.AppSettingsManager
                     deviceModel.Name = Constants.DefaultLightBoxName;
                 if (deviceModel.Panel == "0")
                     deviceModel.Panel = "1";
-                if (deviceModels.Count == 0 || deviceModels.First(x => x.Mac == deviceModel.Mac) == null)
+                var res = deviceModels.Where(x => x.Mac == deviceModel.Mac);
+                if (!res.Any())
                 {
                     deviceModels.Add(deviceModel);
                     await _storageService.SaveAsync<HashSet<DeviceModel>>(Constants.DevicesKey, deviceModels);
@@ -71,6 +72,7 @@ namespace LightBoxApp.Services.AppSettingsManager
                     await RemoveDeviceAsync(updating);
                     updating.Name = deviceModel.Name;
                     updating.Panel = deviceModel.Panel;
+                    updating.IsEnabled = deviceModel.IsEnabled;
                     await AddDeviceAsync(updating);
                 }
             }

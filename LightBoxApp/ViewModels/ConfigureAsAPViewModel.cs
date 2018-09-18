@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Http;
+using System.Threading;
 using System.Windows.Input;
 using Acr.UserDialogs;
 using LightBoxApp.Models;
@@ -17,8 +18,9 @@ namespace LightBoxApp.ViewModels
         private readonly IUserDialogs _userDialogs;
         private readonly IAppSettingsManager _appSettingsManager;
         private HttpClient _client;
+        private string path = Constants.AddressOnAP + Constants.ConfigsPath;
 
-        public ConfigureAsAPViewModel(INavigationService navigationService, IUserDialogs userDialogs, IAppSettingsManager appSettingsManager):base(navigationService)
+        public ConfigureAsAPViewModel(INavigationService navigationService, IUserDialogs userDialogs, IAppSettingsManager appSettingsManager) : base(navigationService)
         {
             _userDialogs = userDialogs;
             _appSettingsManager = appSettingsManager;
@@ -30,10 +32,16 @@ namespace LightBoxApp.ViewModels
 
         private async void OnWriteCommand(object obj)
         {
-            _userDialogs.ShowLoading("Writing...");
+            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            ProgressDialogConfig progressDialogConfig = new ProgressDialogConfig()
+            {
+                Title = "Writing...",
+                CancelText = "Cancel",
+                OnCancel = cancellationTokenSource.Cancel
+            };
+            var diag = _userDialogs.Progress(progressDialogConfig);
             try
             {
-                string path = Constants.AddressOnAP + Constants.ConfigsPath;
                 var uri = new Uri(path);
                 var values = new Dictionary<string, string>
                 {
@@ -43,19 +51,23 @@ namespace LightBoxApp.ViewModels
                 };
 
                 var content = new FormUrlEncodedContent(values);
-                var response = await _client.PostAsync(path, content);
+                var response = await _client.PostAsync(path, content, cancellationTokenSource.Token);
                 var responseString = await response.Content.ReadAsStringAsync();
                 Debug.WriteLine(responseString);
             }
+            catch (OperationCanceledException ex)
+            {
+                Debug.WriteLine("OperationCanceledException");
+            }
             catch (Exception ex)
             {
-                _userDialogs.HideLoading();
+                diag.Hide();
                 await _userDialogs.AlertAsync("Something went wrong...");
                 Debug.WriteLine(ex.Message);
             }
             finally
             {
-                _userDialogs.HideLoading();
+                diag.Hide();
             }
             Debug.WriteLine("OnWriteCommand");
         }
@@ -65,12 +77,18 @@ namespace LightBoxApp.ViewModels
 
         private async void OnReadCommand(object obj)
         {
-            _userDialogs.ShowLoading("Reading...");
+            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            ProgressDialogConfig progressDialogConfig = new ProgressDialogConfig()
+            {
+                Title = "Reading...",
+                CancelText = "Cancel",
+                OnCancel = cancellationTokenSource.Cancel
+            };
+            var diag = _userDialogs.Progress(progressDialogConfig);
             try
             {
-                string path = Constants.AddressOnAP + Constants.ConfigsPath;
                 var uri = new Uri(path);
-                HttpResponseMessage response = await _client.GetAsync(uri);
+                HttpResponseMessage response = await _client.GetAsync(uri,cancellationTokenSource.Token);
                 if (response.IsSuccessStatusCode)
                 {
                     var a = await response.Content.ReadAsStringAsync();
@@ -89,15 +107,19 @@ namespace LightBoxApp.ViewModels
                     });
                 }
             }
+            catch (OperationCanceledException ex)
+            {
+                Debug.WriteLine("OperationCanceledException");
+            }
             catch (Exception ex)
             {
-                _userDialogs.HideLoading();
+                diag.Hide();
                 await _userDialogs.AlertAsync("Something went wrong...");
                 Debug.WriteLine(ex.Message);
             }
             finally
             {
-                _userDialogs.HideLoading();
+                diag.Hide();
             }
             Debug.WriteLine("OnReadCommand");
         }
@@ -107,10 +129,16 @@ namespace LightBoxApp.ViewModels
 
         private async void OnResetCommand(object obj)
         {
-            _userDialogs.ShowLoading("Reseting...");
+            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            ProgressDialogConfig progressDialogConfig = new ProgressDialogConfig()
+            {
+                Title = "Reseting...",
+                CancelText = "Cancel",
+                OnCancel = cancellationTokenSource.Cancel
+            };
+            var diag = _userDialogs.Progress(progressDialogConfig);
             try
             {
-                string path = Constants.AddressOnAP + Constants.ConfigsPath;
                 var uri = new Uri(path);
                 var values = new Dictionary<string, string>
                 {
@@ -120,21 +148,35 @@ namespace LightBoxApp.ViewModels
                 };
 
                 var content = new FormUrlEncodedContent(values);
-                var response = await _client.PostAsync(path, content);
+                var response = await _client.PostAsync(path, content, cancellationTokenSource.Token);
                 var responseString = await response.Content.ReadAsStringAsync();
                 Debug.WriteLine(responseString);
             }
+            catch (OperationCanceledException ex)
+            {
+                Debug.WriteLine("OperationCanceledException");
+            }
             catch (Exception ex)
             {
-                _userDialogs.HideLoading();
+                diag.Hide();
                 await _userDialogs.AlertAsync("Something went wrong...");
                 Debug.WriteLine(ex.Message);
             }
             finally
             {
-                _userDialogs.HideLoading();
+                diag.Hide();
             }
             Debug.WriteLine("OnWriteCommand");
+        }
+
+        public override void OnNavigatedTo(NavigationParameters parameters)
+        {
+            base.OnNavigatedTo(parameters);
+            if(parameters.TryGetValue("Path", out String newPath))
+            {
+                this.path = newPath;
+            }
+            OnReadCommand(null);
         }
 
         private string _APName;

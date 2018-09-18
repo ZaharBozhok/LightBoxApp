@@ -23,5 +23,11 @@ namespace LightBoxApp.Models
 
             }
         }
+        private bool _IsEnabled;
+        public bool IsEnabled
+        {
+            get { return _IsEnabled; }
+            set { SetProperty(ref _IsEnabled, value); }
+        }
     }
 }

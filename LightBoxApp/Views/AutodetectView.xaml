@@ -1,59 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p:BaseContentPage 
-    xmlns="http://xamarin.com/schemas/2014/forms" 
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    xmlns:converters="clr-namespace:LightBoxApp.Converters" 
-    xmlns:p="clr-namespace:LightBoxApp.Views;assembly=LightBoxApp" 
-    xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
-    xmlns:controls="clr-namespace:LightBoxApp.Controls" 
-    xmlns:this="clr-namespace:LightBoxApp"
-    x:Class="LightBoxApp.Views.AutodetectView">
+<p:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:converters="clr-namespace:LightBoxApp.Converters" xmlns:p="clr-namespace:LightBoxApp.Views;assembly=LightBoxApp" xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms" xmlns:controls="clr-namespace:LightBoxApp.Controls" xmlns:this="clr-namespace:LightBoxApp" x:Class="LightBoxApp.Views.AutodetectView">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
         <controls:ClickableContentView Grid.Row="0" HorizontalOptions="Start" Command="{Binding BackCommand}">
-            <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="Fuchsia"/>
+            <BoxView HeightRequest="45" WidthRequest="45" BackgroundColor="Fuchsia" />
         </controls:ClickableContentView>
-    <StackLayout Grid.Row="1">
-        <ListView ItemsSource="{Binding Devices}" SeparatorVisibility="None" HasUnevenRows="true">
-        <ListView.Behaviors>
-            <behaviors:EventToCommandBehavior EventName="ItemTapped" Command="{Binding ItemTappedCommand}" 
-                                              EventArgsConverter="{converters:ItemTappedEventArgsConverter}" />
-        </ListView.Behaviors>
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <Entry Grid.Row="0" FontSize="Large" Text="{Binding Name}"/>
-                        <Label Grid.Row="1" Grid.ColumnSpan="2" FontSize="Small" Text="{Binding Mac}"/>
-                        <Picker  Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Title="Panel" SelectedItem="{Binding Panel, Mode=TwoWay}" >
-                            <Picker.ItemsSource>
-                                <x:Array Type="{x:Type x:String}">
-                                  <x:String>1</x:String>
-                                  <x:String>2</x:String>
-                                  <x:String>3</x:String>
-                                </x:Array>
-                            </Picker.ItemsSource>
-                        </Picker>
-                    </Grid>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
-        <Button BackgroundColor="{x:Static this:Constants.OffColor}"  
-                    HeightRequest="30" Text="Save" HorizontalOptions="Fill" VerticalOptions="End" 
-                    TextColor="{x:Static this:Constants.BorderColor}"
-                    Command="{Binding SaveCommand}"/>
-    </StackLayout>
+        <ListView Grid.Row="1" ItemsSource="{Binding Devices}" SeparatorVisibility="None" HasUnevenRows="true">
+            <ListView.Behaviors>
+                <behaviors:EventToCommandBehavior EventName="ItemTapped" Command="{Binding ItemTappedCommand}" EventArgsConverter="{converters:ItemTappedEventArgsConverter}" />
+            </ListView.Behaviors>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid BackgroundColor="Transparent" Padding="10,0">
+                            <Grid.Triggers>
+                                <DataTrigger TargetType="Grid" Binding="{Binding IsEnabled}" Value="false">
+                                    <Setter Property="BackgroundColor" Value="Silver" />
+                                </DataTrigger>
+                            </Grid.Triggers>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Row="0" FontSize="Large" Text="{Binding Name}" />
+                            <Label Grid.Row="1" Grid.ColumnSpan="2" FontSize="Small" Text="{Binding Mac}" />
+                            <Label Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Text="{Binding Panel}" HorizontalOptions="Center" VerticalOptions="Center" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </p:BaseContentPage>

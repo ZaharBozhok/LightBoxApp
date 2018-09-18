@@ -17,17 +17,18 @@
         <ScrollView Grid.Row="1">
             <StackLayout HorizontalOptions="Center" Spacing="15" Padding="0,15,0,0">
                 <controls:ClickableContentView Command="{Binding ConfigureWhenAP}">
-                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Configure LightBox when connected to it's AP"/>
-                </controls:ClickableContentView>
-                <controls:ClickableContentView Command="{Binding ManualMAC}">
-                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Manual mac entering when in local net"/>
+                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Configure LightBox's AP"/>
                 </controls:ClickableContentView>
                 <controls:ClickableContentView Command="{Binding Autodetect}">
-                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Autodetection in local network"/>
+                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="List of saved devices"/>
                 </controls:ClickableContentView>
-                <controls:ClickableContentView Command="{Binding Placement}">
-                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Configure placement"/>
+                <Entry Placeholder="11:22:33:44:55:66" Text="{Binding ManualMac}"/>
+                <Label Text="{Binding FormattedMac}"/>
+                <controls:ClickableContentView Command="{Binding ManualMAC}">
+                    <Label TextColor="#1076F4" HorizontalTextAlignment="Center" Text="Find by mac in local net"/>
                 </controls:ClickableContentView>
+                <!--5C:CF:7F:77:AF:1F-->
+                <!--84:F3:EB:5A:1F:8A-->
             </StackLayout>
         </ScrollView>
     </Grid>

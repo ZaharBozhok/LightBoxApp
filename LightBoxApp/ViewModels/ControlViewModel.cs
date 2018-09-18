@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Acr.UserDialogs;
 using LightBoxApp.Controls;
+using LightBoxApp.Models;
 using LightBoxApp.Services;
 using LightBoxApp.Services.AppSettingsManager;
 using Prism.Navigation;
@@ -16,14 +20,31 @@ namespace LightBoxApp.ViewModels
     {
         private readonly IOrientationService _orientationService;
         private readonly IAppSettingsManager _appSettingsManager;
-        public ControlViewModel(IOrientationService orientationService, INavigationService navigationService, IAppSettingsManager appSettingsManager) : base(navigationService)
+        private readonly IUserDialogs _userDialogs;
+        public ControlViewModel(IOrientationService orientationService,
+                                INavigationService navigationService,
+                                IAppSettingsManager appSettingsManager, IUserDialogs userDialogs) : base(navigationService)
         {
             _orientationService = orientationService;
             _appSettingsManager = appSettingsManager;
+            _userDialogs = userDialogs;
             _orientationService.SetOrientation(Enums.EDeviceOrientations.Landscape);
             _XAmount = Constants.XAmount;
             _YAmount = Constants.YAmount;
+            LoadSites();
         }
+
+        private void LoadSites()
+        {
+            Task.Run(async () =>
+            {
+                deviceModels = await _appSettingsManager.GetDevicesAsync();
+                if (deviceModels == null)
+                    deviceModels = new HashSet<DeviceModel>();
+            });
+        }
+
+        private HashSet<DeviceModel> deviceModels;
 
         private int _XAmount;
         public int XAmount
@@ -62,28 +83,83 @@ namespace LightBoxApp.ViewModels
         private ICommand _SendCommand;
         public ICommand SendCommand => _SendCommand ?? (_SendCommand = new Command(OnSendCommand));
 
-        private void OnSendCommand(object obj)
+        private string StatesToString(List<StateModel> models)
         {
-            //HttpClient httpClient = new HttpClient();
-            //string path = Constants.AddressOnAP + Constants.ConfigsPath;
-            //var uri = new Uri(path);
-            //var values = new Dictionary<string, string>
-            //    {
-            //        { "accessPoint", this.APName },
-            //        { "password", this.APPassword },
-            //        { "reboot", "false"}
-            //    };
+            string ret = "";
+            foreach (var model in models)
+            {
+                ret += model.State == true ? '1' : '0';
+            }
+            ret += "0000000";
+            return ret;
+        }
 
-            //var content = new FormUrlEncodedContent(values);
-            //var response = await _client.PostAsync(path, content);
-            //var responseString = await response.Content.ReadAsStringAsync();
-            //Debug.WriteLine(responseString);
+        private async void OnSendCommand(object obj)
+        {
+            var data1 = StatesToString(FirstStates);
+            var data2 = StatesToString(SecondStates);
+            var data3 = StatesToString(ThirdStates);
+            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            ProgressDialogConfig progressDialogConfig = new ProgressDialogConfig()
+            {
+                Title = "Sending...",
+                CancelText = "Cancel",
+                OnCancel = cancellationTokenSource.Cancel
+            };
+            var diag = _userDialogs.Progress(progressDialogConfig);
+            await Task.Run(async() =>
+            {
+                var res = deviceModels.Where(x => x.IsEnabled == true);
+                if (res == null)
+                    return;
+                foreach (var device in res)
+                {
+                    try
+                    {
+                        var data = default(string);
+                        switch (device.Panel)
+                        {
+                            case "1":
+                                data = data1;
+                                break;
+                            case "2":
+                                data = data2;
+                                break;
+                            case "3":
+                                data = data3;
+                                break;
+                        }
+
+                        HttpClient httpClient = new HttpClient();
+                        //httpClient.Timeout = Constants.HttpRequestTimeout;
+                        string path = device.Site + Constants.ControlPath;
+                        var uri = new Uri(path);
+                        var values = new Dictionary<string, string>{
+                            { "ledsData", data }
+                        };
+                        var content = new FormUrlEncodedContent(values);
+                        var response = await httpClient.PostAsync(path, content, cancellationTokenSource.Token);
+                        Debug.WriteLine(response);
+                    }
+                    catch(OperationCanceledException ex)
+                    {
+                        Debug.WriteLine("OperationCanceledException");
+                        return;
+                    }
+                    catch (Exception ex)
+                    {
+                        Debug.WriteLine(ex.Message);
+                    }
+                }
+            });
+            diag.Hide();
             Debug.WriteLine("SendDataToLamposhniiServerAsync");
         }
 
         public override void OnNavigatedTo(NavigationParameters parameters)
         {
             base.OnNavigatedTo(parameters);
+            LoadSites();
             Debug.WriteLine("Navigated to");
         }
 

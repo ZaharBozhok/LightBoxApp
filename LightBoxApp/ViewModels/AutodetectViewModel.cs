@@ -11,6 +11,7 @@ using LightBoxApp.Services.AppSettingsManager;
 using LightBoxApp.Services.Storage;
 using Prism.Navigation;
 using Xamarin.Forms;
+using System.Linq;
 
 namespace LightBoxApp.ViewModels
 {
@@ -32,71 +33,40 @@ namespace LightBoxApp.ViewModels
             set { SetProperty(ref _Devices, value); }
         }
 
-        private ICommand _SaveCommand;
-        public ICommand SaveCommand => _SaveCommand ?? (_SaveCommand = new Command(OnSaveCommand));
-
-        private async void OnSaveCommand(object obj)
-        {
-            _userDialogs.ShowLoading("Saving...");
-            try
-            {
-                foreach (var dev in Devices)
-                {
-                    await _appSettingsManager.UpdateDeviceAsync(dev);
-                }
-            }
-            catch(Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-            }
-            finally
-            {
-                _userDialogs.HideLoading();
-            }
-        }
-
         private ICommand _ItemTappedCommand;
         public ICommand ItemTappedCommand => _ItemTappedCommand ?? (_ItemTappedCommand = new Command(OnItemTappedCommand));
 
         private async void OnItemTappedCommand(object obj)
         {
-            bool ans = await _userDialogs.ConfirmAsync("Remove the selected item?");
-            if (!ans)
-                return;
-            var item = (DeviceModel)obj;
-            _userDialogs.ShowLoading("Removing...");
-            try
-            {
-                Devices.Remove(item);
-                await _appSettingsManager.RemoveDeviceAsync(item);
-            }
-            catch(Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-            }
-            finally
-            {
-                _userDialogs.HideLoading();
-            }
+            NavigationParameters navigationParameters = new NavigationParameters();
+            navigationParameters.Add("DeviceModel", (DeviceModel)obj);
+            await _navigationService.NavigateAsync("DeviceDetailsView", navigationParameters);
+        }
+
+        public async override void OnNavigatingTo(NavigationParameters parameters)
+        {
+            base.OnNavigatingTo(parameters);
+            var res = await _appSettingsManager.GetDevicesAsync();
+            Devices = new ObservableCollection<DeviceModel>(res.OrderBy((arg) => arg.Mac));
         }
 
         public async override void OnNavigatedTo(NavigationParameters parameters)
         {
             base.OnNavigatedTo(parameters);
-            _userDialogs.ShowLoading("Loading...");
-            try
-            {
-                var res = await _appSettingsManager.GetDevicesAsync();
-                Devices = new ObservableCollection<DeviceModel>(res);
-            }
-            catch(Exception ex)
-            {
+            //_userDialogs.ShowLoading("Loading...");
+            //try
+            //{
+            //    var res = await _appSettingsManager.GetDevicesAsync();
+            //    Devices = new ObservableCollection<DeviceModel>(res.OrderBy((arg) => arg.Mac));
+            //}
+            //catch(Exception ex)
+            //{
 
-            }
-            finally
-            {
-                _userDialogs.HideLoading();
-            }
+            //}
+            //finally
+            //{
+            //    _userDialogs.HideLoading();
+            //}
 
         }
     }
