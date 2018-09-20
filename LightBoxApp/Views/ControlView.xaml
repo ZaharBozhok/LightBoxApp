@@ -27,15 +27,15 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
-            <controls:ClickableGrid Grid.Column="0" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
+            <controls:ClickableGrid Grid.Column="0" XAmount="{x:Static this:Constants.XAmount}" YAmount="{x:Static this:Constants.YAmount}" 
                                     BackgroundColor="{x:Static this:Constants.BorderColor}" 
                                     Padding="1" States="{Binding PresetModel.FirstPanel, Mode=TwoWay}"
                                     />
-            <controls:ClickableGrid Grid.Column="1" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
+            <controls:ClickableGrid Grid.Column="1" XAmount="{x:Static this:Constants.XAmount}" YAmount="{x:Static this:Constants.YAmount}" 
                                     BackgroundColor="{x:Static this:Constants.BorderColor}" 
                                     Padding="1" States="{Binding PresetModel.SecondPanel, Mode=TwoWay}"
                                     />
-            <controls:ClickableGrid Grid.Column="2" XAmount="{Binding XAmount}" YAmount="{Binding YAmount}" 
+            <controls:ClickableGrid Grid.Column="2" XAmount="{x:Static this:Constants.XAmount}" YAmount="{x:Static this:Constants.YAmount}"  
                                     BackgroundColor="{x:Static this:Constants.BorderColor, Mode=TwoWay}" 
                                     Padding="1" States="{Binding PresetModel.ThirdPanel}"
                                     />

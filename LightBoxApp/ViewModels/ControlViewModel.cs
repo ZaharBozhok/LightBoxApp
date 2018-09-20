@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -28,11 +29,8 @@ namespace LightBoxApp.ViewModels
             _orientationService = orientationService;
             _appSettingsManager = appSettingsManager;
             _userDialogs = userDialogs;
-            //_orientationService.SetOrientation(Enums.EDeviceOrientations.Landscape);
-            _XAmount = Constants.XAmount;
-            _YAmount = Constants.YAmount;
             LoadSites();
-            _PresetModel = new PresetModel(5,5);
+            _PresetModel = new PresetModel(Constants.XAmount,Constants.YAmount);
         }
 
         private PresetModel _PresetModel;
@@ -54,34 +52,22 @@ namespace LightBoxApp.ViewModels
 
         private HashSet<DeviceModel> deviceModels;
 
-        private int _XAmount;
-        public int XAmount
-        {
-            get { return _XAmount; }
-            set { SetProperty(ref _XAmount, value); }
-        }
-
-        private int _YAmount;
-        public int YAmount
-        {
-            get { return _YAmount; }
-            set { SetProperty(ref _YAmount, value); }
-        }
-
-
-
         private ICommand _SendCommand;
         public ICommand SendCommand => _SendCommand ?? (_SendCommand = new Command(OnSendCommand));
 
         private string StatesToString(List<StateModel> models)
         {
-            string ret = "";
-            foreach (var model in models)
+            StringBuilder ret = new StringBuilder(new String(Constants.NoData, Constants.DataTemplate.Count()));
+            //ti - templte index
+            //da - data index
+            for (int ti = 0, da = 0; ti < Constants.DataTemplate.Count() && da < models.Count; ti++)
             {
-                ret += model.State == true ? '1' : '0';
+                if(Constants.DataTemplate[ti] == Constants.Data)
+                {
+                    ret[ti] = models[da++].State == true ? Constants.Data:Constants.NoData;
+                }
             }
-            ret += "0000000";
-            return ret;
+            return ret.ToString();
         }
 
         private ICommand _SaveCommand;

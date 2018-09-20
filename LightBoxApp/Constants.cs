@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Xamarin.Forms;
 
 namespace LightBoxApp
@@ -23,5 +24,14 @@ namespace LightBoxApp
         public static string DefaultLightBoxName = "LightBox";
 
         public static TimeSpan HttpRequestTimeout = new TimeSpan(0, 0, 5);
+
+        public static char Data = '1';
+        public static char NoData = '0';
+
+        public static string DataTemplate =
+            new String(Data     , 15) +
+            new String(NoData   , 1) +
+            new String(Data     , 10) +
+            new String(NoData   , 6);
     }
 }
