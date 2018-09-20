@@ -30,7 +30,7 @@ namespace LightBoxApp.ViewModels
             _appSettingsManager = appSettingsManager;
             _userDialogs = userDialogs;
             LoadSites();
-            _PresetModel = new PresetModel(Constants.XAmount,Constants.YAmount);
+            _PresetModel = new PresetModel(Constants.XAmount, Constants.YAmount);
         }
 
         private PresetModel _PresetModel;
@@ -60,13 +60,99 @@ namespace LightBoxApp.ViewModels
             StringBuilder ret = new StringBuilder(new String(Constants.NoData, Constants.DataTemplate.Count()));
             //ti - templte index
             //da - data index
-            for (int ti = 0, da = 0; ti < Constants.DataTemplate.Count() && da < models.Count; ti++)
-            {
-                if(Constants.DataTemplate[ti] == Constants.Data)
-                {
-                    ret[ti] = models[da++].State == true ? Constants.Data:Constants.NoData;
-                }
-            }
+            //for(int reti = 0, maski=0, i=0; maski < Constants.XAmount;  i++)
+            //{
+            //    for(int j=0; j<Constants.YAmount; j++, reti++)
+            //    {
+            //        if(Constants.DataTemplate[maski] == Constants.Data)
+            //        {
+            //            int modi = i * Constants.XAmount;
+            //            if(i%2 == 0)
+            //                modi += Constants.YAmount - j-1;
+            //            else
+            //                modi += j;
+
+            //            ret[reti] = models[modi].State == true ? Constants.Data : Constants.NoData;
+            //        }
+            //    }
+            //}
+
+            ret[0] = models[4].State== true ? Constants.Data : Constants.NoData;
+            ret[1] = models[3].State== true ? Constants.Data : Constants.NoData;
+            ret[2] = models[2].State== true ? Constants.Data : Constants.NoData;
+            ret[3] = models[1].State== true ? Constants.Data : Constants.NoData;
+            ret[4] = models[0].State== true ? Constants.Data : Constants.NoData;
+
+            ret[5] = models[5].State== true ? Constants.Data : Constants.NoData;
+            ret[6] = models[6].State== true ? Constants.Data : Constants.NoData;
+            ret[7] = models[7].State== true ? Constants.Data : Constants.NoData;
+            ret[8] = models[8].State== true ? Constants.Data : Constants.NoData;
+            ret[9] = models[9].State== true ? Constants.Data : Constants.NoData;
+
+            ret[10] = models[14].State== true ? Constants.Data : Constants.NoData;
+            ret[11] = models[13].State== true ? Constants.Data : Constants.NoData;
+            ret[12] = models[12].State== true ? Constants.Data : Constants.NoData;
+            ret[13] = models[11].State== true ? Constants.Data : Constants.NoData;
+            ret[14] = models[10].State== true ? Constants.Data : Constants.NoData;
+            //15 skipped
+            ret[16] = models[15].State== true ? Constants.Data : Constants.NoData;
+            ret[17] = models[16].State== true ? Constants.Data : Constants.NoData;
+            ret[18] = models[17].State== true ? Constants.Data : Constants.NoData;
+            ret[19] = models[18].State== true ? Constants.Data : Constants.NoData;
+            ret[20] = models[19].State== true ? Constants.Data : Constants.NoData;
+
+            ret[21] = models[24].State== true ? Constants.Data : Constants.NoData;
+            ret[22] = models[23].State== true ? Constants.Data : Constants.NoData;
+            ret[23] = models[22].State== true ? Constants.Data : Constants.NoData;
+            ret[24] = models[21].State== true ? Constants.Data : Constants.NoData;
+            ret[25] = models[20].State== true ? Constants.Data : Constants.NoData;
+
+            //ret[25] = (models[0].State== true ? Constants.Data : Constants.NoData);
+            //ret[24] = models[1].State == true ? Constants.Data : Constants.NoData;
+            //ret[23] = models[2].State == true ? Constants.Data : Constants.NoData;
+            //ret[22] = models[3].State == true ? Constants.Data : Constants.NoData;
+            //ret[21] = models[4].State == true ? Constants.Data : Constants.NoData;
+
+            //ret[20] = models[9].State == true ? Constants.Data : Constants.NoData;
+            //ret[19] = models[8].State == true ? Constants.Data : Constants.NoData;
+            //ret[18] = models[7].State == true ? Constants.Data : Constants.NoData;
+            //ret[17] = models[6].State == true ? Constants.Data : Constants.NoData;
+            //ret[16] = models[5].State == true ? Constants.Data : Constants.NoData;
+            ////attention 15
+            //ret[14] = models[10].State == true ? Constants.Data : Constants.NoData;
+            //ret[13] = models[11].State == true ? Constants.Data : Constants.NoData;
+            //ret[12] = models[12].State == true ? Constants.Data : Constants.NoData;
+            //ret[11] = models[13].State == true ? Constants.Data : Constants.NoData;
+            //ret[10] = models[14].State == true ? Constants.Data : Constants.NoData;
+
+            //ret[9] = models[19].State == true ? Constants.Data : Constants.NoData;
+            //ret[8] = models[18].State == true ? Constants.Data : Constants.NoData;
+            //ret[7] = models[17].State == true ? Constants.Data : Constants.NoData;
+            //ret[6] = models[16].State == true ? Constants.Data : Constants.NoData;
+            //ret[5] = models[15].State == true ? Constants.Data : Constants.NoData;
+
+            //ret[4] = models[20].State == true ? Constants.Data : Constants.NoData;
+            //ret[3] = models[21].State == true ? Constants.Data : Constants.NoData;
+            //ret[2] = models[22].State == true ? Constants.Data : Constants.NoData;
+            //ret[1] = models[23].State == true ? Constants.Data : Constants.NoData;
+            //ret[0] = models[24].State == true ? Constants.Data : Constants.NoData;
+            ////for (int i = 0, ti = 0, da = 0; i < Constants.XAmount; i++)
+            //{
+            //    for (int j = 0; j < Constants.YAmount; j++, ti++, da++)
+            //    {
+            //        if (Constants.DataTemplate[ti] == Constants.Data)
+            //        {
+            //            var index = 0;
+            //            if (i % 2 == 0)
+            //                index = Constants.XAmount * i + j;
+            //            else
+            //                index = Constants.XAmount * i + Constants.YAmount - j - 1;
+            //            var val = models[index].State == true ? Constants.Data : Constants.NoData;
+            //            ret[da] = val;
+
+            //        }
+            //    }
+            //}
             return ret.ToString();
         }
 
@@ -92,7 +178,7 @@ namespace LightBoxApp.ViewModels
                 OnCancel = cancellationTokenSource.Cancel
             };
             var diag = _userDialogs.Progress(progressDialogConfig);
-            await Task.Run(async() =>
+            await Task.Run(async () =>
             {
                 var res = deviceModels.Where(x => x.IsEnabled == true);
                 if (res == null)
@@ -126,7 +212,7 @@ namespace LightBoxApp.ViewModels
                         var response = await httpClient.PostAsync(path, content, cancellationTokenSource.Token);
                         Debug.WriteLine(response);
                     }
-                    catch(OperationCanceledException ex)
+                    catch (OperationCanceledException ex)
                     {
                         Debug.WriteLine("OperationCanceledException");
                         return;
@@ -145,7 +231,7 @@ namespace LightBoxApp.ViewModels
         {
             base.OnNavigatedTo(parameters);
             LoadSites();
-            if(parameters.TryGetValue("Preset", out PresetModel presetModel))
+            if (parameters.TryGetValue("Preset", out PresetModel presetModel))
             {
                 this.PresetModel.FirstPanel = presetModel.FirstPanel;
                 this.PresetModel.SecondPanel = presetModel.SecondPanel;
