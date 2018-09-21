@@ -10,9 +10,19 @@ namespace LightBoxApp.Models
     {
         public PresetModel(int cols, int rows)
         {
-            _FirstPanel = new List<StateModel>(Enumerable.Repeat<StateModel>(new StateModel(), cols*rows));
-            _SecondPanel = new List<StateModel>(Enumerable.Repeat<StateModel>(new StateModel(), cols * rows));
-            _ThirdPanel = new List<StateModel>(Enumerable.Repeat<StateModel>(new StateModel(), cols * rows));
+            _FirstPanel = new List<StateModel>();
+            _SecondPanel = new List<StateModel>();
+            _ThirdPanel = new List<StateModel>();
+            for (int i = 0; i < cols; i++)
+            {
+                for (int j = 0; j < rows; j++)
+                {
+                    _FirstPanel.Add(new StateModel());
+                    _SecondPanel.Add(new StateModel());
+                    _ThirdPanel.Add(new StateModel());
+                }
+            }
+
         }
 
         private List<StateModel> _FirstPanel;

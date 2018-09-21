@@ -30,13 +30,12 @@ namespace LightBoxApp.ViewModels
             _appSettingsManager = appSettingsManager;
             _userDialogs = userDialogs;
             LoadSites();
-            _PresetModel = new PresetModel(Constants.XAmount, Constants.YAmount);
         }
 
-        private PresetModel _PresetModel;
+        private PresetModel _PresetModel = new PresetModel(Constants.XAmount, Constants.YAmount);
         public PresetModel PresetModel
         {
-            get { return _PresetModel; }
+            get {return _PresetModel; }
             set { SetProperty(ref _PresetModel, value); }
         }
 
